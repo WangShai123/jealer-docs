@@ -4,12 +4,13 @@ export default {
   'zh-CN': {
     menu: {
       home: '首页',
-      components: '组件',
-      documents: '文档中心',
       learn: '吉木学院',
     },
     sidebar: {
       quickStart: '快速开始',
+      features: '特性',
+      runtime: '运行时',
+      ComponentsList: '组件列表',
 
       componentArchitecture: '组件架构',
       designStandard: '设计标准',
@@ -70,6 +71,23 @@ export default {
       relatedLibraries: '相关库',
       others: '其他',
       changelog: '变更日志',
+
+      layoutApi: '布局 API',
+      homeLayout: '首页布局',
+      componentApi: '组件 API',
+      client: 'Client 管理',
+      footerScript: '页脚脚本',
+      highlight: '代码高亮',
+      math: '数学公式',
+      locale: '国际化',
+      sidebar: '侧边栏',
+      prevNext: '分页导航',
+      sitemap: '站点地图',
+      robots: 'Robots',
+      llms: 'LLMs',
+      externalLink: '外部链接',
+      editLink: '编辑链接',
+      lastUpdated: '更新时间',
     },
     mobile: {
       navigation: '导航',
@@ -97,12 +115,13 @@ export default {
   en: {
     menu: {
       home: 'Home',
-      components: 'Components',
-      documents: 'Documents',
       learn: 'Learn',
     },
     sidebar: {
       quickStart: 'Quick Start',
+      features: 'Features',
+      runtime: 'Runtime',
+      ComponentsList: 'Components List',
 
       componentArchitecture: 'Component Architecture',
       designStandard: 'Design Standard',
@@ -163,6 +182,23 @@ export default {
       relatedLibraries: 'Related Libraries',
       others: 'Others',
       changelog: 'Changelog',
+
+      layoutApi: 'Layout API',
+      homeLayout: 'Home Layout',
+      componentApi: 'Component API',
+      client: 'Client Management',
+      footerScript: 'Footer Script',
+      highlight: 'Highlight',
+      math: 'Math',
+      locale: 'Locale',
+      sidebar: 'Sidebar',
+      prevNext: 'Prev/Next',
+      sitemap: 'Sitemap',
+      robots: 'Robots',
+      llms: 'LLMs',
+      externalLink: 'External Link',
+      editLink: 'Edit Link',
+      lastUpdated: 'Last Updated',
     },
     mobile: {
       navigation: 'Navigation',

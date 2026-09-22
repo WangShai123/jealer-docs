@@ -13,10 +13,10 @@ layouts:
       actions:
         - text: Quick Start
           link: ./quick-start.html
-          variant: is-primary
-        - text: View Components
-          link: ./components/modal.html
-          variant: is-secondary
+          variant: is-solid
+        - text: Github
+          link: https://github.com/WangShai123/vanilla-jui
+          variant: is-soft
     quickStart:
       title: Quick Start
       groups:
@@ -59,8 +59,8 @@ layouts:
       actions:
         - text: Quick Start
           link: ./quick-start.html
-          variant: is-primary
+          variant: is-solid
         - text: Design Standard
           link: ./core/standard.html
-          variant: is-secondary
+          variant: is-soft
 ---

@@ -148,8 +148,8 @@
     "at": "2026-09-15T18:45:43.763Z"
   },
   "en/index.html": {
-    "hash": "f108dce2",
-    "at": "2026-09-15T18:06:33.985Z"
+    "hash": "a39febf8",
+    "at": "2026-09-21T00:09:35.347Z"
   },
   "en/others/changelog.html": {
     "hash": "3e79c4ca",
@@ -368,8 +368,8 @@
     "at": "2026-09-15T18:45:19.054Z"
   },
   "zh/index.html": {
-    "hash": "66fa6fd1",
-    "at": "2026-09-15T18:06:38.844Z"
+    "hash": "d8ee8e32",
+    "at": "2026-09-22T08:31:16.674Z"
   },
   "zh/others/changelog.html": {
     "hash": "6fe2089a",
@@ -438,5 +438,861 @@
   "zh/utilities/types.html": {
     "hash": "594d977d",
     "at": "2026-09-15T18:06:39.938Z"
+  },
+  "en/vanilla-jui/components/accordion.html": {
+    "hash": "7826ed21",
+    "at": "2026-09-22T08:24:02.022Z"
+  },
+  "en/vanilla-jui/components/drop.html": {
+    "hash": "1d98022e",
+    "at": "2026-09-22T08:24:02.167Z"
+  },
+  "en/vanilla-jui/components/flow.html": {
+    "hash": "220d424d",
+    "at": "2026-09-22T08:24:02.332Z"
+  },
+  "en/vanilla-jui/components/form.html": {
+    "hash": "e5a4d86d",
+    "at": "2026-09-22T08:24:02.487Z"
+  },
+  "en/vanilla-jui/components/icons.html": {
+    "hash": "370f10f1",
+    "at": "2026-09-22T08:24:02.653Z"
+  },
+  "en/vanilla-jui/components/menu.html": {
+    "hash": "5c63e37a",
+    "at": "2026-09-22T08:24:02.724Z"
+  },
+  "en/vanilla-jui/components/modal.html": {
+    "hash": "e4ad1f62",
+    "at": "2026-09-22T08:24:02.854Z"
+  },
+  "en/vanilla-jui/components/offcanvas.html": {
+    "hash": "148be89e",
+    "at": "2026-09-22T08:24:02.924Z"
+  },
+  "en/vanilla-jui/components/pagination.html": {
+    "hash": "546101c2",
+    "at": "2026-09-22T08:24:03.032Z"
+  },
+  "en/vanilla-jui/components/parabola.html": {
+    "hash": "552423fe",
+    "at": "2026-09-22T08:24:03.096Z"
+  },
+  "en/vanilla-jui/components/popup.html": {
+    "hash": "f5645c97",
+    "at": "2026-09-22T08:24:03.154Z"
+  },
+  "en/vanilla-jui/components/sticky.html": {
+    "hash": "2505915d",
+    "at": "2026-09-22T08:24:03.255Z"
+  },
+  "en/vanilla-jui/components/swiper.html": {
+    "hash": "b535ba7f",
+    "at": "2026-09-22T08:24:03.460Z"
+  },
+  "en/vanilla-jui/components/tabs.html": {
+    "hash": "a0ee1f85",
+    "at": "2026-09-22T08:24:03.534Z"
+  },
+  "en/vanilla-jui/components/theme.html": {
+    "hash": "e6a87f96",
+    "at": "2026-09-22T08:24:03.795Z"
+  },
+  "en/vanilla-jui/components/toast.html": {
+    "hash": "5446022e",
+    "at": "2026-09-22T08:24:03.887Z"
+  },
+  "en/vanilla-jui/components/toc.html": {
+    "hash": "a5ceb6fd",
+    "at": "2026-09-22T08:24:03.952Z"
+  },
+  "en/vanilla-jui/components/tooltip.html": {
+    "hash": "0624f881",
+    "at": "2026-09-22T08:24:04.006Z"
+  },
+  "en/vanilla-jui/components/validator.html": {
+    "hash": "5dc39d95",
+    "at": "2026-09-22T08:24:04.106Z"
+  },
+  "en/vanilla-jui/core/animation.html": {
+    "hash": "6f4f2627",
+    "at": "2026-09-22T08:24:04.260Z"
+  },
+  "en/vanilla-jui/core/define.html": {
+    "hash": "a1a21cad",
+    "at": "2026-09-22T08:24:04.483Z"
+  },
+  "en/vanilla-jui/core/scheduler.html": {
+    "hash": "155cf2f9",
+    "at": "2026-09-22T08:24:04.598Z"
+  },
+  "en/vanilla-jui/core/standard.html": {
+    "hash": "24bbd2d6",
+    "at": "2026-09-22T08:24:04.692Z"
+  },
+  "en/vanilla-jui/core/view.html": {
+    "hash": "7943b713",
+    "at": "2026-09-22T08:24:04.834Z"
+  },
+  "en/vanilla-jui/css/animation.html": {
+    "hash": "001e1592",
+    "at": "2026-09-22T08:24:04.901Z"
+  },
+  "en/vanilla-jui/css/avatar.html": {
+    "hash": "dc94abe5",
+    "at": "2026-09-22T08:24:04.969Z"
+  },
+  "en/vanilla-jui/css/badge.html": {
+    "hash": "f72f72cb",
+    "at": "2026-09-22T08:24:05.023Z"
+  },
+  "en/vanilla-jui/css/breadcrumb.html": {
+    "hash": "e28181aa",
+    "at": "2026-09-22T08:24:05.062Z"
+  },
+  "en/vanilla-jui/css/button.html": {
+    "hash": "6919ea7d",
+    "at": "2026-09-22T08:24:05.123Z"
+  },
+  "en/vanilla-jui/css/card.html": {
+    "hash": "2fe2bf41",
+    "at": "2026-09-22T08:24:05.159Z"
+  },
+  "en/vanilla-jui/css/container.html": {
+    "hash": "1a59aabe",
+    "at": "2026-09-22T08:24:05.220Z"
+  },
+  "en/vanilla-jui/css/editor.html": {
+    "hash": "5ca746a5",
+    "at": "2026-09-22T08:24:05.294Z"
+  },
+  "en/vanilla-jui/css/fonts.html": {
+    "hash": "2188750d",
+    "at": "2026-09-22T08:24:05.387Z"
+  },
+  "en/vanilla-jui/css/icons.html": {
+    "hash": "2798daca",
+    "at": "2026-09-22T08:24:05.486Z"
+  },
+  "en/vanilla-jui/css/input.html": {
+    "hash": "8ae65c63",
+    "at": "2026-09-22T08:24:05.550Z"
+  },
+  "en/vanilla-jui/css/layout.html": {
+    "hash": "67ba81cd",
+    "at": "2026-09-22T08:24:05.673Z"
+  },
+  "en/vanilla-jui/css/tip.html": {
+    "hash": "a57d3caa",
+    "at": "2026-09-22T08:24:05.747Z"
+  },
+  "en/vanilla-jui/index.html": {
+    "hash": "2ce704ec",
+    "at": "2026-09-22T08:51:24.694Z"
+  },
+  "en/vanilla-jui/others/changelog.html": {
+    "hash": "3e79c4ca",
+    "at": "2026-09-22T08:24:05.794Z"
+  },
+  "en/vanilla-jui/others/related-libraries.html": {
+    "hash": "0f24725e",
+    "at": "2026-09-22T08:24:05.819Z"
+  },
+  "en/vanilla-jui/quick-start.html": {
+    "hash": "fa51fb25",
+    "at": "2026-09-22T08:24:05.941Z"
+  },
+  "en/vanilla-jui/tokens/color-system.html": {
+    "hash": "ded1c263",
+    "at": "2026-09-22T08:24:06.014Z"
+  },
+  "en/vanilla-jui/tokens/color-tokens.html": {
+    "hash": "0648746c",
+    "at": "2026-09-22T08:24:06.159Z"
+  },
+  "en/vanilla-jui/tokens/tokens.html": {
+    "hash": "fb2fa261",
+    "at": "2026-09-22T08:24:06.288Z"
+  },
+  "en/vanilla-jui/utilities/browser.html": {
+    "hash": "2c05383a",
+    "at": "2026-09-22T08:24:06.361Z"
+  },
+  "en/vanilla-jui/utilities/config.html": {
+    "hash": "12547e0f",
+    "at": "2026-09-22T08:24:06.432Z"
+  },
+  "en/vanilla-jui/utilities/dom.html": {
+    "hash": "fa444bfe",
+    "at": "2026-09-22T08:24:06.533Z"
+  },
+  "en/vanilla-jui/utilities/event.html": {
+    "hash": "aa186c10",
+    "at": "2026-09-22T08:24:06.593Z"
+  },
+  "en/vanilla-jui/utilities/http.html": {
+    "hash": "9c7a0f52",
+    "at": "2026-09-22T08:24:06.631Z"
+  },
+  "en/vanilla-jui/utilities/id.html": {
+    "hash": "712043de",
+    "at": "2026-09-22T08:24:06.675Z"
+  },
+  "en/vanilla-jui/utilities/object.html": {
+    "hash": "5a692d4d",
+    "at": "2026-09-22T08:24:06.707Z"
+  },
+  "en/vanilla-jui/utilities/refs.html": {
+    "hash": "8368530d",
+    "at": "2026-09-22T08:24:06.745Z"
+  },
+  "en/vanilla-jui/utilities/state.html": {
+    "hash": "1321dc26",
+    "at": "2026-09-22T08:24:06.784Z"
+  },
+  "en/vanilla-jui/utilities/timer.html": {
+    "hash": "637a1129",
+    "at": "2026-09-22T08:24:06.822Z"
+  },
+  "en/vanilla-jui/utilities/types.html": {
+    "hash": "3a5e94ec",
+    "at": "2026-09-22T08:24:06.860Z"
+  },
+  "zh/vanilla-jui/components/accordion.html": {
+    "hash": "bb2198d6",
+    "at": "2026-09-22T08:24:06.944Z"
+  },
+  "zh/vanilla-jui/components/drop.html": {
+    "hash": "6e0275e1",
+    "at": "2026-09-22T08:24:07.010Z"
+  },
+  "zh/vanilla-jui/components/flow.html": {
+    "hash": "715c947b",
+    "at": "2026-09-22T08:24:07.111Z"
+  },
+  "zh/vanilla-jui/components/form.html": {
+    "hash": "9f6aae4f",
+    "at": "2026-09-22T08:24:07.238Z"
+  },
+  "zh/vanilla-jui/components/icons.html": {
+    "hash": "c878fcee",
+    "at": "2026-09-22T08:24:07.329Z"
+  },
+  "zh/vanilla-jui/components/menu.html": {
+    "hash": "e880b925",
+    "at": "2026-09-22T08:24:07.410Z"
+  },
+  "zh/vanilla-jui/components/modal.html": {
+    "hash": "ddd10e05",
+    "at": "2026-09-22T08:24:07.507Z"
+  },
+  "zh/vanilla-jui/components/offcanvas.html": {
+    "hash": "f44e85bb",
+    "at": "2026-09-22T08:24:07.580Z"
+  },
+  "zh/vanilla-jui/components/pagination.html": {
+    "hash": "052be30f",
+    "at": "2026-09-22T08:24:07.686Z"
+  },
+  "zh/vanilla-jui/components/parabola.html": {
+    "hash": "c985f90d",
+    "at": "2026-09-22T08:24:07.752Z"
+  },
+  "zh/vanilla-jui/components/popup.html": {
+    "hash": "ba5014c9",
+    "at": "2026-09-22T08:24:07.805Z"
+  },
+  "zh/vanilla-jui/components/sticky.html": {
+    "hash": "7c7936da",
+    "at": "2026-09-22T08:24:07.872Z"
+  },
+  "zh/vanilla-jui/components/swiper.html": {
+    "hash": "cf9f7502",
+    "at": "2026-09-22T08:24:07.959Z"
+  },
+  "zh/vanilla-jui/components/tabs.html": {
+    "hash": "522f4b1f",
+    "at": "2026-09-22T08:24:08.047Z"
+  },
+  "zh/vanilla-jui/components/theme.html": {
+    "hash": "3caa8048",
+    "at": "2026-09-22T08:24:08.189Z"
+  },
+  "zh/vanilla-jui/components/toast.html": {
+    "hash": "0fb5895b",
+    "at": "2026-09-22T08:24:08.282Z"
+  },
+  "zh/vanilla-jui/components/toc.html": {
+    "hash": "8422ea8e",
+    "at": "2026-09-22T08:24:08.349Z"
+  },
+  "zh/vanilla-jui/components/tooltip.html": {
+    "hash": "f6bd2510",
+    "at": "2026-09-22T08:24:08.409Z"
+  },
+  "zh/vanilla-jui/components/validator.html": {
+    "hash": "3b6a8ad4",
+    "at": "2026-09-22T08:24:08.511Z"
+  },
+  "zh/vanilla-jui/core/animation.html": {
+    "hash": "5136f0c5",
+    "at": "2026-09-22T08:24:08.666Z"
+  },
+  "zh/vanilla-jui/core/define.html": {
+    "hash": "17213dd5",
+    "at": "2026-09-22T08:24:08.829Z"
+  },
+  "zh/vanilla-jui/core/scheduler.html": {
+    "hash": "afec1a2f",
+    "at": "2026-09-22T08:24:08.948Z"
+  },
+  "zh/vanilla-jui/core/standard.html": {
+    "hash": "055e8edf",
+    "at": "2026-09-22T08:24:09.040Z"
+  },
+  "zh/vanilla-jui/core/view.html": {
+    "hash": "ac37ef9e",
+    "at": "2026-09-22T08:24:09.187Z"
+  },
+  "zh/vanilla-jui/css/animation.html": {
+    "hash": "7f2fcd4e",
+    "at": "2026-09-22T08:24:09.260Z"
+  },
+  "zh/vanilla-jui/css/avatar.html": {
+    "hash": "bd2b224d",
+    "at": "2026-09-22T08:24:09.328Z"
+  },
+  "zh/vanilla-jui/css/badge.html": {
+    "hash": "7f66af84",
+    "at": "2026-09-22T08:24:09.390Z"
+  },
+  "zh/vanilla-jui/css/breadcrumb.html": {
+    "hash": "e04030a9",
+    "at": "2026-09-22T08:24:09.435Z"
+  },
+  "zh/vanilla-jui/css/button.html": {
+    "hash": "8aad8d3c",
+    "at": "2026-09-22T08:24:09.493Z"
+  },
+  "zh/vanilla-jui/css/card.html": {
+    "hash": "35c1d51f",
+    "at": "2026-09-22T08:24:09.542Z"
+  },
+  "zh/vanilla-jui/css/container.html": {
+    "hash": "95591c80",
+    "at": "2026-09-22T08:24:09.605Z"
+  },
+  "zh/vanilla-jui/css/editor.html": {
+    "hash": "43734be9",
+    "at": "2026-09-22T08:24:09.681Z"
+  },
+  "zh/vanilla-jui/css/fonts.html": {
+    "hash": "1786102e",
+    "at": "2026-09-22T08:24:09.748Z"
+  },
+  "zh/vanilla-jui/css/icons.html": {
+    "hash": "43c1bbb9",
+    "at": "2026-09-22T08:24:09.817Z"
+  },
+  "zh/vanilla-jui/css/input.html": {
+    "hash": "538f49e6",
+    "at": "2026-09-22T08:24:09.890Z"
+  },
+  "zh/vanilla-jui/css/layout.html": {
+    "hash": "fb939175",
+    "at": "2026-09-22T08:24:10.025Z"
+  },
+  "zh/vanilla-jui/css/tip.html": {
+    "hash": "23598bcb",
+    "at": "2026-09-22T08:24:10.114Z"
+  },
+  "zh/vanilla-jui/index.html": {
+    "hash": "5b551238",
+    "at": "2026-09-22T08:51:14.978Z"
+  },
+  "zh/vanilla-jui/others/changelog.html": {
+    "hash": "6fe2089a",
+    "at": "2026-09-22T08:24:10.162Z"
+  },
+  "zh/vanilla-jui/others/related-libraries.html": {
+    "hash": "b3c5d946",
+    "at": "2026-09-22T08:24:10.196Z"
+  },
+  "zh/vanilla-jui/quick-start.html": {
+    "hash": "0a5f86d5",
+    "at": "2026-09-22T08:24:10.262Z"
+  },
+  "zh/vanilla-jui/tokens/color-system.html": {
+    "hash": "2cb0b99c",
+    "at": "2026-09-22T08:24:10.307Z"
+  },
+  "zh/vanilla-jui/tokens/color-tokens.html": {
+    "hash": "6010e9bf",
+    "at": "2026-09-22T08:24:10.358Z"
+  },
+  "zh/vanilla-jui/tokens/tokens.html": {
+    "hash": "b08027d4",
+    "at": "2026-09-22T08:24:10.480Z"
+  },
+  "zh/vanilla-jui/utilities/browser.html": {
+    "hash": "56d3b973",
+    "at": "2026-09-22T08:24:10.556Z"
+  },
+  "zh/vanilla-jui/utilities/config.html": {
+    "hash": "becb91bb",
+    "at": "2026-09-22T08:24:10.632Z"
+  },
+  "zh/vanilla-jui/utilities/dom.html": {
+    "hash": "c1effe1b",
+    "at": "2026-09-22T08:24:10.735Z"
+  },
+  "zh/vanilla-jui/utilities/event.html": {
+    "hash": "3c13f2d2",
+    "at": "2026-09-22T08:24:10.805Z"
+  },
+  "zh/vanilla-jui/utilities/http.html": {
+    "hash": "c77f8927",
+    "at": "2026-09-22T08:24:10.842Z"
+  },
+  "zh/vanilla-jui/utilities/id.html": {
+    "hash": "68633489",
+    "at": "2026-09-22T08:24:10.894Z"
+  },
+  "zh/vanilla-jui/utilities/object.html": {
+    "hash": "5a5944cf",
+    "at": "2026-09-22T08:24:10.938Z"
+  },
+  "zh/vanilla-jui/utilities/refs.html": {
+    "hash": "2c686b67",
+    "at": "2026-09-22T08:24:10.979Z"
+  },
+  "zh/vanilla-jui/utilities/state.html": {
+    "hash": "f03cab36",
+    "at": "2026-09-22T08:24:11.034Z"
+  },
+  "zh/vanilla-jui/utilities/timer.html": {
+    "hash": "f6086b5d",
+    "at": "2026-09-22T08:24:11.082Z"
+  },
+  "zh/vanilla-jui/utilities/types.html": {
+    "hash": "594d977d",
+    "at": "2026-09-22T08:24:11.128Z"
+  },
+  "zh/zh/guide/changelog.html": {
+    "hash": "3726c5de",
+    "at": "2026-09-22T08:36:41.795Z"
+  },
+  "zh/zh/guide/client.html": {
+    "hash": "c4059082",
+    "at": "2026-09-22T08:36:41.855Z"
+  },
+  "zh/zh/guide/component-api.html": {
+    "hash": "c427d32e",
+    "at": "2026-09-22T08:36:41.959Z"
+  },
+  "zh/zh/guide/component-list.html": {
+    "hash": "bf9b238f",
+    "at": "2026-09-22T08:36:42.191Z"
+  },
+  "zh/zh/guide/edit-link.html": {
+    "hash": "3795c499",
+    "at": "2026-09-22T08:36:42.315Z"
+  },
+  "zh/zh/guide/external-link.html": {
+    "hash": "a12d33ed",
+    "at": "2026-09-22T08:36:42.534Z"
+  },
+  "zh/zh/guide/footer-script.html": {
+    "hash": "061e9417",
+    "at": "2026-09-22T08:36:42.577Z"
+  },
+  "zh/zh/guide/highlight.html": {
+    "hash": "e2fb138f",
+    "at": "2026-09-22T08:36:42.776Z"
+  },
+  "zh/zh/guide/last-edit.html": {
+    "hash": "3ee366b8",
+    "at": "2026-09-22T08:36:42.870Z"
+  },
+  "zh/zh/guide/layout-api.html": {
+    "hash": "cb25dcff",
+    "at": "2026-09-22T08:36:42.985Z"
+  },
+  "zh/zh/guide/layout-home.html": {
+    "hash": "9ee07a5d",
+    "at": "2026-09-22T08:36:43.151Z"
+  },
+  "zh/zh/guide/llms.html": {
+    "hash": "a30bca6f",
+    "at": "2026-09-22T08:36:43.228Z"
+  },
+  "zh/zh/guide/locale.html": {
+    "hash": "d00e93c0",
+    "at": "2026-09-22T08:36:43.269Z"
+  },
+  "zh/zh/guide/math.html": {
+    "hash": "67793b8c",
+    "at": "2026-09-22T08:36:43.323Z"
+  },
+  "zh/zh/guide/menu.html": {
+    "hash": "17c1f864",
+    "at": "2026-09-22T08:36:43.355Z"
+  },
+  "zh/zh/guide/prev-next.html": {
+    "hash": "0ade93ce",
+    "at": "2026-09-22T08:36:43.387Z"
+  },
+  "zh/zh/guide/quick-start.html": {
+    "hash": "88f3f1cf",
+    "at": "2026-09-22T08:36:43.414Z"
+  },
+  "zh/zh/guide/robots.html": {
+    "hash": "ff132447",
+    "at": "2026-09-22T08:36:43.445Z"
+  },
+  "zh/zh/guide/runtime.html": {
+    "hash": "a67070a5",
+    "at": "2026-09-22T08:36:43.501Z"
+  },
+  "zh/zh/guide/search.html": {
+    "hash": "d1bb391b",
+    "at": "2026-09-22T08:36:43.540Z"
+  },
+  "zh/zh/guide/seo.html": {
+    "hash": "97ebbe66",
+    "at": "2026-09-22T08:36:43.564Z"
+  },
+  "zh/zh/guide/sidebar.html": {
+    "hash": "a374a5c1",
+    "at": "2026-09-22T08:36:43.607Z"
+  },
+  "zh/zh/guide/sitemap.html": {
+    "hash": "d7a17852",
+    "at": "2026-09-22T08:36:43.633Z"
+  },
+  "zh/zh/guide/theme.html": {
+    "hash": "71fb025f",
+    "at": "2026-09-22T08:36:43.670Z"
+  },
+  "zh/zh/guide/toc.html": {
+    "hash": "b4c61df6",
+    "at": "2026-09-22T08:36:43.700Z"
+  },
+  "zh/zh/index.html": {
+    "hash": "7832bd28",
+    "at": "2026-09-22T08:36:43.722Z"
+  },
+  "zh/vanilla-press/guide/changelog.html": {
+    "hash": "3726c5de",
+    "at": "2026-09-22T08:37:01.697Z"
+  },
+  "zh/vanilla-press/guide/client.html": {
+    "hash": "c4059082",
+    "at": "2026-09-22T08:37:01.745Z"
+  },
+  "zh/vanilla-press/guide/component-api.html": {
+    "hash": "c427d32e",
+    "at": "2026-09-22T08:37:01.821Z"
+  },
+  "zh/vanilla-press/guide/component-list.html": {
+    "hash": "bf9b238f",
+    "at": "2026-09-22T08:37:01.916Z"
+  },
+  "zh/vanilla-press/guide/edit-link.html": {
+    "hash": "3795c499",
+    "at": "2026-09-22T08:37:01.976Z"
+  },
+  "zh/vanilla-press/guide/external-link.html": {
+    "hash": "a12d33ed",
+    "at": "2026-09-22T08:37:02.007Z"
+  },
+  "zh/vanilla-press/guide/footer-script.html": {
+    "hash": "061e9417",
+    "at": "2026-09-22T08:37:02.043Z"
+  },
+  "zh/vanilla-press/guide/highlight.html": {
+    "hash": "e2fb138f",
+    "at": "2026-09-22T08:37:02.112Z"
+  },
+  "zh/vanilla-press/guide/last-edit.html": {
+    "hash": "3ee366b8",
+    "at": "2026-09-22T08:37:02.181Z"
+  },
+  "zh/vanilla-press/guide/layout-api.html": {
+    "hash": "cb25dcff",
+    "at": "2026-09-22T08:37:02.246Z"
+  },
+  "zh/vanilla-press/guide/layout-home.html": {
+    "hash": "9ee07a5d",
+    "at": "2026-09-22T08:37:02.322Z"
+  },
+  "zh/vanilla-press/guide/llms.html": {
+    "hash": "a30bca6f",
+    "at": "2026-09-22T08:37:02.377Z"
+  },
+  "zh/vanilla-press/guide/locale.html": {
+    "hash": "d00e93c0",
+    "at": "2026-09-22T08:37:02.415Z"
+  },
+  "zh/vanilla-press/guide/math.html": {
+    "hash": "67793b8c",
+    "at": "2026-09-22T08:37:02.453Z"
+  },
+  "zh/vanilla-press/guide/menu.html": {
+    "hash": "17c1f864",
+    "at": "2026-09-22T08:37:02.481Z"
+  },
+  "zh/vanilla-press/guide/prev-next.html": {
+    "hash": "0ade93ce",
+    "at": "2026-09-22T08:37:02.502Z"
+  },
+  "zh/vanilla-press/guide/quick-start.html": {
+    "hash": "88f3f1cf",
+    "at": "2026-09-22T08:37:02.534Z"
+  },
+  "zh/vanilla-press/guide/robots.html": {
+    "hash": "ff132447",
+    "at": "2026-09-22T08:37:02.561Z"
+  },
+  "zh/vanilla-press/guide/runtime.html": {
+    "hash": "a67070a5",
+    "at": "2026-09-22T08:37:02.613Z"
+  },
+  "zh/vanilla-press/guide/search.html": {
+    "hash": "d1bb391b",
+    "at": "2026-09-22T08:37:02.649Z"
+  },
+  "zh/vanilla-press/guide/seo.html": {
+    "hash": "97ebbe66",
+    "at": "2026-09-22T08:37:02.674Z"
+  },
+  "zh/vanilla-press/guide/sidebar.html": {
+    "hash": "a374a5c1",
+    "at": "2026-09-22T08:37:02.714Z"
+  },
+  "zh/vanilla-press/guide/sitemap.html": {
+    "hash": "d7a17852",
+    "at": "2026-09-22T08:37:02.742Z"
+  },
+  "zh/vanilla-press/guide/theme.html": {
+    "hash": "71fb025f",
+    "at": "2026-09-22T08:37:02.776Z"
+  },
+  "zh/vanilla-press/guide/toc.html": {
+    "hash": "b4c61df6",
+    "at": "2026-09-22T08:37:02.806Z"
+  },
+  "zh/vanilla-press/index.html": {
+    "hash": "0f1c57c1",
+    "at": "2026-09-22T08:49:46.651Z"
+  },
+  "en/en/guide/changelog.html": {
+    "hash": "0da71361",
+    "at": "2026-09-22T08:37:03.082Z"
+  },
+  "en/en/guide/client.html": {
+    "hash": "d4c019a5",
+    "at": "2026-09-22T08:37:03.133Z"
+  },
+  "en/en/guide/component-api.html": {
+    "hash": "82f1ee94",
+    "at": "2026-09-22T08:37:03.215Z"
+  },
+  "en/en/guide/component-list.html": {
+    "hash": "6ba7f2d4",
+    "at": "2026-09-22T08:37:03.306Z"
+  },
+  "en/en/guide/edit-link.html": {
+    "hash": "c4dc69e6",
+    "at": "2026-09-22T08:37:03.367Z"
+  },
+  "en/en/guide/external-link.html": {
+    "hash": "bd34f531",
+    "at": "2026-09-22T08:37:03.402Z"
+  },
+  "en/en/guide/footer-script.html": {
+    "hash": "a6118226",
+    "at": "2026-09-22T08:37:03.431Z"
+  },
+  "en/en/guide/highlight.html": {
+    "hash": "22c78c63",
+    "at": "2026-09-22T08:37:03.504Z"
+  },
+  "en/en/guide/last-edit.html": {
+    "hash": "a153cd97",
+    "at": "2026-09-22T08:37:03.579Z"
+  },
+  "en/en/guide/layout-api.html": {
+    "hash": "1c8978dc",
+    "at": "2026-09-22T08:37:03.645Z"
+  },
+  "en/en/guide/layout-home.html": {
+    "hash": "31d3ef5c",
+    "at": "2026-09-22T08:37:03.713Z"
+  },
+  "en/en/guide/llms.html": {
+    "hash": "35e9372f",
+    "at": "2026-09-22T08:37:03.773Z"
+  },
+  "en/en/guide/locale.html": {
+    "hash": "72a0dc64",
+    "at": "2026-09-22T08:37:03.821Z"
+  },
+  "en/en/guide/math.html": {
+    "hash": "e15ff882",
+    "at": "2026-09-22T08:37:03.855Z"
+  },
+  "en/en/guide/menu.html": {
+    "hash": "62357ded",
+    "at": "2026-09-22T08:37:03.889Z"
+  },
+  "en/en/guide/prev-next.html": {
+    "hash": "38755f8b",
+    "at": "2026-09-22T08:37:03.912Z"
+  },
+  "en/en/guide/quick-start.html": {
+    "hash": "7f50c9a5",
+    "at": "2026-09-22T08:37:03.939Z"
+  },
+  "en/en/guide/robots.html": {
+    "hash": "5f6ef7c9",
+    "at": "2026-09-22T08:37:03.977Z"
+  },
+  "en/en/guide/runtime.html": {
+    "hash": "58e59f9e",
+    "at": "2026-09-22T08:37:04.034Z"
+  },
+  "en/en/guide/search.html": {
+    "hash": "0f33ce0f",
+    "at": "2026-09-22T08:37:04.069Z"
+  },
+  "en/en/guide/seo.html": {
+    "hash": "7e5cb75b",
+    "at": "2026-09-22T08:37:04.098Z"
+  },
+  "en/en/guide/sidebar.html": {
+    "hash": "0b399300",
+    "at": "2026-09-22T08:37:04.133Z"
+  },
+  "en/en/guide/sitemap.html": {
+    "hash": "82cc91b2",
+    "at": "2026-09-22T08:37:04.164Z"
+  },
+  "en/en/guide/theme.html": {
+    "hash": "98d3b1da",
+    "at": "2026-09-22T08:37:04.193Z"
+  },
+  "en/en/guide/toc.html": {
+    "hash": "20ecdbab",
+    "at": "2026-09-22T08:37:04.230Z"
+  },
+  "en/en/index.html": {
+    "hash": "bb06b9e9",
+    "at": "2026-09-22T08:37:04.252Z"
+  },
+  "en/vanilla-press/guide/changelog.html": {
+    "hash": "0da71361",
+    "at": "2026-09-22T08:37:17.746Z"
+  },
+  "en/vanilla-press/guide/client.html": {
+    "hash": "d4c019a5",
+    "at": "2026-09-22T08:37:17.788Z"
+  },
+  "en/vanilla-press/guide/component-api.html": {
+    "hash": "82f1ee94",
+    "at": "2026-09-22T08:37:17.867Z"
+  },
+  "en/vanilla-press/guide/component-list.html": {
+    "hash": "6ba7f2d4",
+    "at": "2026-09-22T08:37:17.953Z"
+  },
+  "en/vanilla-press/guide/edit-link.html": {
+    "hash": "c4dc69e6",
+    "at": "2026-09-22T08:37:18.014Z"
+  },
+  "en/vanilla-press/guide/external-link.html": {
+    "hash": "bd34f531",
+    "at": "2026-09-22T08:37:18.051Z"
+  },
+  "en/vanilla-press/guide/footer-script.html": {
+    "hash": "a6118226",
+    "at": "2026-09-22T08:37:18.078Z"
+  },
+  "en/vanilla-press/guide/highlight.html": {
+    "hash": "22c78c63",
+    "at": "2026-09-22T08:37:18.156Z"
+  },
+  "en/vanilla-press/guide/last-edit.html": {
+    "hash": "a153cd97",
+    "at": "2026-09-22T08:37:18.223Z"
+  },
+  "en/vanilla-press/guide/layout-api.html": {
+    "hash": "1c8978dc",
+    "at": "2026-09-22T08:37:18.288Z"
+  },
+  "en/vanilla-press/guide/layout-home.html": {
+    "hash": "31d3ef5c",
+    "at": "2026-09-22T08:37:18.353Z"
+  },
+  "en/vanilla-press/guide/llms.html": {
+    "hash": "35e9372f",
+    "at": "2026-09-22T08:37:18.413Z"
+  },
+  "en/vanilla-press/guide/locale.html": {
+    "hash": "72a0dc64",
+    "at": "2026-09-22T08:37:18.458Z"
+  },
+  "en/vanilla-press/guide/math.html": {
+    "hash": "e15ff882",
+    "at": "2026-09-22T08:37:18.491Z"
+  },
+  "en/vanilla-press/guide/menu.html": {
+    "hash": "62357ded",
+    "at": "2026-09-22T08:37:18.525Z"
+  },
+  "en/vanilla-press/guide/prev-next.html": {
+    "hash": "38755f8b",
+    "at": "2026-09-22T08:37:18.548Z"
+  },
+  "en/vanilla-press/guide/quick-start.html": {
+    "hash": "7f50c9a5",
+    "at": "2026-09-22T08:37:18.580Z"
+  },
+  "en/vanilla-press/guide/robots.html": {
+    "hash": "5f6ef7c9",
+    "at": "2026-09-22T08:37:18.608Z"
+  },
+  "en/vanilla-press/guide/runtime.html": {
+    "hash": "58e59f9e",
+    "at": "2026-09-22T08:37:18.660Z"
+  },
+  "en/vanilla-press/guide/search.html": {
+    "hash": "0f33ce0f",
+    "at": "2026-09-22T08:37:18.697Z"
+  },
+  "en/vanilla-press/guide/seo.html": {
+    "hash": "7e5cb75b",
+    "at": "2026-09-22T08:37:18.719Z"
+  },
+  "en/vanilla-press/guide/sidebar.html": {
+    "hash": "0b399300",
+    "at": "2026-09-22T08:37:18.752Z"
+  },
+  "en/vanilla-press/guide/sitemap.html": {
+    "hash": "82cc91b2",
+    "at": "2026-09-22T08:37:18.783Z"
+  },
+  "en/vanilla-press/guide/theme.html": {
+    "hash": "98d3b1da",
+    "at": "2026-09-22T08:37:18.812Z"
+  },
+  "en/vanilla-press/guide/toc.html": {
+    "hash": "20ecdbab",
+    "at": "2026-09-22T08:37:18.849Z"
+  },
+  "en/vanilla-press/index.html": {
+    "hash": "033e9bae",
+    "at": "2026-09-22T08:50:58.309Z"
   }
 }

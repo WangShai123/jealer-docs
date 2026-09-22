@@ -1,0 +1,101 @@
+import type { SidebarConfig } from 'vanilla-press';
+
+export default [
+  { label: 'vanilla-jui', path: 'vanilla-jui/index' },
+  { label: 'sidebar.quickStart', path: 'vanilla-jui/quick-start' },
+  {
+    label: 'sidebar.componentArchitecture',
+    collapse: true,
+    children: [
+      { label: 'sidebar.designStandard', path: 'vanilla-jui/core/standard' },
+      { label: 'sidebar.defineComponent', path: 'vanilla-jui/core/define' },
+      { label: 'sidebar.view', path: 'vanilla-jui/core/view' },
+      { label: 'sidebar.scheduler', path: 'vanilla-jui/core/scheduler' },
+      { label: 'sidebar.animation', path: 'vanilla-jui/core/animation' },
+    ],
+  },
+  {
+    label: 'sidebar.cssArchitecture',
+    collapse: true,
+    children: [
+      { label: 'sidebar.tokens', path: 'vanilla-jui/tokens/tokens' },
+      { label: 'sidebar.colorTokens', path: 'vanilla-jui/tokens/color-tokens' },
+      { label: 'sidebar.colorSystem', path: 'vanilla-jui/tokens/color-system' },
+    ],
+  },
+  {
+    label: 'sidebar.interactionComponents',
+    collapse: true,
+    children: [
+      { label: 'sidebar.modal', path: 'vanilla-jui/components/modal' },
+      { label: 'sidebar.form', path: 'vanilla-jui/components/form' },
+      { label: 'sidebar.validator', path: 'vanilla-jui/components/validator' },
+      { label: 'sidebar.offcanvas', path: 'vanilla-jui/components/offcanvas' },
+      { label: 'sidebar.accordion', path: 'vanilla-jui/components/accordion' },
+      { label: 'sidebar.tabs', path: 'vanilla-jui/components/tabs' },
+      { label: 'sidebar.flow', path: 'vanilla-jui/components/flow' },
+      { label: 'sidebar.swiper', path: 'vanilla-jui/components/swiper' },
+      {
+        label: 'sidebar.pagination',
+        path: 'vanilla-jui/components/pagination',
+      },
+      { label: 'sidebar.menu', path: 'vanilla-jui/components/menu' },
+      { label: 'sidebar.toc', path: 'vanilla-jui/components/toc' },
+
+      { label: 'sidebar.toast', path: 'vanilla-jui/components/toast' },
+      { label: 'sidebar.drop', path: 'vanilla-jui/components/drop' },
+      { label: 'sidebar.tooltip', path: 'vanilla-jui/components/tooltip' },
+      { label: 'sidebar.theme', path: 'vanilla-jui/components/theme' },
+      { label: 'sidebar.parabola', path: 'vanilla-jui/components/parabola' },
+      { label: 'sidebar.popup', path: 'vanilla-jui/components/popup' },
+      { label: 'sidebar.sticky', path: 'vanilla-jui/components/sticky' },
+      { label: 'sidebar.icons', path: 'vanilla-jui/components/icons' },
+    ],
+  },
+  {
+    label: 'sidebar.staticComponents',
+    collapse: true,
+    children: [
+      { label: 'sidebar.container', path: 'vanilla-jui/css/container' },
+      { label: 'sidebar.layout', path: 'vanilla-jui/css/layout' },
+      { label: 'sidebar.fonts', path: 'vanilla-jui/css/fonts' },
+      { label: 'sidebar.icons', path: 'vanilla-jui/css/icons' },
+      { label: 'sidebar.button', path: 'vanilla-jui/css/button' },
+      { label: 'sidebar.avatar', path: 'vanilla-jui/css/avatar' },
+      { label: 'sidebar.badge', path: 'vanilla-jui/css/badge' },
+      { label: 'sidebar.tip', path: 'vanilla-jui/css/tip' },
+      { label: 'sidebar.input', path: 'vanilla-jui/css/input' },
+      { label: 'sidebar.breadcrumb', path: 'vanilla-jui/css/breadcrumb' },
+      { label: 'sidebar.animation', path: 'vanilla-jui/css/animation' },
+      { label: 'sidebar.editor', path: 'vanilla-jui/css/editor' },
+    ],
+  },
+  {
+    label: 'sidebar.utilitiesFunctions',
+    collapse: true,
+    children: [
+      { label: 'ID', path: 'vanilla-jui/utilities/id' },
+      { label: 'DOM', path: 'vanilla-jui/utilities/dom' },
+      { label: 'sidebar.browser', path: 'vanilla-jui/utilities/browser' },
+      { label: 'sidebar.event', path: 'vanilla-jui/utilities/event' },
+      { label: 'sidebar.timer', path: 'vanilla-jui/utilities/timer' },
+      { label: 'HTTP', path: 'vanilla-jui/utilities/http' },
+      { label: 'sidebar.object', path: 'vanilla-jui/utilities/object' },
+      { label: 'sidebar.refs', path: 'vanilla-jui/utilities/refs' },
+      { label: 'sidebar.state', path: 'vanilla-jui/utilities/state' },
+      { label: 'sidebar.config', path: 'vanilla-jui/utilities/config' },
+      { label: 'sidebar.types', path: 'vanilla-jui/utilities/types' },
+    ],
+  },
+  {
+    label: 'sidebar.others',
+    collapse: true,
+    children: [
+      {
+        label: 'sidebar.relatedLibraries',
+        path: 'vanilla-jui/others/related-libraries',
+      },
+      { label: 'sidebar.changelog', path: 'vanilla-jui/others/changelog' },
+    ],
+  },
+] satisfies SidebarConfig;

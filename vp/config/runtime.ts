@@ -1,12 +1,9 @@
 import type { RuntimeConfig } from 'vanilla-press';
 
 export default {
-  siteName: 'VanillaJUI',
-  siteUrl: 'https://app.jealer.com/vanilla-jui',
+  siteName: 'Docs',
+  siteUrl: 'https://www.jealer.com/docs',
   server: {
-    social: {
-      github: 'https://github.com/WangShai123/vanilla-jui',
-    },
     footerScript: 'script',
     highlight: {
       light: 'github-light-default',
@@ -25,8 +22,8 @@ export default {
       locale: 'zh-CN',
       fallbackLocale: 'en',
       locales: [
-        { code: 'zh-CN', label: '简体中文', path: 'zh' },
-        { code: 'en', label: 'English', path: 'en' },
+        { code: 'zh-CN', label: '中文', path: 'zh' },
+        { code: 'en', label: 'EN', path: 'en' },
       ],
       redirectToDefault: true,
     },
