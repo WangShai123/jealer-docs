@@ -8,7 +8,7 @@ client:
 
 Tooltip 组件用于在元素上显示提示信息，是文本提示控制器，是基于 `Drop` 组件的视图 UI 包装。
 
-<Badge text="UI Primitive" theme="error"/>
+<Badge text="UI Primitive" theme="danger"/>
 
 ## 示例
 
@@ -83,4 +83,3 @@ const tooltip = createTooltip(button, {
 | `hide(useDelay)` | 隐藏提示                 |
 | `toggle()`       | 切换展示状态             |
 | `destroy()`      | 销毁 Tooltip 和底层 Drop |
-

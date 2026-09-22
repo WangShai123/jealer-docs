@@ -8,7 +8,7 @@ client:
 
 Icons is a built-in SVG icon utility. It provides functional APIs to get icon nodes or strings and supports custom extension.
 
-<Badge text="UI Primitive" theme="error"/>
+<Badge text="UI Primitive" theme="danger"/>
 
 ## Import
 

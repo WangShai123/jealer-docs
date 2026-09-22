@@ -8,7 +8,7 @@ client:
 
 Drop 是一个下拉容器组件，是通用浮层行为控制器。
 
-<Badge text="UI Primitive" theme="error"/> <Badge text="RenderableContent"/>
+<Badge text="UI Primitive" theme="danger"/> <Badge text="RenderableContent"/>
 
 ## 示例
 
@@ -92,4 +92,3 @@ const drop = createDrop(button, {
 | `hide(useDelay)` | `true` | 隐藏浮层，默认应用延迟       |
 | `toggle()`       |        | 切换显示状态                 |
 | `destroy()`      |        | 销毁实例，解绑事件并移除 DOM |
-

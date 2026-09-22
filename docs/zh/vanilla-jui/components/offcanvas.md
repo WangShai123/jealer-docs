@@ -8,7 +8,7 @@ client:
 
 Offcanvas 是全局侧滑面板组件，适用于侧边菜单、筛选面板和移动端抽屉等。
 
-<Badge text="defineComponent" theme="primary"/> <Badge text="RenderableContent"/>
+<Badge text="defineComponent" theme="solid"/> <Badge text="RenderableContent"/>
 
 ## 示例
 
@@ -118,4 +118,3 @@ await panel.show();
 | 值      | 行为     |
 | ------- | -------- |
 | `close` | 关闭面板 |
-

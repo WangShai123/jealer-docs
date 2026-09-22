@@ -2,7 +2,7 @@
 
 Toc scans headings from a content source and automatically generates a page table of contents.
 
-<Badge text="defineComponent" theme="primary"/>
+<Badge text="defineComponent" theme="solid"/>
 
 ## Example
 

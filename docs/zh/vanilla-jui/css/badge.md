@@ -21,8 +21,10 @@
 <Group>
 <span class="j-badge is-default">1</span>
 <span class="j-badge is-reverse">9</span>
+<span class="j-badge is-solid">99</span>
+<span class="j-badge is-soft">99</span>
+<span class="j-badge is-wash">99</span>
 <span class="j-badge is-primary">99</span>
-<span class="j-badge is-secondary">99</span>
 <span class="j-badge is-success">99</span>
 <span class="j-badge is-warning">999</span>
 <span class="j-badge is-danger">999</span>
@@ -33,8 +35,10 @@
 ```html
 <span class="j-badge is-default">1</span>
 <span class="j-badge is-reverse">9</span>
+<span class="j-badge is-solid">99</span>
+<span class="j-badge is-soft">99</span>
+<span class="j-badge is-wash">99</span>
 <span class="j-badge is-primary">99</span>
-<span class="j-badge is-secondary">99</span>
 <span class="j-badge is-success">99</span>
 <span class="j-badge is-warning">999</span>
 <span class="j-badge is-danger">999</span>

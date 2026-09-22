@@ -24,13 +24,13 @@ Set the `is-{variant}` class to create different avatar variants.
 @tab Example
 <Group>
 <span class="j-avatar is-sm">
-<img src="../../public/avatar.png" alt="avatar" />
+<img src="../../../public/avatar.png" alt="avatar" />
 </span>
 <span class="j-avatar is-md">
-<img src="../../public/avatar.png" alt="avatar" />
+<img src="../../../public/avatar.png" alt="avatar" />
 </span>
 <span class="j-avatar is-lg">
-<img src="../../public/avatar.png" alt="avatar" />
+<img src="../../../public/avatar.png" alt="avatar" />
 </span>
 </Group>
 @tab Code
@@ -55,13 +55,13 @@ Set the `is-{variant}` class to create different avatar variants.
 @tab Example
 <Group>
 <span class="j-avatar">
-<img src="../../public/avatar.png" alt="avatar" />
+<img src="../../../public/avatar.png" alt="avatar" />
 </span>
 <span class="j-avatar is-circle">
-<img src="../../public/avatar.png" alt="avatar" />
+<img src="../../../public/avatar.png" alt="avatar" />
 </span>
 <span class="j-avatar is-round">
-<img src="../../public/avatar.png" alt="avatar" />
+<img src="../../../public/avatar.png" alt="avatar" />
 </span>
 </Group>
 
@@ -115,13 +115,13 @@ Set the `j-avatar-group` class to create an avatar group.
 @tab Example
 <div class="j-avatar-group">
 <span class="j-avatar is-circle">
-<img src="../../public/avatar.png" alt="avatar">
+<img src="../../../public/avatar.png" alt="avatar">
 </span>
 <span class="j-avatar is-circle">
-<img src="../../public/avatar.png" alt="avatar">
+<img src="../../../public/avatar.png" alt="avatar">
 </span>
 <span class="j-avatar is-circle">
-<img src="../../public/avatar.png" alt="avatar">
+<img src="../../../public/avatar.png" alt="avatar">
 </span>
 <span class="j-avatar is-circle is-text">
 <span>99+</span>

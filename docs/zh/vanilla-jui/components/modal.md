@@ -8,7 +8,7 @@ client:
 
 Modal 运行时的交互由 `createDeepStore` 创建的 `state` 驱动。`build()` 只创建 Modal 骨架；`show()` 时根据 `content`、`cache` 和 `ttl` 幂等装载内容。
 
-<Badge text="defineComponent" theme="primary"/> <Badge text="RenderableContent"/>
+<Badge text="defineComponent" theme="solid"/> <Badge text="RenderableContent"/>
 
 ## 示例
 

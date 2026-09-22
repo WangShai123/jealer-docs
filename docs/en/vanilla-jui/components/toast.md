@@ -8,7 +8,7 @@ client:
 
 The Toast component displays temporary messages. It is usually used to tell users the result of an action or show a short prompt. It does not need to be instantiated. You show messages directly through static methods.
 
-<Badge text="UI Primitive" theme="error"/>
+<Badge text="UI Primitive" theme="danger"/>
 
 ## Example
 
@@ -140,4 +140,3 @@ The `show` method provides several shortcuts for different theme states:
 | `warning`    | `is-warning`         | Warning type class            |
 | `error`      | `is-error`           | Error type class              |
 | `primary`    | `is-primary`         | Primary type class            |
-

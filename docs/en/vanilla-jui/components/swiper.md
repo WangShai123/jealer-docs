@@ -9,7 +9,7 @@ client:
 
 Swiper is a lightweight carousel component. It supports reactive data management, touch and drag, autoplay, loop, pagination, navigation, lazy loading, image carousel, custom content carousel, custom styles, and related features.
 
-<Badge text="defineComponent" theme="primary"/> <Badge text="RenderableContent"/>
+<Badge text="defineComponent" theme="solid"/> <Badge text="RenderableContent"/>
 
 ## Example
 

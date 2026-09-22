@@ -8,7 +8,7 @@ client:
 
 Menu is a lightweight menu component for regular desktop navigation menus, sidebar menus, and mobile bottom toolbar menus.
 
-<Badge text="defineComponent" theme="primary"/>
+<Badge text="defineComponent" theme="solid"/>
 
 ## Example
 
@@ -67,22 +67,22 @@ Initial menu data or an external reactive menu data source.
 
 Format: `MenuItem[] \| () => MenuItem[]`
 
-| Field      | Type                 | Description                    |
-| ---------- | -------------------- | ------------------------------ |
-| `id`       | `string \| number`   | Menu item id                   |
-| `title`    | `string \| number`   | Menu item title                |
-| `type`     | `MenuItemRenderType` | User-state render type         |
-| `url`      | `string`             | Menu item link                 |
-| `target`   | `string`             | How the menu item link opens   |
-| `classes`  | `string \| string[]` | Menu item class names          |
-| `children` | `MenuItem[]`         | Child menu items               |
+| Field      | Type                 | Description                  |
+| ---------- | -------------------- | ---------------------------- |
+| `id`       | `string \| number`   | Menu item id                 |
+| `title`    | `string \| number`   | Menu item title              |
+| `type`     | `MenuItemRenderType` | User-state render type       |
+| `url`      | `string`             | Menu item link               |
+| `target`   | `string`             | How the menu item link opens |
+| `classes`  | `string \| string[]` | Menu item class names        |
+| `children` | `MenuItem[]`         | Child menu items             |
 
 Menu items use `MenuItem.type` to control whether they take part in rendering:
 
-| MenuItem.type | Behavior                                  |
-| ------------- | ----------------------------------------- |
-| `0`           | Always render. This is the default        |
-| `1`           | Render only when the user is signed in    |
+| MenuItem.type | Behavior                                   |
+| ------------- | ------------------------------------------ |
+| `0`           | Always render. This is the default         |
+| `1`           | Render only when the user is signed in     |
 | `2`           | Render only when the user is not signed in |
 
 If all child items are hidden, the parent item will not render the submenu structure.
@@ -114,13 +114,12 @@ The `user` field can be used to switch menu items dynamically according to user 
 
 ## Instance Methods
 
-| Method              | Description                                      |
-| ------------------- | ------------------------------------------------ |
-| `build()`           | Create offline DOM                               |
-| `mount(container)`  | Build and mount the root node                    |
-| `unmount()`         | Remove the root node and keep state              |
-| `setState({ ... })` | Update menu state                                |
-| `destroy()`         | Destroy the instance and release events and DOM  |
+| Method              | Description                                     |
+| ------------------- | ----------------------------------------------- |
+| `build()`           | Create offline DOM                              |
+| `mount(container)`  | Build and mount the root node                   |
+| `unmount()`         | Remove the root node and keep state             |
+| `setState({ ... })` | Update menu state                               |
+| `destroy()`         | Destroy the instance and release events and DOM |
 
 Common controller methods also include `own()`, `use()`, `on()`, `off()`, and `emit()`. See [Define Component](../core/define.html) for their meaning.
-

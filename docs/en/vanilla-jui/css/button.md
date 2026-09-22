@@ -28,8 +28,9 @@ Set the `is-{variant}` class to create different button variants.
 <Group>
     <button class="j-button is-default">is-default</button>
     <button class="j-button is-reverse">is-reverse</button>
-    <button class="j-button is-primary">is-primary</button>
-    <button class="j-button is-secondary">is-secondary</button>
+    <button class="j-button is-solid">is-solid</button>
+    <button class="j-button is-soft">is-soft</button>
+    <button class="j-button is-wash">is-wash</button>
     <button class="j-button is-outline">is-outline</button>
     <button class="j-button is-ghost">is-ghost</button>
 </Group>
@@ -39,8 +40,9 @@ Set the `is-{variant}` class to create different button variants.
 ```html
 <button class="j-button is-default">is-default</button>
 <button class="j-button is-reverse">is-reverse</button>
-<button class="j-button is-primary">is-primary</button>
-<button class="j-button is-secondary">is-secondary</button>
+<button class="j-button is-solid">is-solid</button>
+<button class="j-button is-soft">is-soft</button>
+<button class="j-button is-wash">is-wash</button>
 <button class="j-button is-outline">is-outline</button>
 <button class="j-button is-ghost">is-ghost</button>
 ```
@@ -51,15 +53,17 @@ Set the `is-{variant}` class to create different button variants.
 @tab Example
 
 <Group>
-    <button class="j-button is-success">is-success</button>
-    <button class="j-button is-warning">is-warning</button>
-    <button class="j-button is-danger">is-danger</button>
-    <button class="j-button is-error">is-error</button>
+  <button class="j-button is-primary">is-primary</button>
+  <button class="j-button is-success">is-success</button>
+  <button class="j-button is-warning">is-warning</button>
+  <button class="j-button is-danger">is-danger</button>
+  <button class="j-button is-error">is-error</button>
 </Group>
 
 @tab Code
 
 ```html
+<button class="j-button is-primary">is-primary</button>
 <button class="j-button is-success">is-success</button>
 <button class="j-button is-warning">is-warning</button>
 <button class="j-button is-danger">is-danger</button>

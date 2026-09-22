@@ -8,7 +8,7 @@ client:
 
 Parabola 是抛物线动画 UI 原语，常用于添加购物车等操作动画。
 
-<Badge text="UI Primitive" theme="error"/>
+<Badge text="UI Primitive" theme="danger"/>
 
 ## 示例
 
@@ -88,4 +88,3 @@ parabola.show();
 | --------- | ------------------ |
 | `show`    | 生产小球，执行动画 |
 | `destroy` | 销毁实例           |
-

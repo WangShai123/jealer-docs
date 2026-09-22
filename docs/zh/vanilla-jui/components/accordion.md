@@ -8,7 +8,7 @@ client:
 
 Accordion 是折叠面板组件，适用于展示多个内容区域。
 
-<Badge text="defineComponent" theme="primary"/> <Badge text="RenderableContent"/>
+<Badge text="defineComponent" theme="solid"/> <Badge text="RenderableContent"/>
 
 ## 示例
 
@@ -146,4 +146,3 @@ accordion.state.data = accordion.state.data.filter(
 | `destroy()`             | 销毁实例，移除已挂载 DOM 并释放资源 |
 
 公共控制器方法还包括 `own()`、`use()`、`on()`、`off()` 和 `emit()`，语义见 [定义组件](../core/define.html)。
-

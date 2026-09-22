@@ -2,7 +2,7 @@
 
 Toc 是页面目录组件，用于扫描数据源中的标题，自动生成信息目录。
 
-<Badge text="defineComponent" theme="primary"/>
+<Badge text="defineComponent" theme="solid"/>
 
 ## 示例
 

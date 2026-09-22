@@ -8,7 +8,7 @@ client:
 
 Validator is a form validation module. It only reads form fields, runs validation rules, writes failed states, and creates error hint nodes.
 
-<Badge text="UI Primitive" theme="error"/>
+<Badge text="UI Primitive" theme="danger"/>
 
 ## Example
 
@@ -63,14 +63,14 @@ The first parameter `element` must be resolvable to an `HTMLFormElement`; otherw
 
 The second parameter `props` is a validation configuration object, including validation rules, error messages, and more.
 
-| Field            | Type               | Default      | Description                                      |
-| ---------------- | ------------------ | ------------ | ------------------------------------------------ |
-| `rules`          | `object`           | `{}`         | Field validation rules. Keys must match form field `name` |
+| Field            | Type               | Default      | Description                                                |
+| ---------------- | ------------------ | ------------ | ---------------------------------------------------------- |
+| `rules`          | `object`           | `{}`         | Field validation rules. Keys must match form field `name`  |
 | `messages`       | `object`           | `{}`         | Custom error messages, indexed by field name and rule name |
-| `vanilla`        | `boolean`          | `false`      | Whether to enable browser-native validation      |
-| `onSubmit`       | `Function \| null` | `null`       | Called after all fields pass validation          |
-| `className`      | `object`           | `{}`         | Custom class names                               |
-| `className.help` | `string`           | `help-block` | Class name for error hints                       |
+| `vanilla`        | `boolean`          | `false`      | Whether to enable browser-native validation                |
+| `onSubmit`       | `Function \| null` | `null`       | Called after all fields pass validation                    |
+| `className`      | `object`           | `{}`         | Custom class names                                         |
+| `className.help` | `string`           | `help-block` | Class name for error hints                                 |
 
 - `vanilla: false` is the default behavior. It sets the form's `noValidate` to `true`. Even if fields render native constraints such as `required` or `type="email"`, the browser's native validation bubbles will not be triggered; only Validator's own `rules` run on submit.
 - To enable the browser's native form validation capability, set `vanilla: true`. This automatically skips Validator's own `rules`.
@@ -85,13 +85,13 @@ The third parameter `bindEvents` is a `Boolean`, defaulting to `false`.
 
 ## Instance Properties
 
-| Property          | Description                              |
-| ----------------- | ---------------------------------------- |
-| `element`         | Current form element. It is `null` after destroy |
-| `props`           | Normalized validation configuration      |
-| `runtime.valid`   | Whether the latest validation passed     |
+| Property          | Description                                       |
+| ----------------- | ------------------------------------------------- |
+| `element`         | Current form element. It is `null` after destroy  |
+| `props`           | Normalized validation configuration               |
+| `runtime.valid`   | Whether the latest validation passed              |
 | `runtime.error`   | Whether there are currently reported error fields |
-| `runtime.message` | Latest failed message                    |
+| `runtime.message` | Latest failed message                             |
 
 After `destroy()`, both `element` and `props` become `null`; event listeners and validation hints are cleaned up.
 
@@ -116,9 +116,9 @@ validator.reset();
 validator.reset({ native: false });
 ```
 
-| Parameter | Default | Description                         |
-| --------- | ------- | ----------------------------------- |
-| `native`  | `true`  | Whether to call native form reset   |
+| Parameter | Default | Description                       |
+| --------- | ------- | --------------------------------- |
+| `native`  | `true`  | Whether to call native form reset |
 
 ### `destroy()`
 
@@ -132,24 +132,24 @@ validator.destroy();
 
 ### Text Fields
 
-| Rule        | Type             | Description                                  |
-| ----------- | ---------------- | -------------------------------------------- |
-| `required`  | `boolean`        | String value cannot be empty                 |
-| `minLength` | `number`         | Minimum character count                      |
-| `maxLength` | `number`         | Maximum character count                      |
+| Rule        | Type             | Description                                        |
+| ----------- | ---------------- | -------------------------------------------------- |
+| `required`  | `boolean`        | String value cannot be empty                       |
+| `minLength` | `number`         | Minimum character count                            |
+| `maxLength` | `number`         | Maximum character count                            |
 | `equalTo`   | `string`         | Must match the value of the specified `name` field |
-| `email`     | `boolean`        | Email format validation                      |
-| `noSpace`   | `boolean`        | Disallow spaces                              |
-| `noChinese` | `boolean`        | Disallow Chinese characters                  |
-| `noSpecial` | `boolean`        | Disallow special characters such as `@#$%^&*` |
-| `pattern`   | `string\|RegExp` | Custom regular expression                    |
+| `email`     | `boolean`        | Email format validation                            |
+| `noSpace`   | `boolean`        | Disallow spaces                                    |
+| `noChinese` | `boolean`        | Disallow Chinese characters                        |
+| `noSpecial` | `boolean`        | Disallow special characters such as `@#$%^&*`      |
+| `pattern`   | `string\|RegExp` | Custom regular expression                          |
 
 ### Select
 
-| Rule       | Type      | Description                              |
-| ---------- | --------- | ---------------------------------------- |
-| `selected` | `boolean` | Select at least one non-empty value      |
-| `multiple` | `boolean` | In multi-select mode, select at least one item |
+| Rule       | Type      | Description                                      |
+| ---------- | --------- | ------------------------------------------------ |
+| `selected` | `boolean` | Select at least one non-empty value              |
+| `multiple` | `boolean` | In multi-select mode, select at least one item   |
 | `min`      | `number`  | Minimum selected item count in multi-select mode |
 | `max`      | `number`  | Maximum selected item count in multi-select mode |
 
@@ -159,9 +159,9 @@ Validator currently has no radio-specific built-in rule. To validate a radio gro
 
 ### Checkbox
 
-| Rule      | Type      | Description                                             |
-| --------- | --------- | ------------------------------------------------------- |
-| `checked` | `boolean` | Whether a single checkbox is in the specified checked state |
+| Rule      | Type      | Description                                                          |
+| --------- | --------- | -------------------------------------------------------------------- |
+| `checked` | `boolean` | Whether a single checkbox is in the specified checked state          |
 | `min`     | `number`  | Minimum checked count for a checkbox group; does not apply to switch |
 | `max`     | `number`  | Maximum checked count for a checkbox group; does not apply to switch |
 
@@ -181,17 +181,17 @@ const validator = createValidator('#form', {
 
 ### Switch
 
-| Rule      | Type      | Description                              |
-| --------- | --------- | ---------------------------------------- |
+| Rule      | Type      | Description                                          |
+| --------- | --------- | ---------------------------------------------------- |
 | `checked` | `boolean` | Whether the switch is in the specified checked state |
 
 ### File Fields
 
-| Rule      | Type      | Description                                      |
-| --------- | --------- | ------------------------------------------------ |
-| `file`    | `boolean` | Whether a file is required                       |
-| `minSize` | `number`  | Minimum file byte size                           |
-| `maxSize` | `number`  | Maximum file byte size                           |
+| Rule      | Type      | Description                                                           |
+| --------- | --------- | --------------------------------------------------------------------- |
+| `file`    | `boolean` | Whether a file is required                                            |
+| `minSize` | `number`  | Minimum file byte size                                                |
+| `maxSize` | `number`  | Maximum file byte size                                                |
 | `accept`  | `string`  | Allowed file types, comma-separated, such as `.jpg,.png` or `image/*` |
 
 ### Custom Rules
@@ -211,11 +211,11 @@ const validator = createValidator('#form', {
 
 The `validate` function receives the field element and the current Validator instance, and returns:
 
-| Return Value | Description                                                    |
-| ------------ | -------------------------------------------------------------- |
-| `true`       | Validation passed                                              |
+| Return Value | Description                                                      |
+| ------------ | ---------------------------------------------------------------- |
+| `true`       | Validation passed                                                |
 | `false`      | Validation failed, using the error text configured in `messages` |
-| `string`     | Validation failed, using this string as the error text         |
+| `string`     | Validation failed, using this string as the error text           |
 
 ## Error Hint DOM
 
@@ -234,4 +234,3 @@ Validator first uses the nearest `[data-field-control]` as the field container. 
 - **Validation interaction**: When validation fails, the error field is marked with `[data-validator-help]` and `[data-valid]`. After validation passes, the markers are removed.
 - **Automatic validation**: After submit or a manual `validate()` call fails, Validator uses the error field records stored in `runtime.error` to automatically revalidate on `input` / `change` events. After the `runtime.error` records are cleared, the automatic validation events are also cleared.
 - **Custom error styles**: You can use the `className` configuration to customize error hint styles.
-

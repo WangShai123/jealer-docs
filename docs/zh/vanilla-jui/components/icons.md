@@ -8,7 +8,7 @@ client:
 
 Icons 是内置 SVG 图标工具，提供函数式 API 获取图标节点或字符串，支持自定义扩展。
 
-<Badge text="UI Primitive" theme="error"/>
+<Badge text="UI Primitive" theme="danger"/>
 
 ## 导入
 

@@ -125,17 +125,20 @@ const baseSteps = () => [
     id: 'profile',
     title: translate('profileTitle'),
     content: ({ data }) => {
-      const email = typeof data.email === 'string' ? data.email : translate('notFilled');
+      const email =
+        typeof data.email === 'string' ? data.email : translate('notFilled');
       return jsx('div', {
-        children: [translate('cachedEmail'), jsx('strong', { children: email })],
+        children: [
+          translate('cachedEmail'),
+          jsx('strong', { children: email }),
+        ],
       });
     },
   },
   {
     id: 'confirm',
     title: translate('confirmTitle'),
-    content: () =>
-      jsx('div', { children: translate('confirmContent') }),
+    content: () => jsx('div', { children: translate('confirmContent') }),
   },
 ];
 const a = createFlow({
@@ -191,7 +194,10 @@ createFlow({
 
     return [
       fallback(),
-      jsx('div', { className: 'flow-demo-meta', children: `${translate('current')} ${title}` }),
+      jsx('div', {
+        className: 'flow-demo-meta',
+        children: `${translate('current')} ${title}`,
+      }),
     ];
   },
   renderFooter: ({ snapshot, steps, back, next, reset }) => {
@@ -284,13 +290,23 @@ createFlow({
       id: 'name',
       title: translate('nameTitle'),
       content: ({ data }) =>
-        createField('name', translate('nameLabel'), textValue(data.name), translate('namePlaceholder')),
+        createField(
+          'name',
+          translate('nameLabel'),
+          textValue(data.name),
+          translate('namePlaceholder')
+        ),
     },
     {
       id: 'email',
       title: translate('emailTitle'),
       content: ({ data }) =>
-        createField('email', translate('emailLabel'), textValue(data.email), translate('emailPlaceholder')),
+        createField(
+          'email',
+          translate('emailLabel'),
+          textValue(data.email),
+          translate('emailPlaceholder')
+        ),
       onLeave: () => new Promise((resolve) => setTimeout(resolve, 800)),
     },
     {
@@ -319,7 +335,9 @@ createFlow({
   ],
   showReset: true,
   renderFooter: ({ snapshot, flow, back, next, reset }) => {
-    const loading = jsx('div', { style: {position:'relative',minWidth:'32px'} });
+    const loading = jsx('div', {
+      style: { position: 'relative', minWidth: '32px' },
+    });
     if (snapshot.loading) loading.appendChild(createLoading());
 
     const payloadNext = () => {
@@ -329,39 +347,39 @@ createFlow({
     };
 
     return [
-        loading,
-        jsx('div', {
-          style: {
-            display:'flex',
-          },
-          children: [
-            createButton(
-              'j-button is-text flow-reset',
-              translate('reset'),
-              () => reset(),
-              snapshot.loading
-            ),
-            snapshot.canBack
-              ? createButton(
-                  'j-button is-ghost flow-back',
-                  translate('previous'),
-                  () => void back(collectCurrentForm(flow) || null),
-                  snapshot.loading
-                )
-              : null,
-            createButton(
-              'j-button is-primary flow-next',
-              snapshot.isLast
-                ? translate('finish')
-                : snapshot.currentId === 'email'
-                  ? translate('submit')
-                  : translate('next'),
-              payloadNext,
-              snapshot.loading
-            ),
-          ]
-        })
-      ]
+      loading,
+      jsx('div', {
+        style: {
+          display: 'flex',
+        },
+        children: [
+          createButton(
+            'j-button is-text flow-reset',
+            translate('reset'),
+            () => reset(),
+            snapshot.loading
+          ),
+          snapshot.canBack
+            ? createButton(
+                'j-button is-ghost flow-back',
+                translate('previous'),
+                () => void back(collectCurrentForm(flow) || null),
+                snapshot.loading
+              )
+            : null,
+          createButton(
+            'j-button is-solid flow-next',
+            snapshot.isLast
+              ? translate('finish')
+              : snapshot.currentId === 'email'
+                ? translate('submit')
+                : translate('next'),
+            payloadNext,
+            snapshot.loading
+          ),
+        ],
+      }),
+    ];
   },
 }).mount(q('.async-demo'));
 
@@ -380,7 +398,6 @@ const mountHeadlessFlow = () => {
     return Object.fromEntries(new FormData(form).entries());
   };
   const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
 
   const validCode = '8426';
 
@@ -428,7 +445,12 @@ const mountHeadlessFlow = () => {
           translate('usernamePlaceholder')
         ),
       email: () =>
-        createField('email', '', textValue(snapshot.data.email), translate('emailPlaceholder')),
+        createField(
+          'email',
+          '',
+          textValue(snapshot.data.email),
+          translate('emailPlaceholder')
+        ),
       code: () =>
         jsx('div', {
           children: [
@@ -452,7 +474,7 @@ const mountHeadlessFlow = () => {
               jsx('p', {
                 children: `${textValue(snapshot.data.email)}${translate('registrationDone')}`,
               }),
-              createButton('j-button is-primary', translate('resetDemo'), () =>
+              createButton('j-button is-solid', translate('resetDemo'), () =>
                 flow.reset()
               ),
             ],
@@ -479,9 +501,9 @@ const mountHeadlessFlow = () => {
 
     const actions = jsx('div', {
       style: {
-        display:'flex',
+        display: 'flex',
         gap: '8px',
-        marginTop: '8px'
+        marginTop: '8px',
       },
       children:
         snapshot.currentId === 'welcome'
@@ -494,7 +516,7 @@ const mountHeadlessFlow = () => {
                 !snapshot.canBack || snapshot.loading
               ),
               createButton(
-                `j-button is-primary ${dynamicAttr('is-icon')}`,
+                `j-button is-solid ${dynamicAttr('is-icon')}`,
                 snapshot.currentId === 'email'
                   ? dynamicAction(translate('sendCode'))
                   : dynamicAction(translate('next')),
@@ -504,7 +526,7 @@ const mountHeadlessFlow = () => {
             ],
     });
 
-    shell.append( content, actions);
+    shell.append(content, actions);
   };
 
   flow.subscribe(render);

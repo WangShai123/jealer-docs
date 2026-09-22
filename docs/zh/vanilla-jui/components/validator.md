@@ -8,7 +8,7 @@ client:
 
 Validator 是表单校验模块，它只负责读取表单字段、执行规则校验、写入失败状态和错误提示节点。
 
-<Badge text="UI Primitive" theme="error"/>
+<Badge text="UI Primitive" theme="danger"/>
 
 ## 示例
 
@@ -234,4 +234,3 @@ Validator 优先使用最近的 `[data-field-control]` 作为字段容器；如�
 - **校验交互**：校验失败时，错误字段会被标记 `[data-validator-help]` 和 `[data-valid]`，校验通过后会移除标记。
 - **自动校验**：提交或手动调用 `validate()` 且校验失败后，Validator 会根据 `runtime.error` 存储的错误字段的 `input` / `change` 事件进行自动重验。`runtime.error` 错误记录清空后，自动校验事件也会清空。
 - **自定义错误样式**：你可以利用 `className` 配置，来自定义错误提示样式。
-

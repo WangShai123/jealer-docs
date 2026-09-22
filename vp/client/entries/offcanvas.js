@@ -6,9 +6,12 @@ const locales = {
   en: {
     asyncBtn: 'Async Content Offcanvas',
     cacheExpired: 'Cache expired',
-    cacheInfo: 'This offcanvas has caching enabled. The cache time is 10 seconds.',
-    cacheReuse: 'Within 10 seconds, repeatedly opening the offcanvas will show the cached content.',
-    cacheExpire: 'After 10 seconds, the content expires and will be requested and rendered again.',
+    cacheInfo:
+      'This offcanvas has caching enabled. The cache time is 10 seconds.',
+    cacheReuse:
+      'Within 10 seconds, repeatedly opening the offcanvas will show the cached content.',
+    cacheExpire:
+      'After 10 seconds, the content expires and will be requested and rendered again.',
     close: 'Close',
     countdown: 'Countdown',
     countUnit: 'seconds',
@@ -84,13 +87,14 @@ const demo1 = jsx('div', {
             i.destroy();
           },
           content: jsx('div', {
-            style: 'display:flex;justify-content:center;align-items:center;height:100%;background:var(--ui-fg-muted)',
+            style:
+              'display:flex;justify-content:center;align-items:center;height:100%;background:var(--ui-fg-muted)',
             children: jsx('button', {
               className: 'j-button is-default',
               'data-action': 'close',
               children: translate('close'),
-            })
-          })
+            }),
+          }),
         })
           .build()
           .show();
@@ -108,13 +112,14 @@ const demo1 = jsx('div', {
             i.destroy();
           },
           content: jsx('div', {
-            style: 'display:flex;justify-content:center;align-items:center;height:100%;background:var(--tone-solid)',
+            style:
+              'display:flex;justify-content:center;align-items:center;height:100%;background:var(--tone-solid)',
             children: jsx('button', {
               className: 'j-button is-default',
               'data-action': 'close',
               children: translate('close'),
-            })
-          })
+            }),
+          }),
         })
           .build()
           .show();
@@ -162,18 +167,19 @@ const loadAsyncOffcanvasContent = () =>
           },
           children: [
             jsx('p', {
-              children: `${translate('request')} ${requestIndex} ${translate('requestSuffix')}`.trim(),
+              children:
+                `${translate('request')} ${requestIndex} ${translate('requestSuffix')}`.trim(),
             }),
             jsx('p', {
-              style: {marginBlock: '4px'},
+              style: { marginBlock: '4px' },
               children: translate('cacheInfo'),
             }),
             jsx('p', {
-              style: {marginBlock: '4px'},
+              style: { marginBlock: '4px' },
               children: translate('cacheReuse'),
             }),
             jsx('p', {
-              style: {marginBlock: '4px'},
+              style: { marginBlock: '4px' },
               children: translate('cacheExpire'),
             }),
             jsx('p', {
@@ -184,7 +190,7 @@ const loadAsyncOffcanvasContent = () =>
               },
               children: [
                 jsx('button', {
-                  className: 'j-button is-secondary',
+                  className: 'j-button is-soft',
                   type: 'button',
                   children: () =>
                     offcanvasCount() > 0
@@ -192,7 +198,7 @@ const loadAsyncOffcanvasContent = () =>
                       : translate('cacheExpired'),
                 }),
                 jsx('button', {
-                  className: 'j-button is-primary',
+                  className: 'j-button is-solid',
                   type: 'button',
                   'data-action': 'close',
                   children: translate('close'),
@@ -205,22 +211,22 @@ const loadAsyncOffcanvasContent = () =>
     }, 1000);
   });
 const asyncOffcanvas = createOffcanvas({
-    direction: 'right',
-    content: () => loadAsyncOffcanvasContent(),
-    cache: true,
-    ttl: 10000,
+  direction: 'right',
+  content: () => loadAsyncOffcanvasContent(),
+  cache: true,
+  ttl: 10000,
 });
 asyncOffcanvas.build();
 const demo2 = jsx('div', {
-    style: {
-        marginBlock: '16px',
+  style: {
+    marginBlock: '16px',
+  },
+  children: jsx('button', {
+    className: 'j-button is-outline',
+    children: translate('asyncBtn'),
+    onClick: () => {
+      asyncOffcanvas.show();
     },
-    children: jsx('button', {
-        className: 'j-button is-outline',
-        children: translate('asyncBtn'),
-        onClick: () => {
-            asyncOffcanvas.show();
-        },
-    }),
+  }),
 });
 insert(q('.demo'), [demo1, demo2]);

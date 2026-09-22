@@ -8,7 +8,7 @@ client:
 
 Form renders a form from field configuration and includes the built-in `Validator` validation module and submit data collection.
 
-<Badge text="defineComponent" theme="primary"/>
+<Badge text="defineComponent" theme="solid"/>
 
 ## Example
 

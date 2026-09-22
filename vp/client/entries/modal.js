@@ -278,7 +278,8 @@ const loadAsyncModalContent = () =>
         jsx('div', {
           children: [
             jsx('p', {
-              children: `${translate('asyncPrefix')} ${requestIndex} ${translate('asyncSuffix')}`.trim(),
+              children:
+                `${translate('asyncPrefix')} ${requestIndex} ${translate('asyncSuffix')}`.trim(),
             }),
             jsx('p', {
               style: { marginBlock: '4px' },
@@ -301,13 +302,13 @@ const loadAsyncModalContent = () =>
               },
               children: [
                 jsx('button', {
-                  className: 'j-button is-secondary',
+                  className: 'j-button is-soft',
                   'data-action': 'cancel',
                   children: () =>
                     `${count() > 0 ? `${translate('countdown')} ${count()}${translate('countUnit')}` : translate('cacheExpired')}`,
                 }),
                 jsx('button', {
-                  className: 'j-button is-primary',
+                  className: 'j-button is-solid',
                   'data-action': 'confirm',
                   children: translate('gotIt'),
                 }),
@@ -426,7 +427,7 @@ const demo3 = jsx('div', {
   },
   children: [
     jsx('button', {
-      className: 'j-button is-primary',
+      className: 'j-button is-solid',
       children: translate('asyncBtn'),
       onClick: () => {
         asyncModal.show();

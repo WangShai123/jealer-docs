@@ -8,7 +8,7 @@ client:
 
 Modal runtime interaction is driven by `state` created with `createDeepStore`. `build()` only creates the Modal skeleton. When `show()` runs, content is mounted idempotently according to `content`, `cache`, and `ttl`.
 
-<Badge text="defineComponent" theme="primary"/> <Badge text="RenderableContent"/>
+<Badge text="defineComponent" theme="solid"/> <Badge text="RenderableContent"/>
 
 ## Example
 

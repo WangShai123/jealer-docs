@@ -8,7 +8,7 @@ client:
 
 Pagination 是分页组件，它根据 `total`、`page.size`、`page.current` 和页码窗口配置渲染分页按钮，并在页码变化时通过 `onChange(page, instance)` 通知业务层加载数据。
 
-<Badge text="defineComponent" theme="primary"/>
+<Badge text="defineComponent" theme="solid"/>
 
 ## 示例
 
@@ -155,4 +155,3 @@ const pagination = createPagination({
 - 业务端实现数据请求方法。
 - 业务端实现数据渲染方法，包裹数据响应（查询管理器）。
 - 在分页组件的 `onChange` 中，调用执行数据渲染方法，更新分页状态和视图。
-

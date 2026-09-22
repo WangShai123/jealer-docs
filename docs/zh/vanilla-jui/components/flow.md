@@ -8,7 +8,7 @@ client:
 
 Flow 是一个流程状态控制器，提供步骤切换、数据缓存、异步 hook、错误回滚、busy 防重入等功能。它以 headless 使用为主，同时也提供一份默认基础 UI，面向常用轻量流程场景。
 
-<Badge text="defineComponent" theme="primary"/> <Badge text="RenderableContent"/>
+<Badge text="defineComponent" theme="solid"/> <Badge text="RenderableContent"/>
 
 ## 示例
 
@@ -227,4 +227,3 @@ Flow 把复杂流程拆成四层：
 ### Headless
 
 <div class="headless-demo"></div>
-

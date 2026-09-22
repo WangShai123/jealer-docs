@@ -2,7 +2,7 @@
 
 Popup is a lightweight DOM factory. It only creates common popup nodes for other components to use.
 
-<Badge text="UI Primitive" theme="error"/> <Badge text="RenderableContent"/>
+<Badge text="UI Primitive" theme="danger"/> <Badge text="RenderableContent"/>
 
 ## Import
 
@@ -44,13 +44,13 @@ Generated structure:
 createPopup(options:PopupOptions):HTMLElement {}
 ```
 
-| Option       | Type                | Default            | Description |
-| ------------ | ------------------- | ------------------ | ----------- |
-| `className`  | `string`            | `'j-popup-layout'` | Base class name of the root node |
-| `position`   | `string`            | `'center'`         | Popup position, appended as `is-${position}` |
+| Option       | Type                | Default            | Description                                                                   |
+| ------------ | ------------------- | ------------------ | ----------------------------------------------------------------------------- |
+| `className`  | `string`            | `'j-popup-layout'` | Base class name of the root node                                              |
+| `position`   | `string`            | `'center'`         | Popup position, appended as `is-${position}`                                  |
 | `component`  | `string`            | `''`               | Component name. When non-empty, renders `data-${component}` and matching ARIA |
-| `labelledby` | `string`            | `''`               | When non-empty, renders `aria-labelledby` |
-| `content`    | `RenderableContent` | `''`               | Popup content |
+| `labelledby` | `string`            | `''`               | When non-empty, renders `aria-labelledby`                                     |
+| `content`    | `RenderableContent` | `''`               | Popup content                                                                 |
 
 `position` supports nine-point placement. Available values:
 

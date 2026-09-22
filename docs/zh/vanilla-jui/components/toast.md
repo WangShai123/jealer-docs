@@ -8,7 +8,7 @@ client:
 
 通知组件是一种临时显示消息的组件，通常用于通知用户操作结果或提示信息。它不需要实例化，直接通过静态方法展示消息。
 
-<Badge text="UI Primitive" theme="error"/>
+<Badge text="UI Primitive" theme="danger"/>
 
 ## 示例
 
@@ -140,4 +140,3 @@ submit().finally(() => setLoading(false));
 | `warning`    | `is-warning`         | 警告类型类     |
 | `error`      | `is-error`           | 错误类型类     |
 | `primary`    | `is-primary`         | 主色类型类     |
-

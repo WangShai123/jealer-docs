@@ -8,7 +8,7 @@ client:
 
 Accordion is a collapsible panel component for showing multiple content areas.
 
-<Badge text="defineComponent" theme="primary"/> <Badge text="RenderableContent"/>
+<Badge text="defineComponent" theme="solid"/> <Badge text="RenderableContent"/>
 
 ## Example
 
@@ -61,25 +61,25 @@ if (container) accordion.mount(container);
 
 In JUI, the `RenderableContent` type means any legal content that can be rendered, including `string | number | boolean | Node | Array | Function | null`.
 
-| Field     | Type                | Description                                                   |
-| --------- | ------------------- | ------------------------------------------------------------- |
+| Field     | Type                | Description                                                                |
+| --------- | ------------------- | -------------------------------------------------------------------------- |
 | `name`    | `string`            | Optional; generated automatically when empty. A fixed value must be unique |
-| `title`   | `string`            | Panel title                                                   |
-| `content` | `RenderableContent` | Panel content                                                 |
-| `cache`   | `boolean`           | Whether to cache the result of function content               |
-| `ttl`     | `number`            | Cache lifetime in milliseconds; `0` means it never expires    |
+| `title`   | `string`            | Panel title                                                                |
+| `content` | `RenderableContent` | Panel content                                                              |
+| `cache`   | `boolean`           | Whether to cache the result of function content                            |
+| `ttl`     | `number`            | Cache lifetime in milliseconds; `0` means it never expires                 |
 
 ### onChange
 
 `onChange(index, name, headerRef, panelRef, accordion)`
 
-| Parameter   | Description                                      |
-| ----------- | ------------------------------------------------ |
-| `index`     | Current active panel index                       |
-| `name`      | Current active panel name                        |
-| `headerRef` | DOM reference for the current active panel header |
+| Parameter   | Description                                        |
+| ----------- | -------------------------------------------------- |
+| `index`     | Current active panel index                         |
+| `name`      | Current active panel name                          |
+| `headerRef` | DOM reference for the current active panel header  |
 | `panelRef`  | DOM reference for the current active panel content |
-| `accordion` | Current instance                                 |
+| `accordion` | Current instance                                   |
 
 ### className
 
@@ -94,15 +94,15 @@ In JUI, the `RenderableContent` type means any legal content that can be rendere
 
 ## Instance Properties
 
-| Property            | Description                                           |
-| ------------------- | ----------------------------------------------------- |
-| `props`             | Normalized creation-time configuration                |
+| Property            | Description                                                  |
+| ------------------- | ------------------------------------------------------------ |
+| `props`             | Normalized creation-time configuration                       |
 | `state.data`        | Reactive panel data, updated by the keyed list after changes |
-| `state.activeNames` | Names of currently expanded panels                    |
-| `state.loading`     | Async function content is being resolved              |
-| `element`           | Stable root node generated after `build()`            |
-| `runtime`           | `built`, `mounted`, and `destroyed` states            |
-| `current`           | Current main panel, including `index` and `name`      |
+| `state.activeNames` | Names of currently expanded panels                           |
+| `state.loading`     | Async function content is being resolved                     |
+| `element`           | Stable root node generated after `build()`                   |
+| `runtime`           | `built`, `mounted`, and `destroyed` states                   |
+| `current`           | Current main panel, including `index` and `name`             |
 
 ### state
 
@@ -136,14 +136,13 @@ accordion.state.data = accordion.state.data.filter(
 
 ## Instance Methods
 
-| Method                  | Description                                                   |
-| ----------------------- | ------------------------------------------------------------- |
-| `build()`               | Create DOM, bind events, and sync the initial state           |
-| `mount(container)`      | Build and mount to the specified container                    |
-| `unmount()`             | Remove the root node from the current container               |
-| `activate(indexOrName)` | Activate, expand, or collapse the specified panel             |
-| `setState(patch)`       | Set reactive state fields                                     |
+| Method                  | Description                                                     |
+| ----------------------- | --------------------------------------------------------------- |
+| `build()`               | Create DOM, bind events, and sync the initial state             |
+| `mount(container)`      | Build and mount to the specified container                      |
+| `unmount()`             | Remove the root node from the current container                 |
+| `activate(indexOrName)` | Activate, expand, or collapse the specified panel               |
+| `setState(patch)`       | Set reactive state fields                                       |
 | `destroy()`             | Destroy the instance, remove mounted DOM, and release resources |
 
 Common controller methods also include `own()`, `use()`, `on()`, `off()`, and `emit()`. See [Define Component](../core/define.html) for their meaning.
-

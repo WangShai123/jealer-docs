@@ -8,7 +8,7 @@ client:
 
 Menu 是轻量菜单组件，用于展示常规桌面导航菜单、侧边栏菜单、移动端底部工具栏菜单。
 
-<Badge text="defineComponent" theme="primary"/>
+<Badge text="defineComponent" theme="solid"/>
 
 ## 示例
 
@@ -123,4 +123,3 @@ const menu = createMenu({
 | `destroy()`         | 销毁实例，释放事件和 DOM |
 
 公共控制器方法还包括 `own()`、`use()`、`on()`、`off()` 和 `emit()`，语义见 [定义组件](../core/define.html)。
-

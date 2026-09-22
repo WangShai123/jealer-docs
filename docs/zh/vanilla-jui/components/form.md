@@ -8,7 +8,7 @@ client:
 
 Form 用于按字段配置渲染表单，并内置 `Validator` 验证模块与提交数据收集。
 
-<Badge text="defineComponent" theme="primary"/>
+<Badge text="defineComponent" theme="solid"/>
 
 ## 示例
 

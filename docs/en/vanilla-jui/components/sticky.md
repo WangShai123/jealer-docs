@@ -8,7 +8,7 @@ client:
 
 Sticky keeps elements fixed while scrolling, often used for sidebar widget sticking. It is a behavior controller that works around existing DOM.
 
-<Badge text="UI Primitive" theme="error"/>
+<Badge text="UI Primitive" theme="danger"/>
 
 ## Example
 
@@ -50,16 +50,16 @@ createSticky({
 
 `createSticky(props)`
 
-| Field       | Type                                         | Default     | Description |
-| ----------- | -------------------------------------------- | ----------- | ----------- |
-| `target`    | `string \| Element \| Node \| Array \| null` | `null`      | Target elements that need sticky behavior |
-| `parent`    | `string \| Element \| Node \| null`          | `null`      | Optional single scope used to limit target queries |
-| `max`       | `number`                                     | `10`        | Maximum number of target elements this instance can manage |
-| `top`       | `number`                                     | `16`        | Top offset of the first sticky item, in px |
-| `gap`       | `number`                                     | `16`        | Gap between multiple sticky elements, in px |
-| `overflow`  | `'destroy' \| 'ignore'`                      | `'destroy'` | Strategy when the result exceeds `max` |
+| Field       | Type                                         | Default     | Description                                                                   |
+| ----------- | -------------------------------------------- | ----------- | ----------------------------------------------------------------------------- |
+| `target`    | `string \| Element \| Node \| Array \| null` | `null`      | Target elements that need sticky behavior                                     |
+| `parent`    | `string \| Element \| Node \| null`          | `null`      | Optional single scope used to limit target queries                            |
+| `max`       | `number`                                     | `10`        | Maximum number of target elements this instance can manage                    |
+| `top`       | `number`                                     | `16`        | Top offset of the first sticky item, in px                                    |
+| `gap`       | `number`                                     | `16`        | Gap between multiple sticky elements, in px                                   |
+| `overflow`  | `'destroy' \| 'ignore'`                      | `'destroy'` | Strategy when the result exceeds `max`                                        |
 | `reactive`  | `boolean`                                    | `false`     | Whether to observe parent DOM changes and automatically resolve targets again |
-| `onReBuild` | `Function \| null`                           | `null`      | Triggered after each top recalculation, with the current Sticky instance |
+| `onReBuild` | `Function \| null`                           | `null`      | Triggered after each top recalculation, with the current Sticky instance      |
 
 ### target
 
@@ -94,32 +94,32 @@ createSticky({
 }).build();
 ```
 
-| `overflow`  | Behavior |
-| ----------- | -------- |
+| `overflow`  | Behavior                                                                                  |
+| ----------- | ----------------------------------------------------------------------------------------- |
 | `'destroy'` | Keeps the last `max` targets from the current resolved result and ignores earlier targets |
-| `'ignore'`  | Keeps the current instance empty and does not modify target elements |
+| `'ignore'`  | Keeps the current instance empty and does not modify target elements                      |
 
 ## Instance Properties
 
-| Property                 | Type        | Description |
-| ------------------------ | ----------- | ----------- |
-| `props`                  | `object`    | Normalized configuration object |
-| `state`                  | `DeepStore` | Reactive state |
-| `runtime`                | `object`    | Runtime state |
-| `runtime.built`          | `boolean`   | Whether it has been built |
-| `runtime.destroyed`      | `boolean`   | Whether it has been destroyed |
+| Property                 | Type        | Description                      |
+| ------------------------ | ----------- | -------------------------------- |
+| `props`                  | `object`    | Normalized configuration object  |
+| `state`                  | `DeepStore` | Reactive state                   |
+| `runtime`                | `object`    | Runtime state                    |
+| `runtime.built`          | `boolean`   | Whether it has been built        |
+| `runtime.destroyed`      | `boolean`   | Whether it has been destroyed    |
 | `runtime.reBuilding`     | `boolean`   | Whether recalculation is running |
-| `runtime.reBuildFrameId` | `number`    | Recalculation frame ID |
+| `runtime.reBuildFrameId` | `number`    | Recalculation frame ID           |
 
 `Sticky`'s parent, targets, and original style snapshots are stored in the closure and are not exposed as a public DOM map.
 
 ## Instance Methods
 
-| Method      | Description |
-| ----------- | ----------- |
+| Method      | Description                                                  |
+| ----------- | ------------------------------------------------------------ |
 | `build()`   | Creates the Sticky instance and returns the current instance |
-| `reBuild()` | Resolves the target collection again |
-| `destroy()` | Destroys the instance and restores original target styles |
+| `reBuild()` | Resolves the target collection again                         |
+| `destroy()` | Destroys the instance and restores original target styles    |
 
 ### reBuild
 
@@ -134,4 +134,3 @@ The calculation result of each target inside the current instance:
 
 - Property: `state.items`
 - Type: `Array<{ key: string, index: number, top: number }>`
-

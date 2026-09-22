@@ -6,7 +6,7 @@ client:
 
 # 选项卡
 
-<Badge text="defineComponent" theme="primary"/> <Badge text="RenderableContent"/>
+<Badge text="defineComponent" theme="solid"/> <Badge text="RenderableContent"/>
 
 ## 示例
 
@@ -124,4 +124,3 @@ tabs.mount(document.querySelector('.demo'));
 | `destroy()`            | 销毁实例并移除组件创建的根节点 |
 
 公共控制器方法还包括 `own()`、`use()`、`on()`、`off()` 和 `emit()`，语义见 [定义组件](../core/define.html)。
-

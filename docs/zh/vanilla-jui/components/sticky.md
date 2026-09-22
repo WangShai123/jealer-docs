@@ -8,7 +8,7 @@ client:
 
 Sticky 用于在滚动时保持固定位置，常用于侧边栏 widget 的吸附固定。它是围绕已有 DOM 工作的行为控制器。
 
-<Badge text="UI Primitive" theme="error"/>
+<Badge text="UI Primitive" theme="danger"/>
 
 ## 示例
 
@@ -134,4 +134,3 @@ createSticky({
 
 - 属性：`state.items`
 - 类型：`Array<{ key: string, index: number, top: number }>`
-

@@ -9,7 +9,7 @@ client:
 
 Swiper 是轻量轮播组件，支持数据响应式管理、触摸与拖拽、自动播放、循环播放、分页、导航、懒加载、图片轮播、自定义内容轮播、自定义样式等功能。
 
-<Badge text="defineComponent" theme="primary"/> <Badge text="RenderableContent"/>
+<Badge text="defineComponent" theme="solid"/> <Badge text="RenderableContent"/>
 
 ## 示例
 
