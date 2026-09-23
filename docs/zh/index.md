@@ -62,18 +62,24 @@ layouts:
             icon: ST
             meta: storage
             accent: is-green
+          - title: vanilla-sse
+            description: SSE 客户端，支持多级订阅、连接管理、健壮性处理和自定义扩展。
+            link: ./vanilla-sse/index.html
+            icon: SSE
+            meta: event
+            accent: is-orange
           - title: vanilla-jui
             description: 原生 JavaScript UI 组件库，提供可组合、可主题化的界面基础设施。
             link: ./vanilla-jui/index.html
             icon: UI
             meta: ui
-            accent: is-orange
+            accent: is-rose
           - title: vanilla-press
             description: 轻量静态文档生成器，支持多语言、搜索、SEO、自定义布局与客户端入口。
             link: ./vanilla-press/index.html
             icon: VP
             meta: docs
-            accent: is-rose
+            accent: is-blue
       - eyebrow: G3
         title: G3 项目
         description: 面向中小企业私有化业务系统的项目文档。

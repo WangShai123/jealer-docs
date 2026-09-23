@@ -1,4 +1,4 @@
-# 示例
+# Vanilla Request 示例
 
 > 授权与 token 续期
 

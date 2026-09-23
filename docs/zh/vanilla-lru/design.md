@@ -1,4 +1,4 @@
-# 设计原理
+# Vanilla Lru 设计原理
 
 ## 为什么 extends Map
 

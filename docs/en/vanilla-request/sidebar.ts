@@ -20,6 +20,7 @@ export default [
       { label: 'vanilla-request', path: 'vanilla-request/index' },
       { label: 'vanilla-lru', path: 'vanilla-lru/index' },
       { label: 'vanilla-create-storage', path: 'vanilla-create-storage/index' },
+      { label: 'vanilla-sse', path: 'vanilla-sse/index' },
       { label: 'vanilla-jui', path: 'vanilla-jui/index' },
       { label: 'vanilla-press', path: 'vanilla-press/index' },
     ],

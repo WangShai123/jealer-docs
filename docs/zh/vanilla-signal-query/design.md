@@ -1,4 +1,4 @@
-# 设计说明
+# Vanilla Signal Query 设计原理
 
 ## 设计原则
 

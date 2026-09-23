@@ -1,4 +1,4 @@
-# vanilla-request
+# Vanilla Request
 
 `vanilla-request` 是轻量级 HTTP 请求工具。
 

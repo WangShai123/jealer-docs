@@ -1,4 +1,4 @@
-# API 文档
+# Vanilla Signal Query API 文档
 
 `vanilla-signal-query` 是面向原生 JavaScript 业务请求场景的异步状态管理库。它提供响应式请求状态、可插拔数据缓存、请求去重、重试、超时、取消、预取和缓存失效能力。
 

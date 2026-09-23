@@ -1,4 +1,4 @@
-# I18n
+# Vanilla Signal I18n
 
 I18n 是基于 `vanilla-signal` 的响应式国际化管理器。
 

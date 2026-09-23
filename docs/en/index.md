@@ -62,18 +62,24 @@ layouts:
             icon: ST
             meta: storage
             accent: is-green
+          - title: vanilla-sse
+            description: SSE client: multi-level subscriptions, connection management, robustness handling, and custom extensions.
+            link: ./vanilla-sse/index.html
+            icon: SSE
+            meta: event
+            accent: is-orange
           - title: vanilla-jui
             description: A native JavaScript UI component library for composable and themeable interface infrastructure.
             link: ./vanilla-jui/index.html
             icon: UI
             meta: ui
-            accent: is-orange
+            accent: is-rose
           - title: vanilla-press
             description: A lightweight static documentation generator with locales, search, SEO, custom layouts, and client entries.
             link: ./vanilla-press/index.html
             icon: VP
             meta: docs
-            accent: is-rose
+            accent: is-blue
       - eyebrow: G3
         title: G3 Projects
         description: Project Documentation for Privatized Business Systems Targeting Small and Medium-sized Enterprises.
@@ -85,7 +91,3 @@ layouts:
             meta: web
             accent: is-blue
 ---
-
-# Docs Center
-
-Entry points for W3Lib and G3 project documentation.

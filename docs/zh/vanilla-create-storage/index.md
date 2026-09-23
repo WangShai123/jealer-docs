@@ -1,4 +1,4 @@
-# vanilla-storage
+# Vanilla Create Storage
 
 一个轻量级的异步存储抽象层，用于浏览器存储驱动。
 

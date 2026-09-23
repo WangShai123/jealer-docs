@@ -1,6 +1,6 @@
-# vanilla-storage API
+# Vanilla Create Storage API 文档
 
-`vanilla-storage` 是一个面向浏览器存储的异步统一 API。
+`vanilla-create-storage` 是一个面向浏览器存储的异步统一 API。
 
 它把 `localStorage`、`sessionStorage`、`IndexedDB`、`cookie` 和内存存储封装成一致的读写模型，并内置命名空间、TTL、codec、显式 fallback 和过期清理能力。
 
