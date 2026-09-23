@@ -1,9 +1,10 @@
-import type { MenuConfig } from 'vanilla-press';
+import type { SidebarConfig } from 'vanilla-press';
 
 export default [
-  { label: 'menu.home', path: 'index' },
+  { label: 'vanilla-create-storage', path: 'vanilla-create-storage/index' },
+  { label: 'API', path: 'vanilla-create-storage/api' },
   {
-    label: 'W3Lib',
+    label: 'sidebar.others',
     children: [
       { label: 'vanilla-signal', path: 'vanilla-signal/index' },
       { label: 'vanilla-signal-i18n', path: 'vanilla-signal-i18n/index' },
@@ -15,13 +16,4 @@ export default [
       { label: 'vanilla-press', path: 'vanilla-press/index' },
     ],
   },
-  {
-    label: 'G3',
-    children: [{ label: 'G3-Web', path: 'g3-web/index' }],
-  },
-  {
-    label: 'JEALER',
-    path: 'https://www.jealer.com/',
-    target: '_blank',
-  },
-] satisfies MenuConfig;
+] satisfies SidebarConfig;

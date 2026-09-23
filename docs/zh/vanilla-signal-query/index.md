@@ -1,0 +1,134 @@
+# Vanilla Query
+
+`vanilla-query` 是一个面向原生 JavaScript 的服务端状态和异步 query 运行时。它提供响应式请求状态、可插拔数据缓存适配器、stale 刷新、请求去重、重试、超时、取消、预取和缓存失效。
+
+它设计为配合 [vanilla-signal](/zh/vanilla-signal/) 使用：
+
+```js
+import { createEffect } from 'vanilla-signal';
+import { createQuery } from 'vanilla-signal-query';
+
+const profile = createQuery({
+  queryKey: ['profile'],
+  queryFn: async ({ signal }) => {
+    const response = await fetch('/api/profile', { signal });
+    return response.json();
+  },
+});
+
+createEffect(() => {
+  if (profile.state.isLoading) return;
+  if (profile.state.isError) return console.error(profile.state.error);
+
+  console.log(profile());
+});
+```
+
+## Npm 包名变更
+
+因 npm 包名冲突，名称修改为 `vanilla-signal-query`。
+
+## 安装
+
+NPM:
+
+```bash
+npm install vanilla-signal-query
+```
+
+CDN:
+
+```html
+<!-- umd vanillaSignalQuery -->
+<script src="https://unpkg.com/vanilla-signal-query/dist/index.umd.js"></script>
+<script>
+  const { createQuery } = vanillaSignalQuery;
+</script>
+
+<!-- esm 模块导入 -->
+<script type="module">
+  import { createQuery } from 'https://unpkg.com/vanilla-signal-query/dist/index.js';
+</script>
+```
+
+## 核心 API
+
+- `createQuery(options)`：创建响应式 query accessor。
+- `queryClient`：默认共享 query client。
+- `createQueryClient(options)`：创建隔离的缓存和请求 client。
+- `stableHash(value)` 和 `hashQueryKey(queryKey)`：稳定 key 工具。
+
+## Query 配置
+
+```js
+createQuery({
+  queryKey: ['products', { page: 1 }],
+  queryFn: async ({ queryKey, signal, attempt, meta }) => {},
+  enabled: true,
+  initialData: undefined,
+  keepPreviousData: true,
+  staleTime: 0,
+  cache: {
+    enabled: true,
+    adapter: 'memory', // memory | cookie | localStorage | indexedDB
+    options: {
+      ttl: 5 * 60 * 1000,
+      maxSize: 100,
+    },
+  },
+  retry: 0,
+  retryDelay: (attempt) => Math.min(1000 * 2 ** (attempt - 1), 30000),
+  timeout: 0,
+  select: (data) => data,
+  normalize: (response) => ({ data: response }),
+});
+```
+
+`cache: true` 使用默认 memory 适配器，`cache: false` 关闭缓存。
+如果要使用浏览器持久化缓存，可以切换适配器：
+
+```js
+const client = createQueryClient({
+  cache: {
+    adapter: 'localStorage',
+    options: {
+      namespace: 'my-app-query',
+      ttl: 10 * 60_000,
+    },
+  },
+});
+```
+
+## Query 方法
+
+```js
+query(); // data
+query.state; // reactive deep store
+query.refetch();
+query.reload();
+query.retry();
+query.mutate((previous) => next);
+query.invalidate();
+query.remove();
+query.abort();
+query.destroy();
+query.promise();
+```
+
+## Query Client
+
+```js
+import { queryClient } from 'vanilla-signal-query';
+
+await queryClient.prefetchQuery({
+  queryKey: ['product', 1],
+  staleTime: 60_000,
+  queryFn: () => fetchProduct(1),
+});
+
+queryClient.invalidateQueries(['products']);
+queryClient.setQueryData(['product', 1], (product) => ({
+  ...product,
+  liked: true,
+}));
+```

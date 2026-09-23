@@ -95,7 +95,6 @@ export default [
         label: 'sidebar.relatedLibraries',
         path: 'vanilla-jui/others/related-libraries',
       },
-      { label: 'sidebar.changelog', path: 'vanilla-jui/others/changelog' },
     ],
   },
 ] satisfies SidebarConfig;

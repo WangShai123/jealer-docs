@@ -1,3 +1,3 @@
-# doc-jui
+# Documentation
 
-Documentation for vanilla-jui.
+[Docs Center](https://app.jealer.com/)

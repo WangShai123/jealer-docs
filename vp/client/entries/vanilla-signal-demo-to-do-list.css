@@ -1,0 +1,54 @@
+.j-input {
+    width: 100%;
+}
+
+.j-button {
+    flex-shrink: 0;
+}
+
+.toolbar,
+.filters {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.filters {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filters+p {
+    margin-block: 4px;
+}
+
+.list {
+    display: grid;
+    gap: 8px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid var(--ui-border-subtle);
+    border-radius: 8px;
+    background: var(--ui-bg);
+    padding: 10px;
+}
+
+.item.done .title {
+    color: var(--ui-fg-muted);
+    text-decoration: line-through;
+}
+
+.empty {
+    border: 1px dashed var(--ui-border-subtle);
+    border-radius: 8px;
+    background: var(--ui-bg);
+    color: var(--ui-fg-muted);
+    padding: 24px;
+    text-align: center;
+}

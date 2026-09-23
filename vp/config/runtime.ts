@@ -2,7 +2,7 @@ import type { RuntimeConfig } from 'vanilla-press';
 
 export default {
   siteName: 'Docs',
-  siteUrl: 'https://www.jealer.com/docs',
+  siteUrl: 'https://app.jealer.com/',
   server: {
     footerScript: 'script',
     highlight: {

@@ -1,0 +1,62 @@
+<header class="vp-header">{{{ slots.header }}}</header>
+
+<main class="docs-index">
+  <section class="docs-index-hero" data-reveal="2">
+    <div class="docs-index-hero-copy">
+      <span class="docs-index-kicker">{{ layout.hero.badge }}</span>
+      <h1>{{ layout.hero.title }}</h1>
+      <p class="docs-index-lead">{{ layout.hero.description }}</p>
+    </div>
+
+    <div class="docs-index-metrics" aria-label="{{ layout.metricsLabel }}">
+      {{#layout.hero.metrics}}
+      <div class="docs-index-metric">
+        <strong>{{ value }}</strong>
+        <span>{{ label }}</span>
+      </div>
+      {{/layout.hero.metrics}}
+    </div>
+  </section>
+
+  <section
+    class="docs-index-projects"
+    aria-labelledby="docs-index-projects-title"
+  >
+    <div class="docs-index-section-head" data-reveal="3">
+      <span>{{ layout.projects.badge }}</span>
+      <h2 id="docs-index-projects-title">{{ layout.projects.title }}</h2>
+      <p>{{ layout.projects.description }}</p>
+    </div>
+
+    <div class="docs-index-groups">
+      {{#layout.groups}}
+      <section class="docs-index-group" data-reveal="3">
+        <div class="docs-index-group-head">
+          <span>{{ eyebrow }}</span>
+          <h3>{{ title }}</h3>
+          <p>{{ description }}</p>
+        </div>
+
+        <div class="docs-index-card-grid">
+          {{#items}}
+          <a class="docs-index-card {{ accent }}" href="{{ link }}">
+            <span class="docs-index-card-icon" aria-hidden="true"
+              >{{ icon }}</span
+            >
+            <span class="docs-index-card-body">
+              <strong>{{ title }}</strong>
+              <span>{{ description }}</span>
+            </span>
+            <span class="docs-index-card-meta">{{ meta }}</span>
+          </a>
+          {{/items}}
+        </div>
+      </section>
+      {{/layout.groups}}
+    </div>
+  </section>
+</main>
+
+<footer class="vp-footer" data-vp-footer>
+  {{{ slots.footer-info }}} {{{ slots.social-list }}}
+</footer>

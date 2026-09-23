@@ -4,7 +4,6 @@ export default {
   'zh-CN': {
     menu: {
       home: '首页',
-      learn: '吉木学院',
     },
     sidebar: {
       quickStart: '快速开始',
@@ -88,6 +87,15 @@ export default {
       externalLink: '外部链接',
       editLink: '编辑链接',
       lastUpdated: '更新时间',
+
+      design: '设计',
+
+      apiDesign: 'API 设计',
+      responseHandling: '响应处理',
+      onUploadProgress: '上传进度',
+      interceptorsAndErrors: '拦截器和错误',
+      queryFn: '查询函数',
+      demo: '示例',
     },
     mobile: {
       navigation: '导航',
@@ -111,11 +119,11 @@ export default {
     auth: {
       login: '登录',
     },
+    copied: '复制成功',
   },
   en: {
     menu: {
       home: 'Home',
-      learn: 'Learn',
     },
     sidebar: {
       quickStart: 'Quick Start',
@@ -199,6 +207,15 @@ export default {
       externalLink: 'External Link',
       editLink: 'Edit Link',
       lastUpdated: 'Last Updated',
+
+      design: 'Design',
+
+      apiDesign: 'API Design',
+      responseHandling: 'Response Handling',
+      onUploadProgress: 'Upload Progress',
+      interceptorsAndErrors: 'Interceptors and Errors',
+      queryFn: 'Query Function',
+      demo: 'Demo',
     },
     mobile: {
       navigation: 'Navigation',
@@ -222,5 +239,6 @@ export default {
     auth: {
       login: 'Login',
     },
+    copied: 'Copied',
   },
 } satisfies LanguageMessages;

@@ -9,7 +9,7 @@
     "fix": "vp check --fix"
   },
   "devDependencies": {
-    "vanilla-press": "^1.5.12",
+    "vanilla-press": "^1.5.13",
     "vite-plus": "^0.3.1"
   },
   "allowScripts": {
