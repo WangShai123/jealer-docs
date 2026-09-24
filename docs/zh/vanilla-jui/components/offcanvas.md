@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI 侧滑面板 - JEALER
+keywords: vanilla-jui, offcanvas, docs, JEALER
+description: 介绍 vanilla-jui 的侧滑面板组件的使用方法。
 client:
   entry:
     - offcanvas

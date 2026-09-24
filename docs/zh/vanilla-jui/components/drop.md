@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI 下拉容器 - JEALER
+keywords: vanilla-jui, drop, docs, JEALER
+description: 介绍 vanilla-jui 的下拉容器组件的使用方法。
 client:
   entry:
     - drop

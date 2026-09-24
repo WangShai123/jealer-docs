@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal 文档中心 - JEALER
+keywords: vanilla-signal, docs, JEALER
+description: vanilla-signal 是细粒度响应式运行时，将基于信号的响应式设计带到了无框架、无依赖、无构建的原生 JavaScript 世界。
+---
+
 # Vanilla Signal
 
 > SolidJS 风格的响应式核心，但剥离了框架的编译器和完整的 UI 层，使其更轻量、更易嵌入到任何 JavaScript 项目中。

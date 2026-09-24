@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal JSX - JEALER
+keywords: vanilla-signal, jsx, docs, JEALER
+description: vanilla-signal's JSX module provides hyperscript, JSX runtime, and no-build tagged templates. It reuses insertion and prop handling from the DOM module.
+---
+
 # JSX
 
 The JSX module provides hyperscript, JSX runtime, and no-build tagged templates. It reuses insertion and prop handling from the DOM module.

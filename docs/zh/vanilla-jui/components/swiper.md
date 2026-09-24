@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI 轮播图 - JEALER
+keywords: vanilla-jui, swiper, docs, JEALER
+description: 介绍 vanilla-jui 的轮播图组件的使用方法。
 client:
   entry:
     - swiper

@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Math - JEALER
+keywords: vanilla-press, math, docs, JEALER
+description: Introduce in detail the Math module of vanilla-press.
+---
+
 # Math
 
 VanillaPress includes `markdown-it-mathjax3` and prerenders math in Markdown to static SVG during build.

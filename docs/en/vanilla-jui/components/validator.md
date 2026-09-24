@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Validator - JEALER
+keywords: vanilla-jui, validator, docs, JEALER
+description: Introduce the usage of the Validator component of vanilla-jui.
 client:
   entry:
     - validator

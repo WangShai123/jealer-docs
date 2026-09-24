@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Color Tokens - JEALER
+keywords: vanilla-jui, color-tokens, docs, JEALER
+description: Introduce the color tokens of vanilla-jui.
 client:
   entry:
     - common

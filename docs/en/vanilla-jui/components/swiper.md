@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Swiper - JEALER
+keywords: vanilla-jui, swiper, docs, JEALER
+description: Introduce the usage of the Swiper component of vanilla-jui.
 client:
   entry:
     - swiper

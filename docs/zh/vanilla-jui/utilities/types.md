@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 类型与校验 工具函数 - JEALER
+keywords: vanilla-jui, types, docs, JEALER
+description: vanilla-jui 提供了类型与校验 相关的系列工具函数。
+---
+
 # 类型与校验
 
 ## 导入

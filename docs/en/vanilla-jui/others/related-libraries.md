@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Related Libraries - JEALER
+keywords: vanilla-jui, related-libraries, docs, JEALER
+description: Introduce the related libraries of vanilla-jui.
+---
+
 # Related Libraries
 
 `W3` composable Web infrastructure:

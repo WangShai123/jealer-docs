@@ -1,9 +1,15 @@
+---
+title: Vanilla Press 运行时配置 - JEALER
+keywords: vanilla-press, runtime, docs, JEALER
+description: 详细介绍 vanilla-press 的运行时配置。
+---
+
 # 运行时配置
 
 `vp/config/runtime.ts` 用来描述站点数据、构建阶段数据和浏览器运行时数据。
 
 ```ts
-import type { RuntimeConfig } from 'vanilla-press'
+import type { RuntimeConfig } from 'vanilla-press';
 
 export default {
   siteName: 'VanillaPress',
@@ -60,7 +66,7 @@ export default {
       },
     },
   },
-} satisfies RuntimeConfig
+} satisfies RuntimeConfig;
 ```
 
 ## 顶层配置
@@ -76,21 +82,21 @@ export default {
 
 `server` 只保存构建阶段需要用户自定义的数据。构建期功能尽量按约定执行，不再把开关型配置作为主要设计。
 
-| 配置项                 | 类型                 | 说明                                             |
-| ---------------------- | -------------------- | ------------------------------------------------ |
+| 配置项                 | 类型                 | 说明                                                   |
+| ---------------------- | -------------------- | ------------------------------------------------------ |
 | server.social          | object               | 头部和页脚社交链接配置，key 为图标名，value 为链接地址 |
-| server.footerScript    | "script" \| "module" | `vp/config/footerScript.ts` 输出的脚本类型       |
-| server.highlight.light | string               | 浅色模式 Shiki 主题，默认 `github-light-default` |
-| server.highlight.dark  | string               | 深色模式 Shiki 主题，默认 `github-dark-default`  |
-| server.externalLink    | boolean              | 构建期外链增强，默认启用                         |
-| server.prevNext        | boolean \| object    | 构建期上一页/下一页导航                          |
-| server.i18n            | object               | 构建期国际化元数据                               |
-| server.client.entries  | object               | 自定义 client entry 脚本或样式入口               |
-| server.client.shared   | array \| object      | 供布局脚本和 client entry 复用的 npm 共享依赖    |
-| server.llms            | object               | LLMs 输出与页面 Markdown 操作入口配置            |
-| server.editLink        | object               | 编辑链接数据配置                                 |
-| server.lastEdit        | object               | 最后更新时间数据配置                             |
-| icp                    | string               | ICP 备案号，未配置时不渲染                       |
+| server.footerScript    | "script" \| "module" | `vp/config/footerScript.ts` 输出的脚本类型             |
+| server.highlight.light | string               | 浅色模式 Shiki 主题，默认 `github-light-default`       |
+| server.highlight.dark  | string               | 深色模式 Shiki 主题，默认 `github-dark-default`        |
+| server.externalLink    | boolean              | 构建期外链增强，默认启用                               |
+| server.prevNext        | boolean \| object    | 构建期上一页/下一页导航                                |
+| server.i18n            | object               | 构建期国际化元数据                                     |
+| server.client.entries  | object               | 自定义 client entry 脚本或样式入口                     |
+| server.client.shared   | array \| object      | 供布局脚本和 client entry 复用的 npm 共享依赖          |
+| server.llms            | object               | LLMs 输出与页面 Markdown 操作入口配置                  |
+| server.editLink        | object               | 编辑链接数据配置                                       |
+| server.lastEdit        | object               | 最后更新时间数据配置                                   |
+| icp                    | string               | ICP 备案号，未配置时不渲染                             |
 
 ## client
 

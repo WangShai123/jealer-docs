@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Layout API - JEALER
+keywords: vanilla-press, layout, docs, JEALER
+description: Introduce in detail the Layout API module of vanilla-press.
+---
+
 # Layout API
 
 Layouts control the final HTML shell generated for a Markdown page.
@@ -67,8 +73,8 @@ export default function initLandingLayout(root: Document, config: unknown) {
   root
     .querySelectorAll('.landing-layout:not([data-layout-ready="true"])')
     .forEach((node) => {
-      node.setAttribute('data-layout-ready', 'true')
-    })
+      node.setAttribute('data-layout-ready', 'true');
+    });
 }
 ```
 

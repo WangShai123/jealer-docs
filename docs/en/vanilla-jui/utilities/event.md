@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Event Utilities - JEALER
+keywords: vanilla-jui, event, docs, JEALER
+description: Introduce the event utilities methods of vanilla-jui.
+---
+
 # Events
 
 ## Import
@@ -12,12 +18,12 @@ import { createEventManager, listen } from 'vanilla-jui';
 
 ### Instance Methods
 
-| Method                                     | Return value | Behavior                                             |
-| ------------------------------------------ | ------------ | ---------------------------------------------------- |
-| `on(key, target, type, handler, options?)` | `() => void` | Unbinds the old listener before rebinding the same key |
+| Method                                     | Return value | Behavior                                                     |
+| ------------------------------------------ | ------------ | ------------------------------------------------------------ |
+| `on(key, target, type, handler, options?)` | `() => void` | Unbinds the old listener before rebinding the same key       |
 | `off(key)`                                 | `boolean`    | Unbinds and deletes the record; returns `false` when missing |
-| `clear()`                                  | `void`       | Unbinds all recorded listeners                       |
-| `size()`                                   | `number`     | Current record count                                 |
+| `clear()`                                  | `void`       | Unbinds all recorded listeners                               |
+| `size()`                                   | `number`     | Current record count                                         |
 
 ```ts
 const events = createEventManager();

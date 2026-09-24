@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 组件 API - JEALER
+keywords: vanilla-press, component api, docs, JEALER
+description: 详细介绍 vanilla-press 的组件 API，包括组件目录约定、组件约定、组件模块导出等。
+---
+
 # 组件 API
 
 项目组件位于 `vp/components/`。构建时会加载这些组件；如果组件提供运行时增强代码，会被打包成独立组件脚本，而不是合并进 `runtime.js`。
@@ -21,7 +27,7 @@ VanillaPress 会加载 `vp/components/*.ts`、`vp/components/*.js`、`vp/compone
 组件模块导出一个组件对象：
 
 ```typescript
-import type { MarkdownComponentDefinition } from 'vanilla-press'
+import type { MarkdownComponentDefinition } from 'vanilla-press';
 
 export default {
   name: 'badge',
@@ -30,23 +36,23 @@ export default {
       'paragraph',
       'badge',
       (state, startLine, endLine, silent) => {
-        const start = state.bMarks[startLine]
-        const end = state.eMarks[startLine]
-        const line = state.src.slice(start, end).trim()
-        if (!line.startsWith(':::badge')) return false
-        if (silent) return true
+        const start = state.bMarks[startLine];
+        const end = state.eMarks[startLine];
+        const line = state.src.slice(start, end).trim();
+        if (!line.startsWith(':::badge')) return false;
+        if (silent) return true;
 
-        const content = line.replace(/^:::badge/, '').trim()
-        const token = state.push('badge', 'span', 0)
-        token.content = content
-        markComponent(state.env, 'badge')
-        state.line = startLine + 1
-        return true
+        const content = line.replace(/^:::badge/, '').trim();
+        const token = state.push('badge', 'span', 0);
+        token.content = content;
+        markComponent(state.env, 'badge');
+        state.line = startLine + 1;
+        return true;
       }
-    )
+    );
 
     md.renderer.rules.badge = (tokens, index) =>
-      `<span class="vp-badge" data-vp-component="badge">${escapeHtml(tokens[index].content)}</span>`
+      `<span class="vp-badge" data-vp-component="badge">${escapeHtml(tokens[index].content)}</span>`;
   },
   init(root) {
     root
@@ -54,10 +60,10 @@ export default {
         '[data-vp-component="badge"]:not([data-vp-ready="true"])'
       )
       .forEach((node) => {
-        node.setAttribute('data-vp-ready', 'true')
-      })
+        node.setAttribute('data-vp-ready', 'true');
+      });
   },
-} satisfies MarkdownComponentDefinition
+} satisfies MarkdownComponentDefinition;
 ```
 
 也可以使用命名导出。VanillaPress 会按下面顺序解析组件模块：
@@ -68,18 +74,18 @@ export default {
   name: 'badge',
   install() {},
   init() {},
-} satisfies MarkdownComponentDefinition
+} satisfies MarkdownComponentDefinition;
 
 // 方式二：导出 component 对象
 export const component = {
   name: 'badge',
   install() {},
   init() {},
-} satisfies MarkdownComponentDefinition
+} satisfies MarkdownComponentDefinition;
 
 // 方式三：直接命名导出字段
-export const name = 'badge'
-export const dependsOn = ['tabs']
+export const name = 'badge';
+export const dependsOn = ['tabs'];
 export function install(md, context) {}
 export function init(root, config) {}
 ```
@@ -120,7 +126,7 @@ export default {
   init(root) {
     // 会在 tabs 之后执行。
   },
-} satisfies MarkdownComponentDefinition
+} satisfies MarkdownComponentDefinition;
 ```
 
 ## 初始化模型

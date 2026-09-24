@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 动画控制器 - JEALER
+keywords: vanilla-jui, animation, docs, JEALER
+description: 介绍 vanilla-jui 的动画控制器功能。
+---
+
 # 动画控制器
 
 JUI 的动画控制器负责两件事：

@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal Core - JEALER
+keywords: vanilla-signal, core, docs, JEALER
+description: vanilla-signal Core is the foundation of the reactive runtime. It handles dependency tracking, computation scheduling, owner lifecycles, and error boundaries. It does not depend on Store, Async, DOM, or JSX.
+---
+
 # Core
 
 Core is the foundation of the reactive runtime. It handles dependency tracking, computation scheduling, owner lifecycles, and error boundaries. It does not depend on Store, Async, DOM, or JSX.

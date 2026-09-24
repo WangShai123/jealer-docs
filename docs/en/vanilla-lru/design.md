@@ -1,3 +1,9 @@
+---
+title: Vanilla Lru Design Rationale - JEALER
+keywords: vanilla-lru, design, docs, JEALER
+description: Introduce the design rationale of vanilla-lru.
+---
+
 # Design Rationale
 
 ## Why extends Map

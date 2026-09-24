@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Footer Script - JEALER
+keywords: vanilla-press, footer-script, docs, JEALER
+description: Introduce in detail the Footer Script module of vanilla-press.
+---
+
 # Footer Script
 
 Footer script lets a site inject one shared JavaScript snippet into every generated page.
@@ -13,7 +19,7 @@ export default {
   server: {
     footerScript: 'script',
   },
-}
+};
 ```
 
 `server.footerScript` accepts two values:
@@ -28,18 +34,18 @@ export default {
 Write the script content in `vp/config/footerScript.ts`:
 
 ```typescript
-import type { FooterScriptConfig } from 'vanilla-press'
+import type { FooterScriptConfig } from 'vanilla-press';
 
 export default `
 console.log('site footer script loaded');
-` satisfies FooterScriptConfig
+` satisfies FooterScriptConfig;
 ```
 
 After server, every page includes:
 
 ```html
 <script>
-  console.log('site footer script loaded')
+  console.log('site footer script loaded');
 </script>
 ```
 
@@ -52,14 +58,14 @@ Footer script is useful for site-wide code such as analytics, tracking, conversi
 For example, Google Analytics:
 
 ```typescript
-import type { FooterScriptConfig } from 'vanilla-press'
+import type { FooterScriptConfig } from 'vanilla-press';
 
 export default `
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-XXXXXXXXXX');
-` satisfies FooterScriptConfig
+` satisfies FooterScriptConfig;
 ```
 
 If the analytics provider requires an external SDK, create a `script` element dynamically inside the snippet, or set `server.footerScript: 'module'` for module script code.

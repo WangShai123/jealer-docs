@@ -1,3 +1,9 @@
+---
+title: Vanilla Request 示例 - JEALER
+keywords: vanilla-request, demo, docs, JEALER
+description: 详细介绍 vanilla-request 的相关示例。
+---
+
 # Vanilla Request 示例
 
 > 授权与 token 续期

@@ -1,6 +1,12 @@
-# Vanilla Query
+---
+title: Vanilla Signal Query Docs - JEALER
+keywords: vanilla-signal-query, docs, JEALER
+description: vanilla-signal-query is a small server-state and async query runtime for vanilla JavaScript.
+---
 
-`vanilla-query` is a small server-state and async query runtime for vanilla JavaScript. It provides reactive query state, pluggable data cache adapters, stale refresh, request dedupe, retry, timeout, abort, prefetch and cache invalidation.
+# Vanilla Signal Query
+
+`vanilla-signal-query` is a small server-state and async query runtime for vanilla JavaScript. It provides reactive query state, pluggable data cache adapters, stale refresh, request dedupe, retry, timeout, abort, prefetch and cache invalidation.
 
 It is designed to work with [`vanilla-signal`](/en/vanilla-signal):
 

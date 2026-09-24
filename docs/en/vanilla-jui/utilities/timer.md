@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Timer Utilities - JEALER
+keywords: vanilla-jui, timer, docs, JEALER
+description: Introduce the timer utilities methods of vanilla-jui.
+---
+
 # Timer
 
 ## Import

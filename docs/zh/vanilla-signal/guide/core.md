@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal 核心模块 - JEALER
+keywords: vanilla-signal, core, docs, JEALER
+description: vanilla-signal 的核心模块，是响应式运行时基础层，负责依赖收集、计算调度、owner 生命周期和错误边界。它不依赖 Store、Async、DOM 或 JSX。
+---
+
 # Core
 
 Core 是响应式运行时基础层，负责依赖收集、计算调度、owner 生命周期和错误边界。它不依赖 Store、Async、DOM 或 JSX。

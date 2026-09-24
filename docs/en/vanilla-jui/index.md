@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Home
-keywords: vanilla-jui, UI Library, JavaScript
+title: Vanilla JUI - JEALER
+keywords: vanilla-jui, UI Library, JavaScript, JEALER
 description: Vanilla-JUI is a lightweight, composable, and themeable native JavaScript UI component library.
 layouts:
   home:

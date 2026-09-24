@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Avatar - JEALER
+keywords: vanilla-jui, avatar, docs, JEALER
+description: Introduce the avatar CSS classes of vanilla-jui.
+---
+
 # Avatar
 
 > CSS tools such as `tailwindcss` and `unocss` are recommended. They make UI customization easier and help build smaller CSS files on demand.

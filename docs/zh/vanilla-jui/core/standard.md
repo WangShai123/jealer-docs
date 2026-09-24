@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 组件设计标准 - JEALER
+keywords: vanilla-jui, standard, docs, JEALER
+description: 介绍 vanilla-jui 的组件设计标准：使用者把数据、状态和行为交给组件，组件自己负责把这些内容稳定地呈现在 DOM 中。
+---
+
 # 组件设计标准
 
 JUI 组件的目标是：使用者把数据、状态和行为交给组件，组件自己负责把这些内容稳定地呈现在 DOM 中。

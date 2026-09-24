@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI CSS 架构 - JEALER
+keywords: vanilla-jui, tokens, docs, JEALER
+description: 介绍 vanilla-jui 的 CSS 架构。
+---
+
 # CSS 架构
 
 JUI 提供一套基于 CSS 变量 和 文档根类 构建的多维度的 Design Token 引擎。基于简短的代码，实现千人千面的主题模式。

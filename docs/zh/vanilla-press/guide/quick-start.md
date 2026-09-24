@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 快速开始 - JEALER
+keywords: vanilla-press, quick-start, docs, JEALER
+description: 介绍 vanilla-press 的功能特点、安装方法、构建流程、项目架构等。
+---
+
 # 快速开始
 
 `vanilla-press` 是一款轻量、自由、高可定制的静态文档生成器。

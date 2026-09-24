@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 图标 - JEALER
+keywords: vanilla-jui, icons, docs, JEALER
+description: 介绍 vanilla-jui 的图标 CSS 类。
+---
+
 # 图标
 
 > 推荐使用 `tailwindcss`, `unocss` 等 CSS 工具，更有利于个性化定制 UI 和按需构建最小化 CSS 文件。

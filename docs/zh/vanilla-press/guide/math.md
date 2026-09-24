@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 数学公式 - JEALER
+keywords: vanilla-press, math, docs, JEALER
+description: 详细介绍 vanilla-press 的数学公式功能。
+---
+
 # 数学公式
 
 VanillaPress 内置 `markdown-it-mathjax3`，在构建时把 Markdown 中的数学公式预渲染为静态 SVG。

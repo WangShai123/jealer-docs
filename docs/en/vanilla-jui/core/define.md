@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Define Component - JEALER
+keywords: vanilla-jui, define, docs, JEALER
+description: Introduce the usage of the DefineComponent function of vanilla-jui.
+---
+
 # Define Component
 
 `defineComponent()` is the base tool for defining stateful JUI components. It unifies shared lifecycle, state updates, events, plugins, and cleanup rules. It does not design the component template for you, and it does not decide business behavior for you.
@@ -67,50 +73,50 @@ In this code:
 
 `defineComponent()` receives a definition object:
 
-| Field                 | Description |
-| --------------------- | ----------- |
-| `name`                | Component name, used in error messages |
-| `props`               | Creation options object |
-| `state`               | Reactive state object, usually from `createDeepStore()` |
-| `view(context)`       | Creates the root node, runs only during build |
-| `actions`             | Public methods merged onto the component instance |
-| `ownsElement`         | Whether to remove the root node on destroy. Removed by default |
+| Field                 | Description                                                         |
+| --------------------- | ------------------------------------------------------------------- |
+| `name`                | Component name, used in error messages                              |
+| `props`               | Creation options object                                             |
+| `state`               | Reactive state object, usually from `createDeepStore()`             |
+| `view(context)`       | Creates the root node, runs only during build                       |
+| `actions`             | Public methods merged onto the component instance                   |
+| `ownsElement`         | Whether to remove the root node on destroy. Removed by default      |
 | `normalizeStatePatch` | Optional, converts an incoming state patch into the internal format |
-| `validateStatePatch`  | Optional, validates a state patch |
-| `onBuild`             | Runs after build |
-| `onMount`             | Runs after mount |
-| `onUnmount`           | Runs before unmount |
-| `onDestroy`           | Runs when destroy starts |
+| `validateStatePatch`  | Optional, validates a state patch                                   |
+| `onBuild`             | Runs after build                                                    |
+| `onMount`             | Runs after mount                                                    |
+| `onUnmount`           | Runs before unmount                                                 |
+| `onDestroy`           | Runs when destroy starts                                            |
 
 The `context` passed to `view(context)` contains:
 
-| Member                    | Description |
-| ------------------------- | ----------- |
-| `props`                   | Current props |
-| `state`                   | Current state |
-| `runtime`                 | `built`, `mounted`, and `destroyed` flags |
-| `element`                 | Current root node. `null` before build |
+| Member                    | Description                                                |
+| ------------------------- | ---------------------------------------------------------- |
+| `props`                   | Current props                                              |
+| `state`                   | Current state                                              |
+| `runtime`                 | `built`, `mounted`, and `destroyed` flags                  |
+| `element`                 | Current root node. `null` before build                     |
 | `own(cleanup)`            | Registers a cleanup function or an object with `destroy()` |
-| `assertActive(operation)` | Throws when called after destroy |
-| `emit(event, ...args)`    | Emits a component event |
+| `assertActive(operation)` | Throws when called after destroy                           |
+| `emit(event, ...args)`    | Emits a component event                                    |
 
 ## Returned Instance
 
 The returned instance contains public control methods and the `actions` you defined:
 
-| Public method          | Description |
-| ---------------------- | ----------- |
+| Public method          | Description                                                                       |
+| ---------------------- | --------------------------------------------------------------------------------- |
 | `build()`              | Creates the view without inserting it into the document. Can be called repeatedly |
-| `mount(container)`     | Automatically builds and inserts the root node into the container |
-| `unmount()`            | Removes the root node from the document while keeping state and owner |
-| `setState(patch)`      | Merges state updates |
-| `setState(key, value)` | Updates one state field |
-| `own(cleanup)`         | Registers cleanup to run on destroy |
-| `use(plugin, options)` | Installs a plugin |
-| `on(event, listener)`  | Listens to a component event |
-| `off(event, listener)` | Removes a component event listener |
-| `emit(event, ...args)` | Emits a component event |
-| `destroy()`            | Releases resources, view, and events. The instance cannot be used after destroy |
+| `mount(container)`     | Automatically builds and inserts the root node into the container                 |
+| `unmount()`            | Removes the root node from the document while keeping state and owner             |
+| `setState(patch)`      | Merges state updates                                                              |
+| `setState(key, value)` | Updates one state field                                                           |
+| `own(cleanup)`         | Registers cleanup to run on destroy                                               |
+| `use(plugin, options)` | Installs a plugin                                                                 |
+| `on(event, listener)`  | Listens to a component event                                                      |
+| `off(event, listener)` | Removes a component event listener                                                |
+| `emit(event, ...args)` | Emits a component event                                                           |
+| `destroy()`            | Releases resources, view, and events. The instance cannot be used after destroy   |
 
 `element` is a readonly getter. It is `null` before the component is built, and points to the stable root node after build.
 

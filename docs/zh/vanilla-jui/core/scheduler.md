@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 调度器 - JEALER
+keywords: vanilla-jui, scheduler, docs, JEALER
+description: 介绍 vanilla-jui 的调度器功能。
+---
+
 # 调度器
 
 在处理微任务调度时，`createScheduledTask()` 会把同一轮中的多次请求合并成一次执行。它适合处理昂贵但不需要立刻重复执行的副作用，例如布局测量、滚动位置同步、旧组件的集中刷新。

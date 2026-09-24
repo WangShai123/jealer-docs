@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 视图层 - JEALER
+keywords: vanilla-jui, view, docs, JEALER
+description: 介绍 vanilla-jui 的视图层功能。
+---
+
 # 视图层
 
 JUI 的视图层负责把响应式状态连接到 DOM。它的关键要求是：根节点稳定，局部内容随状态变化。

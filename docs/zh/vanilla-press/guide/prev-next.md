@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 分页导航 - JEALER
+keywords: vanilla-press, prev next, docs, JEALER
+description: 详细介绍 vanilla-press 的分页导航功能。
+---
+
 # 分页导航
 
 帮助用户快速浏览文档的分页导航功能。
@@ -11,7 +17,7 @@ export default {
   server: {
     prevNext: true,
   },
-}
+};
 ```
 
 ## 插槽

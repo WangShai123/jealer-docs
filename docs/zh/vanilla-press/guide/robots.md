@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Robots - JEALER
+keywords: vanilla-press, robots, docs, JEALER
+description: 详细介绍 vanilla-press 的 Robots 输出功能。
+---
+
 # Robots
 
 生成 `robots.txt`，用于告诉搜索引擎哪些路径可以抓取。
@@ -19,7 +25,7 @@ export default {
       disallow: ['/private/'],
     },
   ],
-}
+};
 ```
 
 ## 字段

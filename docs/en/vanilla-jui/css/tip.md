@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Tip - JEALER
+keywords: vanilla-jui, tip, docs, JEALER
+description: Introduce the tip CSS classes of vanilla-jui.
 client:
   entry:
     - tip

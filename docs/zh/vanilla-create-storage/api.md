@@ -1,3 +1,9 @@
+---
+title: Vanilla Create Storage API 文档 - JEALER
+keywords: vanilla-create-storage, api, docs, JEALER
+description: 详细介绍 Vanilla Create Storage 的相关 API。
+---
+
 # Vanilla Create Storage API 文档
 
 `vanilla-create-storage` 是一个面向浏览器存储的异步统一 API。

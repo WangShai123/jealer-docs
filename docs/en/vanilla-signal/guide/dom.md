@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal DOM - JEALER
+keywords: vanilla-signal, dom, docs, JEALER
+description: vanilla-signal's DOM module binds reactive values to the browser DOM. It depends on Core, but not Store or Async.
+---
+
 # DOM
 
 The DOM module binds reactive values to the browser DOM. It depends on Core, but not Store or Async.

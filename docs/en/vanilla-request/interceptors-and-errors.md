@@ -1,4 +1,10 @@
-# Interceptors and Errors
+---
+title: Vanilla Request Interceptors and Errors Docs - JEALER
+keywords: vanilla-request, interceptors, errors, docs, JEALER
+description: About vanilla-request interceptors and errors details.
+---
+
+# Vanilla Request Interceptors and Errors
 
 ## Request Lifecycle
 

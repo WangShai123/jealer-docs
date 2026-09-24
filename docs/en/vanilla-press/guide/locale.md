@@ -1,3 +1,9 @@
+---
+title: Vanilla Press i18n - JEALER
+keywords: vanilla-press, i18n, docs, JEALER
+description: Introduce in detail the i18n module of vanilla-press.
+---
+
 # Internationalization
 
 Enable multilingual documentation so users can browse the site in different languages.
@@ -19,7 +25,7 @@ export default {
       redirectToDefault: true,
     },
   },
-}
+};
 ```
 
 ## Metadata
@@ -56,7 +62,7 @@ export default {
       api: 'API',
     },
   },
-}
+};
 ```
 
 ## Redirect

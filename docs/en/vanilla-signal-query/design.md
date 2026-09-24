@@ -1,4 +1,10 @@
-# Vanilla Signal Query Design Documentation
+---
+title: Vanilla Signal Query Design Principles - JEALER
+keywords: vanilla-signal-query, design, docs, JEALER
+description: vanilla-signal-query is a small server-state and async query runtime for vanilla JavaScript. It provides reactive query state, pluggable data cache adapters, stale refresh, request dedupe, retry, timeout, abort, prefetch and cache invalidation. server state management.
+---
+
+# Vanilla Signal Query Design Principles
 
 ## Design Principles
 

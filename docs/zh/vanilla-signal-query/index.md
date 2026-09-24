@@ -1,6 +1,12 @@
-# Vanilla Query
+---
+title: Vanilla Signal Query 文档中心 - JEALER
+keywords: vanilla-signal-query, docs, JEALER
+description: vanilla-signal-query 是一个面向原生 JavaScript 的服务端状态和异步 query 运行时。它提供响应式请求状态、可插拔数据缓存适配器、stale 刷新、请求去重、重试、超时、取消、预取和缓存失效。
+---
 
-`vanilla-query` 是一个面向原生 JavaScript 的服务端状态和异步 query 运行时。它提供响应式请求状态、可插拔数据缓存适配器、stale 刷新、请求去重、重试、超时、取消、预取和缓存失效。
+# Vanilla Signal Query
+
+`vanilla-signal-query` 是一个面向原生 JavaScript 的服务端状态和异步 query 运行时。它提供响应式请求状态、可插拔数据缓存适配器、stale 刷新、请求去重、重试、超时、取消、预取和缓存失效。
 
 它设计为配合 [vanilla-signal](/zh/vanilla-signal/) 使用：
 

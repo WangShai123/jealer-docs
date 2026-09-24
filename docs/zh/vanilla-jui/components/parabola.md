@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI 抛物线 - JEALER
+keywords: vanilla-jui, parabola, docs, JEALER
+description: 介绍 vanilla-jui 的抛物线组件的使用方法。
 client:
   entry:
     - parabola

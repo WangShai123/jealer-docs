@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 字体 - JEALER
+keywords: vanilla-jui, fonts, docs, JEALER
+description: 介绍 vanilla-jui 的字体 CSS 类。
+---
+
 # 字体
 
 > 推荐使用 `tailwindcss`, `unocss` 等 CSS 工具，更有利于个性化定制 UI 和按需构建最小化 CSS 文件。

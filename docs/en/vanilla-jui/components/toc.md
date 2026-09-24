@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Toc - JEALER
+keywords: vanilla-jui, toc, docs, JEALER
+description: Introduce the usage of the Toc component of vanilla-jui.
+---
+
 # Table of Contents
 
 Toc scans headings from a content source and automatically generates a page table of contents.

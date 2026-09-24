@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Last Edit - JEALER
+keywords: vanilla-press, last-edit, docs, JEALER
+description: Introduce in detail the Last Edit module of vanilla-press.
+---
+
 # Last Updated
 
 Last updated shows the most recent content update time on documentation pages.
@@ -13,7 +19,7 @@ export default {
   server: {
     lastEdit: true,
   },
-}
+};
 ```
 
 - `false` disables last updated.
@@ -28,7 +34,7 @@ export default {
       utc: true,
     },
   },
-}
+};
 ```
 
 ### text
@@ -44,7 +50,7 @@ export default {
       text: 'editor.lastUpdated',
     },
   },
-}
+};
 ```
 
 Default multilingual config:
@@ -61,7 +67,7 @@ export default {
       lastUpdated: 'Last updated:',
     },
   },
-}
+};
 ```
 
 ### Date/Time Format
@@ -69,7 +75,7 @@ export default {
 `format` controls how the time is displayed. The default value is:
 
 ```ts
-'yyyy-MM-dd HH:mm:ss'
+'yyyy-MM-dd HH:mm:ss';
 ```
 
 `vanilla-press` uses [date-fns](https://www.npmjs.com/package/date-fns) `format()` for date/time formatting. The value is formatted in the local timezone of the server environment.
@@ -81,7 +87,7 @@ export default {
       format: 'yyyy/MM/dd HH:mm',
     },
   },
-}
+};
 ```
 
 Common tokens:
@@ -131,7 +137,7 @@ export default {
       utc: false,
     },
   },
-}
+};
 ```
 
 ## Cache Rules

@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal Devtools - JEALER
+keywords: vanilla-signal, devtools, docs, JEALER
+description: vanilla-signal provides a minimal usable Devtools protocol: stable event objects, reactive graph snapshots, owner paths, and debugName/name labels.
+---
+
 # Devtools
 
 1.1.7 provides a minimal usable Devtools protocol: stable event objects, reactive graph snapshots, owner paths, and `debugName`/`name` labels.

@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Tokens - JEALER
+keywords: vanilla-jui, tokens, docs, JEALER
+description: Introduce the css tokens of vanilla-jui.
+---
+
 # CSS Architecture
 
 JUI provides a multi-dimensional Design Token engine built with CSS variables and document root classes. With a small amount of code, it can support many personalized theme modes.
@@ -44,26 +50,26 @@ Common basic utility tokens.
 
 ### Transition Duration
 
-| Token        | Value   | Description       |
-| ------------ | ------- | ----------------- |
-| `--speed-sm` | `0.15s` | Fast transition   |
-| `--speed-md` | `0.25s` | Medium transition |
-| `--speed-lg` | `0.5s`  | Slow transition   |
+| Token        | Value   | Description          |
+| ------------ | ------- | -------------------- |
+| `--speed-sm` | `0.15s` | Fast transition      |
+| `--speed-md` | `0.25s` | Medium transition    |
+| `--speed-lg` | `0.5s`  | Slow transition      |
 | `--speed-xl` | `0.75s` | Very slow transition |
 
 ### Text Scale
 
-| Token        | Value      | Description     |
-| ------------ | ---------- | --------------- |
+| Token        | Value      | Description        |
+| ------------ | ---------- | ------------------ |
 | `--text-xs`  | `0.75rem`  | Extra small (12px) |
-| `--text-sm`  | `0.875rem` | Small (14px)    |
-| `--text-md`  | `1rem`     | Medium (16px)   |
-| `--text-lg`  | `1.125rem` | Large (18px)    |
+| `--text-sm`  | `0.875rem` | Small (14px)       |
+| `--text-md`  | `1rem`     | Medium (16px)      |
+| `--text-lg`  | `1.125rem` | Large (18px)       |
 | `--text-xl`  | `1.25rem`  | Extra large (20px) |
-| `--text-2xl` | `1.5rem`   | 2x large (24px) |
-| `--text-3xl` | `1.875rem` | 3x large (30px) |
-| `--text-4xl` | `2.25rem`  | 4x large (36px) |
-| `--text-5xl` | `3rem`     | 5x large (48px) |
+| `--text-2xl` | `1.5rem`   | 2x large (24px)    |
+| `--text-3xl` | `1.875rem` | 3x large (30px)    |
+| `--text-4xl` | `2.25rem`  | 4x large (36px)    |
+| `--text-5xl` | `3rem`     | 5x large (48px)    |
 
 ### Component Font Sizes
 
@@ -74,35 +80,35 @@ The default font-size theme is `j-font-sm`.
 | Token             | Default    | j-font-sm  | j-font-md  | Description |
 | ----------------- | ---------- | ---------- | ---------- | ----------- |
 | `--font-size-xs`  | `0.625rem` | `0.625rem` | `0.75rem`  | Extra small |
-| `--font-size-sm`  | `0.75rem`  | `0.75rem`  | `0.875rem` | Small |
-| `--font-size-md`  | `0.875rem` | `0.875rem` | `1rem`     | Medium |
-| `--font-size-lg`  | `1rem`     | `1rem`     | `1.125rem` | Large |
+| `--font-size-sm`  | `0.75rem`  | `0.75rem`  | `0.875rem` | Small       |
+| `--font-size-md`  | `0.875rem` | `0.875rem` | `1rem`     | Medium      |
+| `--font-size-lg`  | `1rem`     | `1rem`     | `1.125rem` | Large       |
 | `--font-size-xl`  | `1.125rem` | `1.125rem` | `1.25rem`  | Extra large |
-| `--font-size-2xl` | `1.25rem`  | `1.25rem`  | `1.5rem`   | 2x large |
+| `--font-size-2xl` | `1.25rem`  | `1.25rem`  | `1.5rem`   | 2x large    |
 
 ### Font Weight
 
 | Token               | Value |
 | ------------------- | ----- |
-| `--font-thin`       | 100 |
-| `--font-extraLight` | 200 |
-| `--font-light`      | 300 |
-| `--font-normal`     | 400 |
-| `--font-medium`     | 500 |
-| `--font-semiBold`   | 600 |
-| `--font-bold`       | 700 |
-| `--font-extraBold`  | 800 |
-| `--font-black`      | 900 |
+| `--font-thin`       | 100   |
+| `--font-extraLight` | 200   |
+| `--font-light`      | 300   |
+| `--font-normal`     | 400   |
+| `--font-medium`     | 500   |
+| `--font-semiBold`   | 600   |
+| `--font-bold`       | 700   |
+| `--font-extraBold`  | 800   |
+| `--font-black`      | 900   |
 
 ### Line Height
 
-| Token                     | Value  | Description |
-| ------------------------- | ------ | ----------- |
-| `--line-height`           | `1.5`  | Default line height |
-| `--line-height-paragraph` | `1.5`  | Paragraph line height |
+| Token                     | Value  | Description            |
+| ------------------------- | ------ | ---------------------- |
+| `--line-height`           | `1.5`  | Default line height    |
+| `--line-height-paragraph` | `1.5`  | Paragraph line height  |
 | `--line-height-pre`       | `1.4`  | Code block line height |
-| `--line-height-heading`   | `1.25` | Heading line height |
-| `--line-height-self`      | `1`    | Single-line height |
+| `--line-height-heading`   | `1.25` | Heading line height    |
+| `--line-height-self`      | `1`    | Single-line height     |
 
 ### Element Height
 
@@ -110,17 +116,17 @@ Different `j-font-*` font-size themes and different `desktop` device themes prov
 
 The defaults are `j-font-sm` and `desktop`.
 
-| Token             | Default   | j-font-sm | j-font-md | Description |
-| ----------------- | --------- | --------- | --------- | ----------- |
-| `--el-height-3xs` | `1rem`    | `1rem`    | `1.25rem` | 3x small (16px) |
-| `--el-height-2xs` | `1.25rem` | `1.25rem` | `1.5rem`  | 2x small (20px) |
+| Token             | Default   | j-font-sm | j-font-md | Description        |
+| ----------------- | --------- | --------- | --------- | ------------------ |
+| `--el-height-3xs` | `1rem`    | `1rem`    | `1.25rem` | 3x small (16px)    |
+| `--el-height-2xs` | `1.25rem` | `1.25rem` | `1.5rem`  | 2x small (20px)    |
 | `--el-height-xs`  | `1.5rem`  | `1.5rem`  | `1.75rem` | Extra small (24px) |
-| `--el-height-sm`  | `1.75rem` | `1.75rem` | `2rem`    | Small (28px) |
-| `--el-height-md`  | `2rem`    | `2rem`    | `2.25rem` | Medium (32px) |
-| `--el-height-lg`  | `2.25rem` | `2.25rem` | `2.5rem`  | Large (36px) |
+| `--el-height-sm`  | `1.75rem` | `1.75rem` | `2rem`    | Small (28px)       |
+| `--el-height-md`  | `2rem`    | `2rem`    | `2.25rem` | Medium (32px)      |
+| `--el-height-lg`  | `2.25rem` | `2.25rem` | `2.5rem`  | Large (36px)       |
 | `--el-height-xl`  | `2.5rem`  | `2.5rem`  | `2.75rem` | Extra large (40px) |
-| `--el-height-2xl` | `2.75rem` | `2.75rem` | `3rem`    | 2x large (44px) |
-| `--el-height-3xl` | `3rem`    | `3rem`    | `3.25rem` | 3x large (52px) |
+| `--el-height-2xl` | `2.75rem` | `2.75rem` | `3rem`    | 2x large (44px)    |
+| `--el-height-3xl` | `3rem`    | `3rem`    | `3.25rem` | 3x large (52px)    |
 
 ### Radius
 
@@ -128,16 +134,16 @@ Different `j-radius-*` radius themes provide different radius scales.
 
 The default radius theme is `j-radius-md`.
 
-| Token           | Value      | Description |
-| --------------- | ---------- | ----------- |
-| `--radius-2xs`  | `0.125rem` | Extra small (2px) |
-| `--radius-xs`   | `0.25rem`  | Small (4px) |
-| `--radius-sm`   | `0.375rem` | Base (6px) |
-| `--radius-md`   | `0.5rem`   | Medium (8px) |
-| `--radius-lg`   | `0.75rem`  | Large (12px) |
+| Token           | Value      | Description        |
+| --------------- | ---------- | ------------------ |
+| `--radius-2xs`  | `0.125rem` | Extra small (2px)  |
+| `--radius-xs`   | `0.25rem`  | Small (4px)        |
+| `--radius-sm`   | `0.375rem` | Base (6px)         |
+| `--radius-md`   | `0.5rem`   | Medium (8px)       |
+| `--radius-lg`   | `0.75rem`  | Large (12px)       |
 | `--radius-xl`   | `1rem`     | Extra large (16px) |
-| `--radius-2xl`  | `1.5rem`   | 2x large (24px) |
-| `--radius-full` | `9999px`   | Full round |
+| `--radius-2xl`  | `1.5rem`   | 2x large (24px)    |
+| `--radius-full` | `9999px`   | Full round         |
 
 ### Shadow
 
@@ -145,12 +151,12 @@ Different `j-shadow-*` shadow themes provide different shadow scales.
 
 The default shadow theme is `j-shadow-md`.
 
-| Token         | Description |
-| ------------- | ----------- |
-| `--shadow-xs` | Smallest shadow |
-| `--shadow-sm` | Small shadow |
-| `--shadow-md` | Medium shadow |
-| `--shadow-lg` | Large shadow |
+| Token         | Description        |
+| ------------- | ------------------ |
+| `--shadow-xs` | Smallest shadow    |
+| `--shadow-sm` | Small shadow       |
+| `--shadow-md` | Medium shadow      |
+| `--shadow-lg` | Large shadow       |
 | `--shadow-xl` | Extra large shadow |
 
 ### Breakpoints
@@ -186,23 +192,23 @@ The default shadow theme is `j-shadow-md`.
 
 | Token           | Value | Description |
 | --------------- | ----- | ----------- |
-| `--z-0`         | 0     | Base layer |
-| `--z-1`         | 1     | Above base |
-| `--z-badge`     | 2     | Badge |
-| `--z-submenu`   | 5     | Submenu |
-| `--z-overlay`   | 9500  | Overlay |
-| `--z-offcanvas` | 9600  | Offcanvas |
-| `--z-popup`     | 9700  | Popup |
-| `--z-toast`     | 9800  | Toast |
-| `--z-drop`      | 9900  | Drop menu |
+| `--z-0`         | 0     | Base layer  |
+| `--z-1`         | 1     | Above base  |
+| `--z-badge`     | 2     | Badge       |
+| `--z-submenu`   | 5     | Submenu     |
+| `--z-overlay`   | 9500  | Overlay     |
+| `--z-offcanvas` | 9600  | Offcanvas   |
+| `--z-popup`     | 9700  | Popup       |
+| `--z-toast`     | 9800  | Toast       |
+| `--z-drop`      | 9900  | Drop menu   |
 
 ### Opacity
 
 | Token                | Value  | Description |
 | -------------------- | ------ | ----------- |
-| `--opacity-hover`    | `0.8`  | Hover |
-| `--opacity-active`   | `0.95` | Active |
-| `--opacity-disabled` | `0.65` | Disabled |
+| `--opacity-hover`    | `0.8`  | Hover       |
+| `--opacity-active`   | `0.95` | Active      |
+| `--opacity-disabled` | `0.65` | Disabled    |
 
 ## Directory Structure
 

@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Animation Controller - JEALER
+keywords: vanilla-jui, animation, docs, JEALER
+description: Introduce the animation controller of the vanilla-jui.
+---
+
 # Animation Controller
 
 The JUI animation controller is responsible for two things:
@@ -21,12 +27,12 @@ import {
 
 ## Tool Responsibilities
 
-| Tool                         | Good for |
-| ---------------------------- | -------- |
-| `createTransition()`         | Normal enter and leave animations |
-| `createMotionGroup()`        | Playing multiple node animations together |
-| `createCollapseTransition()` | Expanding and collapsing stable mounted nodes |
-| `createPresence()`           | Mount before enter, leave before unmount |
+| Tool                         | Good for                                                   |
+| ---------------------------- | ---------------------------------------------------------- |
+| `createTransition()`         | Normal enter and leave animations                          |
+| `createMotionGroup()`        | Playing multiple node animations together                  |
+| `createCollapseTransition()` | Expanding and collapsing stable mounted nodes              |
+| `createPresence()`           | Mount before enter, leave before unmount                   |
 | `waitForMotion()`            | Waiting for existing CSS animation or transition to finish |
 
 Think of them as different tools in the same animation-controller layer: `createTransition()` handles the playback process, and `createPresence()` handles how long the node stays in the document.
@@ -55,20 +61,20 @@ await motion.leave();
 
 ### definition
 
-| Field                  | Description |
-| ---------------------- | ----------- |
-| `keyframes`            | Keyframes from the hidden side to the visible side |
-| `options`              | Web Animations options, such as `duration` and `easing` |
+| Field                  | Description                                                               |
+| ---------------------- | ------------------------------------------------------------------------- |
+| `keyframes`            | Keyframes from the hidden side to the visible side                        |
+| `options`              | Web Animations options, such as `duration` and `easing`                   |
 | `respectReducedMotion` | Whether to respect the system "reduce motion" setting. Defaults to `true` |
 
 `enter()` plays keyframes forward. `leave()` plays array keyframes in reverse.
 
 ### Returned Methods
 
-| Method           | Description |
-| ---------------- | ----------- |
-| `enter(signal?)` | Plays enter animation and returns a Promise |
-| `leave(signal?)` | Plays leave animation and returns a Promise |
+| Method           | Description                                                                 |
+| ---------------- | --------------------------------------------------------------------------- |
+| `enter(signal?)` | Plays enter animation and returns a Promise                                 |
+| `leave(signal?)` | Plays leave animation and returns a Promise                                 |
 | `cancel()`       | Cancels the current animation and releases the internal animation reference |
 
 If `element.animate()` is unavailable, `enter()` and `leave()` complete directly without throwing.
@@ -119,20 +125,20 @@ It reads the current size and the expanded size, then restores the original inli
 
 ### definition
 
-| Field                  | Default                             | Description |
-| ---------------------- | ----------------------------------- | ----------- |
+| Field                  | Default                             | Description                                             |
+| ---------------------- | ----------------------------------- | ------------------------------------------------------- |
 | `axis`                 | `'vertical'`                        | `vertical` controls height, `horizontal` controls width |
-| `fade`                 | `true`                              | Whether to control opacity at the same time |
-| `options`              | `{ duration: 250, easing: 'ease' }` | Web Animations options |
-| `respectReducedMotion` | `true`                              | Whether to respect the system "reduce motion" setting |
+| `fade`                 | `true`                              | Whether to control opacity at the same time             |
+| `options`              | `{ duration: 250, easing: 'ease' }` | Web Animations options                                  |
+| `respectReducedMotion` | `true`                              | Whether to respect the system "reduce motion" setting   |
 
 ### Extra Method
 
 The controller returned by `createCollapseTransition()` has one more method than a normal animation controller:
 
-| Method                   | Description |
-| ------------------------ | ----------- |
-| `setExpanded(expanded)`  | Immediately sets the expanded/collapsed boundary without animation |
+| Method                  | Description                                                        |
+| ----------------------- | ------------------------------------------------------------------ |
+| `setExpanded(expanded)` | Immediately sets the expanded/collapsed boundary without animation |
 
 This method is useful for initialization. For example, when Accordion first renders, inactive panels should be in the collapsed boundary but should not play a collapse animation.
 
@@ -216,24 +222,24 @@ Do not add timeout, RAF, or manual `flushSync` inside these functions.
 
 ## createPresence Options
 
-| Option         | Description |
-| -------------- | ----------- |
-| `elements()`   | Returns root nodes that should be waited on for animation |
-| `mount()`      | Places nodes into the document |
-| `activate()`   | Synchronously writes visible state |
-| `deactivate()` | Synchronously writes hidden state |
-| `unmount()`    | Removes nodes after leave finishes |
+| Option         | Description                                                                       |
+| -------------- | --------------------------------------------------------------------------------- |
+| `elements()`   | Returns root nodes that should be waited on for animation                         |
+| `mount()`      | Places nodes into the document                                                    |
+| `activate()`   | Synchronously writes visible state                                                |
+| `deactivate()` | Synchronously writes hidden state                                                 |
+| `unmount()`    | Removes nodes after leave finishes                                                |
 | `motion`       | Optional animation controller. When provided, CSS animation detection is not used |
 
 `elements()` should return only the root nodes that need waiting. Do not scan the whole subtree. This prevents infinite animations such as loading icons from blocking unmount.
 
 ## createPresence Returned Controller
 
-| Member     | Description |
-| ---------- | ----------- |
-| `phase`    | Current phase: `hidden`, `entering`, `visible`, `leaving` |
-| `enter()`  | Runs an effective enter and returns `true` after completion |
-| `leave()`  | Runs an effective leave and returns `true` after completion |
+| Member     | Description                                                              |
+| ---------- | ------------------------------------------------------------------------ |
+| `phase`    | Current phase: `hidden`, `entering`, `visible`, `leaving`                |
+| `enter()`  | Runs an effective enter and returns `true` after completion              |
+| `leave()`  | Runs an effective leave and returns `true` after completion              |
 | `cancel()` | Cancels the current wait, cancels animations, and sets phase to `hidden` |
 
 If already visible, calling `enter()` returns `false`. If already hidden, calling `leave()` returns `false`.

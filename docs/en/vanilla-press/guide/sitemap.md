@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Sitemap - JEALER
+keywords: vanilla-press, sitemap, docs, JEALER
+description: Introduce in detail the Sitemap module of vanilla-press.
+---
+
 # Sitemap
 
 Help search engines crawl site content more effectively.

@@ -1,4 +1,7 @@
 ---
+title: Vanilla Signal 演示：待办事项列表 - JEALER
+keywords: vanilla-signal, demo, to-do-list, docs, JEALER
+description: vanilla-signal 演示：待办事项列表。
 client:
   entry: vanilla-signal-demo-to-do-list
 ---

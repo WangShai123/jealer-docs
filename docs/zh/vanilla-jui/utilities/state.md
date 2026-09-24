@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 状态 工具函数 - JEALER
+keywords: vanilla-jui, state, docs, JEALER
+description: vanilla-jui 提供了状态 相关的系列工具函数。
+---
+
 # 状态
 
 ## 导入

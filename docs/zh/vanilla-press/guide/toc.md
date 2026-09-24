@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 目录 - JEALER
+keywords: vanilla-press, toc, docs, JEALER
+description: 详细介绍 vanilla-press 的目录功能。
+---
+
 # 目录
 
 根据文档页面的内容，自动生成目录。默认支持 `h2` 和 `h3`，并且可以通过 `client.toc` 配置项来控制是否显示。
@@ -11,7 +17,7 @@ export default {
   client: {
     toc: true,
   },
-}
+};
 ```
 
 ## 配置
@@ -27,7 +33,7 @@ export default {
       offset: 100,
     },
   },
-}
+};
 ```
 
 - `client.toc.enabled`: 是否启用目录功能，默认值为 `true`。

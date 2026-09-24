@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Browser Utilities - JEALER
+keywords: vanilla-jui, browser, docs, JEALER
+description: Introduce the browser utilities methods of vanilla-jui.
+---
+
 # Browser
 
 ## Import

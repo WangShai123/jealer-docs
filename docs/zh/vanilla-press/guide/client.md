@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Client 管理 - JEALER
+keywords: vanilla-press, client, docs, JEALER
+description: vanilla-press 的 Client 管理模块，用来管理项目自定义的浏览器端 JavaScript ESM 代码。
+---
+
 # Client 管理
 
 `vp/client` 用来管理项目自定义的浏览器端代码。它服务于传统 MPA 场景：每个页面是独立 HTML，页面脚本按需加载，项目公共代码用稳定的 ESM specifier 复用。
@@ -24,7 +30,7 @@ dist/public/client/runtime.js
 在布局脚本或 client entry 中使用固定包名导入：
 
 ```ts
-import { request } from 'vanilla-press/client'
+import { request } from 'vanilla-press/client';
 ```
 
 只有当前页面实际用到 `vanilla-press/client` 时，页面才会注入对应 import map。
@@ -34,7 +40,7 @@ import { request } from 'vanilla-press/client'
 `vp/client/modules` 适合放更细粒度的公共模块。
 
 ```ts
-import { createPayment } from 'vanilla-press/client/modules/payment'
+import { createPayment } from 'vanilla-press/client/modules/payment';
 ```
 
 上面的导入会解析到：
@@ -57,9 +63,9 @@ dist/public/client/modules/payment.js
 
 ```ts
 // vp/client/entries/checkout.ts
-import { createPayment } from 'vanilla-press/client/modules/payment'
+import { createPayment } from 'vanilla-press/client/modules/payment';
 
-createPayment()
+createPayment();
 ```
 
 ```css
@@ -111,7 +117,7 @@ export default {
       },
     },
   },
-}
+};
 ```
 
 ## npm 共享依赖
@@ -125,7 +131,7 @@ export default {
       shared: ['lodash-es'],
     },
   },
-}
+};
 ```
 
 共享依赖会进入框架级 `runtime.js`，页面脚本和布局脚本通过 `vanilla-press/runtime` 复用它们。

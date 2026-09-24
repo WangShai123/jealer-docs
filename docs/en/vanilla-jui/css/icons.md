@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Icons - JEALER
+keywords: vanilla-jui, icons, docs, JEALER
+description: Introduce the icons CSS classes of vanilla-jui.
+---
+
 # Icons
 
 > CSS tools such as `tailwindcss` and `unocss` are recommended. They make UI customization easier and help build smaller CSS files on demand.

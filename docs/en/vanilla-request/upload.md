@@ -1,3 +1,9 @@
+---
+title: Vanilla Request Upload Progress - JEALER
+keywords: vanilla-request, upload progress, docs, JEALER
+description: Introduce vanilla-request upload progress control.
+---
+
 # Upload Progress
 
 `vanilla-request` sends requests with `fetch` by default. Browser `fetch` does not provide upload progress events, so when progress control is needed, pass `onUploadProgress` in the request options. The current request automatically switches to `XMLHttpRequest`.

@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 定义组件 - JEALER
+keywords: vanilla-jui, define, docs, JEALER
+description: 介绍 vanilla-jui 的 defineComponent 函数。
+---
+
 # 定义组件
 
 `defineComponent()` 是 JUI 定义状态组件的基础工具。它负责把组件共有的生命周期、状态更新、事件、插件和清理规则统一起来。它不替你设计组件模板，也不替你决定业务行为。

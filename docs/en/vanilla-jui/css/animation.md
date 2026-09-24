@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Animation - JEALER
+keywords: vanilla-jui, animation, docs, JEALER
+description: Introduce the animation CSS classes of vanilla-jui.
 client:
   entry:
     - animation

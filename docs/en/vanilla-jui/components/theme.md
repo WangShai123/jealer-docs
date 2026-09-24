@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Theme - JEALER
+keywords: vanilla-jui, theme, docs, JEALER
+description: Introduce the usage of the Theme component of vanilla-jui.
+---
+
 # Theme
 
 Theme is a theme configuration and theme panel controller. It manages application theme styles.

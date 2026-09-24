@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Robots - JEALER
+keywords: vanilla-press, robots, docs, JEALER
+description: Introduce in detail the Robots module of vanilla-press.
+---
+
 # Robots
 
 Generate `robots.txt` to tell search engines which paths they can crawl.
@@ -19,7 +25,7 @@ export default {
       disallow: ['/private/'],
     },
   ],
-}
+};
 ```
 
 ## Fields

@@ -1,3 +1,9 @@
+---
+title: Working with vanilla-signal-query - JEALER
+keywords: vanilla-request, vanilla-signal-query, query function, docs, JEALER
+description: Introduce vanilla-request how to work with vanilla-signal-query.
+---
+
 # Working with vanilla-signal-query
 
 `vanilla-signal-query` is an optional integration target for `vanilla-request`. When you need query state, caching, deduplication, retries, timeouts, aborts, and invalidation management, pass the request instance's `queryFn()` to `createQuery`.

@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Vanilla JUI
-keywords: vanilla-jui, UI Library, JavaScript
+title: Vanilla JUI - JEALER
+keywords: vanilla-jui, UI Library, JavaScript, JEALER
 description: Vanilla-JUI 是一套轻量、可组合、可主题化的原生 JavaScript UI 组件库。
 layouts:
   home:

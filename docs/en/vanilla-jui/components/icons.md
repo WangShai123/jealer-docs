@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Icons - JEALER
+keywords: vanilla-jui, icons, docs, JEALER
+description: Introduce the usage of the Icons component of vanilla-jui.
 client:
   entry:
     - icons

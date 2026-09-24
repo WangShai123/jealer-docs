@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Toast - JEALER
+keywords: vanilla-jui, toast, docs, JEALER
+description: Introduce the usage of the Toast component of vanilla-jui.
 client:
   entry:
     - toast

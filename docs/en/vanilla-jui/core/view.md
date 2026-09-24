@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI View Layer - JEALER
+keywords: vanilla-jui, view, docs, JEALER
+description: Introduce the view layer of the vanilla-jui.
+---
+
 # View Layer
 
 The JUI view layer connects reactive state to the DOM. Its key requirement is: keep the root node stable, and update local content when state changes.
@@ -57,9 +63,9 @@ owned.dispose();
 
 Return value:
 
-| Member      | Description                                      |
-| ----------- | ------------------------------------------------ |
-| `element`   | Root element returned by `factory`               |
+| Member      | Description                                                          |
+| ----------- | -------------------------------------------------------------------- |
+| `element`   | Root element returned by `factory`                                   |
 | `dispose()` | Releases the owner and removes the root element according to options |
 
 `removeOnDispose` defaults to `true`. When set to `false`, disposal only releases reactive bindings and does not remove the node.

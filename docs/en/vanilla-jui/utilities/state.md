@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI State Utilities - JEALER
+keywords: vanilla-jui, state, docs, JEALER
+description: Introduce the state utilities methods of vanilla-jui.
+---
+
 # State
 
 ## Import
@@ -17,10 +23,10 @@ import {
 
 Bridges reactive reads to expensive imperative side effects and returns a dispose function. Declarative attributes, text, and lists should depend on state directly and should not use this to manage DOM a second time.
 
-| Option         | Default       | Description                                      |
-| -------------- | ------------- | ------------------------------------------------ |
-| `deferInitial` | `true`        | Whether `createWatch` delays the first callback  |
-| `flushInitial` | `false`       | Whether to run `sync` synchronously on the first callback |
+| Option         | Default       | Description                                                               |
+| -------------- | ------------- | ------------------------------------------------------------------------- |
+| `deferInitial` | `true`        | Whether `createWatch` delays the first callback                           |
+| `flushInitial` | `false`       | Whether to run `sync` synchronously on the first callback                 |
 | `flush`        | `'microtask'` | Whether later updates are merged through a microtask or run synchronously |
 
 ```ts

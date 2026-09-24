@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Menu - JEALER
+keywords: vanilla-press, menu, docs, JEALER
+description: Introduce in detail the Menu module of vanilla-press.
+---
+
 # Menu
 
 The main navigation menu displayed at the top of the page.
@@ -20,5 +26,5 @@ export default [
       { label: 'menu.api', path: 'guide/api' },
     ],
   },
-]
+];
 ```

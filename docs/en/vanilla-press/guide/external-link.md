@@ -1,3 +1,9 @@
+---
+title: Vanilla Press External Link - JEALER
+keywords: vanilla-press, external-link, docs, JEALER
+description: Introduce in detail the External Link module of vanilla-press.
+---
+
 # External Link
 
 Indicate external links to users.
@@ -15,7 +21,7 @@ export default {
   server: {
     externalLink: true,
   },
-}
+};
 ```
 
 ## Info

@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal Utils - JEALER
+keywords: vanilla-signal, utils, docs, JEALER
+description: vanilla-signal provides several utility functions, such as debouncing and throttling.
+---
+
 # Utils
 
 Utils provides lightweight scheduling helpers, imported directly from the main entry:

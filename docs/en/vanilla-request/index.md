@@ -1,4 +1,10 @@
-# vanilla-request
+---
+title: Vanilla Request Docs - JEALER
+keywords: vanilla-request, docs, JEALER
+description: vanilla-request is a lightweight HTTP request utility.
+---
+
+# Vanilla Request
 
 `vanilla-request` is a lightweight HTTP request utility.
 

@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 国际化 - JEALER
+keywords: vanilla-press, locale, docs, JEALER
+description: 详细介绍 vanilla-press 的国际化功能。
+---
+
 # 国际化
 
 让文档站点支持多语言功能，方便不同语言的用户访问。
@@ -19,7 +25,7 @@ export default {
       redirectToDefault: true,
     },
   },
-}
+};
 ```
 
 ## 元数据
@@ -54,7 +60,7 @@ export default {
       components: 'Components',
     },
   },
-}
+};
 ```
 
 ## 重定向

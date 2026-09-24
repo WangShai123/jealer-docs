@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Input - JEALER
+keywords: vanilla-jui, input, docs, JEALER
+description: Introduce the input CSS classes of vanilla-jui.
+---
+
 # Input
 
 > CSS tools such as `tailwindcss` and `unocss` are recommended. They make UI customization easier and help build smaller CSS files on demand.

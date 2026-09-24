@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Form - JEALER
+keywords: vanilla-jui, form, docs, JEALER
+description: Introduce the usage of the Form component of vanilla-jui.
 client:
   entry:
     - form

@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal DOM 模块 - JEALER
+keywords: vanilla-signal, dom, docs, JEALER
+description: vanilla-signal 的 DOM 模块，负责把响应式值绑定到浏览器 DOM。它依赖 Core，不依赖 Store 或 Async。
+---
+
 # DOM
 
 DOM 模块负责把响应式值绑定到浏览器 DOM。它依赖 Core，不依赖 Store 或 Async。

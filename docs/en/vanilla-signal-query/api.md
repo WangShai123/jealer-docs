@@ -1,4 +1,10 @@
-# Vanilla Signal Query Documentation
+---
+title: Vanilla Signal Query API Docs - JEALER
+keywords: vanilla-signal-query, api, docs, JEALER
+description: About vanilla-signal-query API details.
+---
+
+# Vanilla Signal Query API Doc
 
 `vanilla-signal-query` is an asynchronous state management library designed for native JavaScript business request scenarios. It provides reactive request states, pluggable data caching, request deduplication, retry mechanisms, timeout handling, cancellation, prefetching, and cache invalidation capabilities.
 

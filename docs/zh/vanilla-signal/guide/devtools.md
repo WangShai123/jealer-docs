@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal Devtools - JEALER
+keywords: vanilla-signal, devtools, docs, JEALER
+description: vanilla-signal 的 Devtools 模块，提供最小可用 Devtools 协议：稳定事件对象、响应式图快照、owner path、debugName/name 标记。
+---
+
 # Devtools
 
 提供最小可用 Devtools 协议：稳定事件对象、响应式图快照、owner path、debugName/name 标记。

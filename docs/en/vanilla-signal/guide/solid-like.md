@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal Solid-like - JEALER
+keywords: vanilla-signal, solid-like, docs, JEALER
+description: vanilla-signal mirrors the mental model of Solid reactive primitives, not the Solid component runtime. It is designed for no-build, CDN, native-browser usage, so lifecycle, error boundary, and transition behavior all use smaller runtime semantics.
+---
+
 # Solid-like but not Solid
 
 `vanilla-signal` mirrors the mental model of Solid reactive primitives, not the Solid component runtime. It is designed for no-build, CDN, native-browser usage, so lifecycle, error boundary, and transition behavior all use smaller runtime semantics.

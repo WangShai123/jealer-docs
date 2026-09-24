@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Tabs - JEALER
+keywords: vanilla-jui, tabs, docs, JEALER
+description: Introduce the usage of the Tabs component of vanilla-jui.
 client:
   entry:
     - tabs

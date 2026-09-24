@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Color System - JEALER
+keywords: vanilla-jui, color-system, docs, JEALER
+description: Introduce the color system of vanilla-jui.
 client:
   entry:
     - color

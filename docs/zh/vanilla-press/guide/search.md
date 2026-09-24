@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 搜索 - JEALER
+keywords: vanilla-press, search, docs, JEALER
+description: 详细介绍 vanilla-press 的搜索功能。
+---
+
 # 搜索
 
 按语言隔离的静态资源搜索器。
@@ -11,7 +17,7 @@ export default {
   client: {
     search: true,
   },
-}
+};
 ```
 
 关闭搜索时，构建过程不会输出 `search.js`，页面也不会渲染搜索入口。

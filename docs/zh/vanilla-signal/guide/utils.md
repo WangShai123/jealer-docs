@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal Utils - JEALER
+keywords: vanilla-signal, 防抖, 节流, docs, JEALER
+description: vanilla-signal 提供了若干工具函数，如防抖、节流等。
+---
+
 # Utils
 
 Utils 提供轻量调度工具，直接从主入口导入：

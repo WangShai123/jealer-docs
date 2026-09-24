@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Modal - JEALER
+keywords: vanilla-jui, modal, docs, JEALER
+description: Introduce the usage of the Modal component of vanilla-jui.
 client:
   entry:
     - modal

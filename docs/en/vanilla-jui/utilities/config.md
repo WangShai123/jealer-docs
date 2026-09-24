@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Config Utilities - JEALER
+keywords: vanilla-jui, config, docs, JEALER
+description: Introduce the config utilities methods of vanilla-jui.
+---
+
 # Config
 
 Config utilities parse options and props for components, UI primitives, and shared helpers. They centralize defaults, shallow/deep merge, nested schema parsing, normalize, and validation, so component code can consume already-resolved config.

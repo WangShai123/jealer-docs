@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 编辑器 - JEALER
+keywords: vanilla-jui, editor, docs, JEALER
+description: 介绍 vanilla-jui 的编辑器 CSS 类。
+---
+
 # 编辑器
 
 > 推荐使用 `tailwindcss`, `unocss` 等 CSS 工具，更有利于个性化定制 UI 和按需构建最小化 CSS 文件。
@@ -90,6 +96,7 @@
 
 <figure>
     <video
+    controls=""
     width="100%"
     poster="https://placehold.co/600x300/lightgray/gray?text=Loading..."
     >

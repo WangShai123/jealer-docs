@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI 分页 - JEALER
+keywords: vanilla-jui, pagination, docs, JEALER
+description: 介绍 vanilla-jui 的分页组件的使用方法。
 client:
   entry:
     - pagination

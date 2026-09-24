@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal Store - JEALER
+keywords: vanilla-signal, store, docs, JEALER
+description: vanilla-signal's Store module manages reactive proxies for objects and arrays. It depends on Core signals and batching, but not DOM, JSX, or Async.
+---
+
 # Store
 
 The Store module manages reactive proxies for objects and arrays. It depends on Core signals and batching, but not DOM, JSX, or Async.

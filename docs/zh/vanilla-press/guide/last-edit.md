@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 最后更新时间 - JEALER
+keywords: vanilla-press, last edit, docs, JEALER
+description: 详细介绍 vanilla-press 的最后更新时间功能。
+---
+
 # 最后更新时间
 
 最后更新时间，用于在文档页面中输出当前页面的最近内容更新时间。
@@ -13,7 +19,7 @@ export default {
   server: {
     lastEdit: true,
   },
-}
+};
 ```
 
 - `false` 关闭最后更新时间功能。
@@ -28,7 +34,7 @@ export default {
       utc: true,
     },
   },
-}
+};
 ```
 
 ### text
@@ -44,7 +50,7 @@ export default {
       text: 'editor.lastUpdated',
     },
   },
-}
+};
 ```
 
 默认多语言配置：
@@ -61,7 +67,7 @@ export default {
       lastUpdated: 'Last updated:',
     },
   },
-}
+};
 ```
 
 ### 日期时间格式
@@ -69,7 +75,7 @@ export default {
 `format` 参数控制时间显示格式，默认值为：
 
 ```ts
-'yyyy-MM-dd HH:mm:ss'
+'yyyy-MM-dd HH:mm:ss';
 ```
 
 `vanilla-press` 使用 [date-fns](https://www.npmjs.com/package/date-fns) 的 `format()` 处理日期时间格式。时间值会按构建运行环境的本地时区格式化。
@@ -81,7 +87,7 @@ export default {
       format: 'yyyy/MM/dd HH:mm',
     },
   },
-}
+};
 ```
 
 常用 token：
@@ -131,7 +137,7 @@ export default {
       utc: false,
     },
   },
-}
+};
 ```
 
 ## 缓存规则

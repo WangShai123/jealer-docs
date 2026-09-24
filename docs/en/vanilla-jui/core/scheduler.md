@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Scheduler - JEALER
+keywords: vanilla-jui, scheduler, docs, JEALER
+description: Introduce the scheduler of the vanilla-jui.
+---
+
 # Scheduler
 
 When handling microtask scheduling, `createScheduledTask()` merges multiple requests in the same turn into one execution. It is suitable for expensive side effects that do not need to run repeatedly right away, such as layout measurement, scroll-position sync, and centralized refresh for legacy components.
@@ -29,12 +35,12 @@ Multiple `schedule()` calls are merged. Before the queue is flushed, the same ta
 
 ## Returned Methods
 
-| Method       | Description                                      |
-| ------------ | ------------------------------------------------ |
+| Method       | Description                                                         |
+| ------------ | ------------------------------------------------------------------- |
 | `schedule()` | Runs in the next microtask; ignored when already queued or disposed |
-| `flush()`    | Runs once immediately and clears the queued state |
-| `cancel()`   | Cancels this turn's queue; `schedule()` can be called again later |
-| `dispose()`  | Permanently disables the task                    |
+| `flush()`    | Runs once immediately and clears the queued state                   |
+| `cancel()`   | Cancels this turn's queue; `schedule()` can be called again later   |
+| `dispose()`  | Permanently disables the task                                       |
 
 ```js
 const task = createScheduledTask(() => {

@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 快速开始 - JEALER
+keywords: vanilla-jui, quick-start, docs, JEALER
+description: 介绍 vanilla-jui 的设计原则、功能特性、安装、用法、依赖、源码架构等。
+---
+
 # 快速开始
 
 Vanilla-JUI 是一个将响应式 UI、设计令牌 和 CSS 工程解耦的 Web UI 基础设施。无需框架锁定，帮助快速构建高质量的交互网页。

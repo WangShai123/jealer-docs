@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 输入框 - JEALER
+keywords: vanilla-jui, input, docs, JEALER
+description: 介绍 vanilla-jui 的输入框 CSS 类。
+---
+
 # 输入框
 
 > 推荐使用 `tailwindcss`, `unocss` 等 CSS 工具，更有利于个性化定制 UI 和按需构建最小化 CSS 文件。

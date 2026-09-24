@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Layout - JEALER
+keywords: vanilla-jui, layout, docs, JEALER
+description: Introduce the layout CSS classes of vanilla-jui.
 client:
   entry:
     - common

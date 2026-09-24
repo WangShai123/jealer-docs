@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 配置 工具函数 - JEALER
+keywords: vanilla-jui, config, docs, JEALER
+description: vanilla-jui 提供了配置 相关的系列工具函数。
+---
+
 # Config
 
 配置解析工具用于组件、UI 原语和业务工具的 options/props 解析。它统一处理默认值、浅/深合并、嵌套 schema、normalize 和校验，让组件内部只消费已解析配置。

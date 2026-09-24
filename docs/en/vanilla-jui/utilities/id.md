@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI ID Utilities - JEALER
+keywords: vanilla-jui, id, docs, JEALER
+description: Introduce the id utilities methods of vanilla-jui.
+---
+
 # ID
 
 ## Import

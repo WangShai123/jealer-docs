@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 相关库 - JEALER
+keywords: vanilla-jui, related-libraries, docs, JEALER
+description: 介绍 vanilla-jui 的相关库。
+---
+
 # 相关库
 
 `W3` 可组合的 Web 基础设施：

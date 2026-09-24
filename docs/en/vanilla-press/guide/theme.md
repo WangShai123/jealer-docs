@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Theme - JEALER
+keywords: vanilla-press, theme, docs, JEALER
+description: Introduce in detail the Theme module of vanilla-press.
+---
+
 # Theme
 
 Support different user preferences for color, font size, corner radius, shadow, and light or dark mode.
@@ -23,7 +29,7 @@ export default {
       },
     },
   },
-}
+};
 ```
 
 ## Configuration
@@ -33,8 +39,8 @@ Implemented with the `Theme` and `Offcanvas` components from `vanilla-jui`.
 - The `options` and `panel` options are passed to the `Theme` component.
 - The `offcanvas` option is passed to the `Offcanvas` component.
 
-| Option                              | Type              | Default        | Description                                                                                                           |
-| ----------------------------------- | ----------------- | -------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Option                             | Type              | Default        | Description                                                                                                           |
+| ---------------------------------- | ----------------- | -------------- | --------------------------------------------------------------------------------------------------------------------- |
 | client.theme                       | boolean \| object | Enabled        | Theme configuration                                                                                                   |
 | `client.theme.enabled`             | boolean           | true           | Whether the theme feature is enabled                                                                                  |
 | `client.theme.default`             | object            | -              | Initial theme values used by the inline boot script                                                                   |

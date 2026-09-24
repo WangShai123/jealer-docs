@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI 色彩系统 - JEALER
+keywords: vanilla-jui, color-system, docs, JEALER
+description: 介绍 vanilla-jui 的色彩系统功能。
 client:
   entry:
     - color

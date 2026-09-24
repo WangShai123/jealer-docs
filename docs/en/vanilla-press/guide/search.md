@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Search - JEALER
+keywords: vanilla-press, search, docs, JEALER
+description: Introduce in detail the Search module of vanilla-press.
+---
+
 # Search
 
 A static search feature with search assets isolated by language.
@@ -11,7 +17,7 @@ export default {
   client: {
     search: true,
   },
-}
+};
 ```
 
 When search is disabled, the server does not emit `search.js`, and pages do not render a search entry.

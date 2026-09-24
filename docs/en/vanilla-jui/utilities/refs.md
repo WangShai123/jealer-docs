@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Element References Utilities - JEALER
+keywords: vanilla-jui, refs, docs, JEALER
+description: Introduce the element references utilities methods of vanilla-jui.
+---
+
 # Element References
 
 ## Import

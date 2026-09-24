@@ -1,3 +1,9 @@
+---
+title: Vanilla Press LLMs - JEALER
+keywords: vanilla-press, llms, docs, JEALER
+description: Introduce in detail the LLMs module of vanilla-press.
+---
+
 # LLMs
 
 Generate `llms.txt` and matching Markdown route files for every page so LLMs can read the source documentation directly.
@@ -16,7 +22,7 @@ export default {
       claude: true, // whether to enable llms toolbar: Open in Claude
     },
   },
-}
+};
 ```
 
 - `link`, `copy`, `chatgpt`, and `claude`. If any of them is enabled, the page renders LLMS toolbar below the title of the page.
@@ -48,7 +54,7 @@ export default {
       },
     },
   },
-}
+};
 ```
 
 ## Output

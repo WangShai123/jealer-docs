@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Pagination - JEALER
+keywords: vanilla-jui, pagination, docs, JEALER
+description: Introduce the usage of the Pagination component of vanilla-jui.
 client:
   entry:
     - pagination

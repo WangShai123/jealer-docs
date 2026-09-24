@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Flow - JEALER
+keywords: vanilla-jui, flow, docs, JEALER
+description: Introduce the usage of the Flow component of vanilla-jui.
 client:
   entry:
     - flow

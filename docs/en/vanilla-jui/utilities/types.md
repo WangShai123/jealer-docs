@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Types Utilities - JEALER
+keywords: vanilla-jui, types, docs, JEALER
+description: Introduce the types utilities methods of vanilla-jui.
+---
+
 # Types And Validation
 
 ## Import

@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI 提示 - JEALER
+keywords: vanilla-jui, tooltip, docs, JEALER
+description: 介绍 vanilla-jui 的提示组件的使用方法。
 client:
   entry:
     - tooltip

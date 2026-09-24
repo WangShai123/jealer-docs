@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Popup - JEALER
+keywords: vanilla-jui, popup, docs, JEALER
+description: Introduce the usage of the Popup component of vanilla-jui.
+---
+
 # Popup
 
 Popup is a lightweight DOM factory. It only creates common popup nodes for other components to use.

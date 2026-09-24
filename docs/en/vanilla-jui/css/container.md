@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Container - JEALER
+keywords: vanilla-jui, container, docs, JEALER
+description: Introduce the container CSS classes of vanilla-jui.
 client:
   entry:
     - common

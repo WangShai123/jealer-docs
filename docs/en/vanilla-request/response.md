@@ -1,4 +1,10 @@
-# Response Handling
+---
+title: Vanilla Request Response Handling Docs - JEALER
+keywords: vanilla-request, response, docs, JEALER
+description: About vanilla-request response handling details.
+---
+
+# Vanilla Request Response Handling
 
 `vanilla-request` handles responses in two stages:
 

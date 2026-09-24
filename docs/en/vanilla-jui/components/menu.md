@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Menu - JEALER
+keywords: vanilla-jui, menu, docs, JEALER
+description: Introduce the usage of the Menu component of vanilla-jui.
 client:
   entry:
     - menu

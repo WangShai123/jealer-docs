@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Client Management - JEALER
+keywords: vanilla-press, client, docs, JEALER
+description: Introduce in detail the Client management module of vanilla-press.
+---
+
 # Client Management
 
 `vp/client` manages project-owned browser code. It is designed for MPA-style sites: each page is independent HTML, page scripts are loaded on demand, and shared project code is reused through stable ESM specifiers.
@@ -24,7 +30,7 @@ dist/public/client/runtime.js
 Use the fixed package name from layout scripts or client entries:
 
 ```ts
-import { request } from 'vanilla-press/client'
+import { request } from 'vanilla-press/client';
 ```
 
 The page import map is emitted only when the current page actually uses `vanilla-press/client`.
@@ -34,7 +40,7 @@ The page import map is emitted only when the current page actually uses `vanilla
 `vp/client/modules` is for smaller shared modules.
 
 ```ts
-import { createPayment } from 'vanilla-press/client/modules/payment'
+import { createPayment } from 'vanilla-press/client/modules/payment';
 ```
 
 The import above resolves to:
@@ -57,9 +63,9 @@ Modules are not loaded globally. A page declares the import map only when its pa
 
 ```ts
 // vp/client/entries/checkout.ts
-import { createPayment } from 'vanilla-press/client/modules/payment'
+import { createPayment } from 'vanilla-press/client/modules/payment';
 
-createPayment()
+createPayment();
 ```
 
 ```css
@@ -111,7 +117,7 @@ export default {
       },
     },
   },
-}
+};
 ```
 
 ## Shared npm Dependencies
@@ -125,7 +131,7 @@ export default {
       shared: ['lodash-es'],
     },
   },
-}
+};
 ```
 
 Shared dependencies are bundled into the framework `runtime.js`, and page or layout scripts reuse them through `vanilla-press/runtime`.

@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal Solid-like 模型 - JEALER
+keywords: vanilla-signal, solid-like, docs, JEALER
+description: vanilla-signal 复刻的是 Solid 响应式原语的心智模型，不是 Solid 组件运行时。它适合无构建、CDN、原生浏览器使用，因此生命周期、错误边界和 transition 都采用更小的运行时语义。
+---
+
 # Solid-like but not Solid
 
 `vanilla-signal` 复刻的是 Solid 响应式原语的心智模型，不是 Solid 组件运行时。它适合无构建、CDN、原生浏览器使用，因此生命周期、错误边界和 transition 都采用更小的运行时语义。

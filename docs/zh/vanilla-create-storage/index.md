@@ -1,3 +1,9 @@
+---
+title: Vanilla Create Storage 文档中心 - JEALER
+keywords: vanilla-create-storage, docs, JEALER
+description: vanilla-create-storage 是一个轻量级的异步存储抽象层，用于浏览器存储驱动。驱动器支持 localStorage、sessionStorage、indexedDB、cookie、memory。
+---
+
 # Vanilla Create Storage
 
 一个轻量级的异步存储抽象层，用于浏览器存储驱动。

@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Quick Start - JEALER
+keywords: vanilla-jui, quick-start, docs, JEALER
+description: Introduce the design principles, functional features, installation, usage, dependencies, source code architecture, etc. of vanilla-jui.
+---
+
 # Quick Start
 
 Vanilla-JUI is Web UI infrastructure that separates reactive UI, design tokens, and CSS engineering. It avoids framework lock-in and helps you build high-quality interactive pages quickly.

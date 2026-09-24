@@ -1,4 +1,10 @@
-# Examples
+---
+title: Vanilla Request Demo - JEALER
+keywords: vanilla-request, demo, docs, JEALER
+description: About vanilla-request demo details.
+---
+
+# Vanilla Request Demo
 
 > Authorization and token refresh
 

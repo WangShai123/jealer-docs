@@ -1,4 +1,10 @@
-# vanilla-lru API
+---
+title: Vanilla Lru API Doc - JEALER
+keywords: vanilla-lru, api, docs, JEALER
+description: vanilla-lru is a zero-dependency JavaScript LRU cache. It provides vanilla related API.
+---
+
+# Vanilla Lru API Doc
 
 `vanilla-lru` is a zero-dependency LRU cache for JavaScript. The exported `Lru` class extends the native `Map`, so it keeps the familiar `Map` surface while adding bounded capacity, LRU promotion, optional expiration, and eviction hooks. The named `createLru()` factory returns the same `Lru` instance type when you prefer a function entry.
 

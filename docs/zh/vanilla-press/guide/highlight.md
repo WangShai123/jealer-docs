@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 代码高亮 - JEALER
+keywords: vanilla-press, highlight, docs, JEALER
+description: 详细介绍 vanilla-press 的代码高亮功能。
+---
+
 # 代码高亮
 
 基于 `Shiki` 的代码高亮，构建时预渲染为静态 HTML。
@@ -51,7 +57,7 @@ export default {
       dark: 'github-dark-default',
     },
   },
-}
+};
 ```
 
 `light` 或 `dark` 缺失、主题不存在或加载失败时，会使用默认主题。
@@ -70,11 +76,11 @@ Shiki 提供了数十种主题，详情参考 `Shiki` [官方文档](https://shi
 @tab 示例
 
 ```ts {2,4-6}
-const name = 'VanillaPress'
-const version = '1.5'
+const name = 'VanillaPress';
+const version = '1.5';
 
 export function info() {
-  return `${name}@${version}`
+  return `${name}@${version}`;
 }
 ```
 
@@ -82,11 +88,11 @@ export function info() {
 
 ````markdown
 ```ts {2,4-6}
-const name = 'VanillaPress'
-const version = '1.5'
+const name = 'VanillaPress';
+const version = '1.5';
 
 export function info() {
-  return `${name}@${version}`
+  return `${name}@${version}`;
 }
 ```
 ````
@@ -99,12 +105,12 @@ export function info() {
 @tab 示例
 
 ```ts
-const name = 'VanillaPress'
-const version = '1.5' // [!code highlight]
+const name = 'VanillaPress';
+const version = '1.5'; // [!code highlight]
 
 export function info() {
   // [!code highlight:3]
-  return `${name}@${version}`
+  return `${name}@${version}`;
 }
 ```
 
@@ -112,12 +118,12 @@ export function info() {
 
 ````markdown
 ```ts
-const name = 'VanillaPress'
-const version = '1.5' // [!code highlight]
+const name = 'VanillaPress';
+const version = '1.5'; // [!code highlight]
 
 export function info() {
   // [!code highlight:3]
-  return `${name}@${version}`
+  return `${name}@${version}`;
 }
 ```
 ````
@@ -134,11 +140,11 @@ export function info() {
 @tab 示例
 
 ```ts
-const name = 'VanillaPress'
-const version = '1.5' // [!code focus]
+const name = 'VanillaPress';
+const version = '1.5'; // [!code focus]
 
 export function info() {
-  return `${name}@${version}` // [!code focus]
+  return `${name}@${version}`; // [!code focus]
 }
 ```
 
@@ -146,11 +152,11 @@ export function info() {
 
 ````markdown
 ```ts
-const name = 'VanillaPress'
-const version = '1.5' // [!code focus]
+const name = 'VanillaPress';
+const version = '1.5'; // [!code focus]
 
 export function info() {
-  return `${name}@${version}` // [!code focus]
+  return `${name}@${version}`; // [!code focus]
 }
 ```
 ````
@@ -165,8 +171,8 @@ export function info() {
 ```ts
 export function createApp() {
   // [!code focus:3]
-  const app = {}
-  return app
+  const app = {};
+  return app;
 }
 ```
 
@@ -176,8 +182,8 @@ export function createApp() {
 ```ts
 export function createApp() {
   // [!code focus:3]
-  const app = {}
-  return app
+  const app = {};
+  return app;
 }
 ```
 ````
@@ -192,18 +198,18 @@ export function createApp() {
 @tab 示例
 
 ```ts
-const theme = 'github-light-default'
-const darkTheme = 'github-dark-default' // [!code --]
-const darkTheme = 'github-dark-high-contrast' // [!code ++]
+const theme = 'github-light-default';
+const darkTheme = 'github-dark-default'; // [!code --]
+const darkTheme = 'github-dark-high-contrast'; // [!code ++]
 ```
 
 @tab 语法
 
 ````markdown
 ```ts
-const theme = 'github-light-default'
-const darkTheme = 'github-dark-default' // [!code --]
-const darkTheme = 'github-dark-high-contrast' // [!code ++]
+const theme = 'github-light-default';
+const darkTheme = 'github-dark-default'; // [!code --]
+const darkTheme = 'github-dark-high-contrast'; // [!code ++]
 ```
 ````
 
@@ -218,10 +224,10 @@ const darkTheme = 'github-dark-high-contrast' // [!code ++]
 
 ```ts
 function loadTheme(theme?: string) {
-  if (!theme) return 'github-light-default' // [!code warning]
-  if (theme === 'unknown') throw new Error('Invalid theme') // [!code error]
+  if (!theme) return 'github-light-default'; // [!code warning]
+  if (theme === 'unknown') throw new Error('Invalid theme'); // [!code error]
 
-  return theme
+  return theme;
 }
 ```
 
@@ -230,10 +236,10 @@ function loadTheme(theme?: string) {
 ````markdown
 ```ts
 function loadTheme(theme?: string) {
-  if (!theme) return 'github-light-default' // [!code warning]
-  if (theme === 'unknown') throw new Error('Invalid theme') // [!code error]
+  if (!theme) return 'github-light-default'; // [!code warning]
+  if (theme === 'unknown') throw new Error('Invalid theme'); // [!code error]
 
-  return theme
+  return theme;
 }
 ```
 ````
@@ -248,16 +254,16 @@ function loadTheme(theme?: string) {
 @tab 示例
 
 ```ts line-numbers
-export const siteName = 'VanillaPress'
-export const version = '1.5'
+export const siteName = 'VanillaPress';
+export const version = '1.5';
 ```
 
 @tab 语法
 
 ````markdown
 ```ts line-numbers
-export const siteName = 'VanillaPress'
-export const version = '1.5'
+export const siteName = 'VanillaPress';
+export const version = '1.5';
 ```
 ````
 
@@ -270,7 +276,7 @@ export const version = '1.5'
 
 ```ts line-numbers=10
 export function mount() {
-  return true
+  return true;
 }
 ```
 
@@ -279,7 +285,7 @@ export function mount() {
 ````markdown
 ```ts line-numbers=10
 export function mount() {
-  return true
+  return true;
 }
 ```
 ````

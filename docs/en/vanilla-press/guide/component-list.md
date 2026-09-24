@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Component List - JEALER
+keywords: vanilla-press, component, docs, JEALER
+description: Introduce in detail the Component list module of vanilla-press.
+---
+
 # Components
 
 `vanilla-press` builtin components are a set of Markdown container components built on top of `vanilla-jui` for document layout and interactions.
@@ -15,10 +21,10 @@ Components are divided into Container Components and Tag Components:
 @tab JavaScript
 
 ```javascript
-const pages = ['index.md', 'guide/components.md']
+const pages = ['index.md', 'guide/components.md'];
 
 export function toHtml(file) {
-  return file.replace(/\.md$/, '.html')
+  return file.replace(/\.md$/, '.html');
 }
 ```
 
@@ -107,10 +113,10 @@ Markdown syntax is supported inside the panel content.
 
 ```javascript
 // javascript
-const pages = ['index.md', 'guide/components.md']
+const pages = ['index.md', 'guide/components.md'];
 
 export function toHtml(file) {
-  return file.replace(/\.md$/, '.html')
+  return file.replace(/\.md$/, '.html');
 }
 ```
 
@@ -129,10 +135,10 @@ Markdown syntax is supported inside the panel content.
 
 ```javascript
 // javascript
-const pages = ['index.md', 'guide/components.md']
+const pages = ['index.md', 'guide/components.md'];
 
 export function toHtml(file) {
-  return file.replace(/\.md$/, '.html')
+  return file.replace(/\.md$/, '.html');
 }
 ```
 
@@ -268,7 +274,7 @@ export default {
   'align-right':
     '<path d="M3 4H21V6H3V4ZM7 19H21V21H7V19ZM3 14H21V16H3V14ZM7 9H21V11H7V9Z"></path>',
   copy: '<path d="M20 8v12H8V8zm0-2H8a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2"></path><path d="M4 16H2V4a2 2 0 0 1 2-2h12v2H4Z"></path>',
-}
+};
 ```
 
 ### Details

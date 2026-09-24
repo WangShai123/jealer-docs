@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 面包屑 - JEALER
+keywords: vanilla-jui, breadcrumb, docs, JEALER
+description: 介绍 vanilla-jui 的面包屑 CSS 类。
+---
+
 # 面包屑
 
 > 推荐使用 `tailwindcss`, `unocss` 等 CSS 工具，更有利于个性化定制 UI 和按需构建最小化 CSS 文件。

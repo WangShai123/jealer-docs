@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Tooltip - JEALER
+keywords: vanilla-jui, tooltip, docs, JEALER
+description: Introduce the usage of the Tooltip component of vanilla-jui.
 client:
   entry:
     - tooltip

@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 菜单 - JEALER
+keywords: vanilla-press, menu, docs, JEALER
+description: 详细介绍 vanilla-press 的菜单功能。
+---
+
 # 菜单
 
 显示在页面顶部的主菜单导航栏。
@@ -20,5 +26,5 @@ export default [
       { label: 'menu.api', path: 'guide/api' },
     ],
   },
-]
+];
 ```

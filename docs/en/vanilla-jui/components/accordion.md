@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Accordion - JEALER
+keywords: vanilla-jui, accordion, docs, JEALER
+description: Introduce the usage of the Accordion component of vanilla-jui.
 client:
   entry:
     - accordion

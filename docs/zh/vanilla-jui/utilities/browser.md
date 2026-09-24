@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 浏览器工具函数 - JEALER
+keywords: vanilla-jui, browser, docs, JEALER
+description: vanilla-jui 提供了浏览器相关的工具函数，包含 isMobile, copy, isModernBrowser。
+---
+
 # 浏览器
 
 ## 导入

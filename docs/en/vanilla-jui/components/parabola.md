@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Parabola - JEALER
+keywords: vanilla-jui, parabola, docs, JEALER
+description: Introduce the usage of the Parabola component of vanilla-jui.
 client:
   entry:
     - parabola

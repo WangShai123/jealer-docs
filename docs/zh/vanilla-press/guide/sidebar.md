@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 侧边栏 - JEALER
+keywords: vanilla-press, sidebar, docs, JEALER
+description: 详细介绍 vanilla-press 的侧边栏功能。
+---
+
 # 侧边栏
 
 显示在页面侧面的侧边栏导航。
@@ -24,7 +30,7 @@ export default [
       { label: 'sidebar.sidebar', path: 'guide/sidebar' },
     ],
   },
-]
+];
 ```
 
 ## 目录级侧边栏
@@ -34,12 +40,12 @@ export default [
 例如 `docs/components/sidebar.ts` 会作用于 `docs/components/**` 下的页面，且格式与 `vp/config/sidebar.ts` 完全一致：
 
 ```ts
-import type { SidebarConfig } from 'vanilla-press'
+import type { SidebarConfig } from 'vanilla-press';
 
 export default [
   { label: 'components.overview', path: 'components/index' },
   { label: 'components.button', path: 'components/button' },
-] satisfies SidebarConfig
+] satisfies SidebarConfig;
 ```
 
 如果多个目录级侧边栏同时匹配当前页面，会使用最靠近当前页面的那一份配置。目录级侧边栏命中后，不会再渲染全局侧边栏。

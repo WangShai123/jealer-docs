@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal Types - JEALER
+keywords: vanilla-signal, types, docs, JEALER
+description: vanilla-signal's Types module is split into public types and internal types.
+---
+
 # Types
 
 The Types module is split into public types and internal types.

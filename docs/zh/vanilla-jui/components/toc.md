@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 目录 - JEALER
+keywords: vanilla-jui, toc, docs, JEALER
+description: 介绍 vanilla-jui 的目录组件的使用方法。
+---
+
 # 目录
 
 Toc 是页面目录组件，用于扫描数据源中的标题，自动生成信息目录。

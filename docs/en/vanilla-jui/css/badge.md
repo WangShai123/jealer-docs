@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Badge - JEALER
+keywords: vanilla-jui, badge, docs, JEALER
+description: Introduce the badge CSS classes of vanilla-jui.
+---
+
 # Badge
 
 > CSS tools such as `tailwindcss` and `unocss` are recommended. They make UI customization easier and help build smaller CSS files on demand.

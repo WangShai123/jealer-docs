@@ -1,3 +1,9 @@
+---
+title: Vanilla SSE 文档中心 - JEALER
+keywords: vanilla-sse, docs, JEALER
+description: vanilla-sse 是一个轻量 SSE 客户端，用于订阅服务器发送事件。
+---
+
 # Vanilla SSE
 
 `vanilla-sse` 是一个轻量 SSE 客户端。它通过 `fetch` 读取 `text/event-stream`，适合通知、客服、网页终端、数据抓取进度、AI 助手流式响应等需要请求头、授权、请求体和明确连接生命周期控制的场景。

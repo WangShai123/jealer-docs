@@ -1,4 +1,10 @@
-# vanilla-storage
+---
+title: Vanilla Create Storage Docs - JEALER
+keywords: vanilla-create-storage, docs, JEALER
+description: vanilla-create-storage is a lightweight async storage abstraction for browser storage drivers.
+---
+
+# Vanilla Create Storage
 
 A small async storage abstraction for browser storage drivers.
 

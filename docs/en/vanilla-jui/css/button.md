@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Button - JEALER
+keywords: vanilla-jui, button, docs, JEALER
+description: Introduce the button CSS classes of vanilla-jui.
+---
+
 # Button
 
 > CSS tools such as `tailwindcss` and `unocss` are recommended. They make UI customization easier and help build smaller CSS files on demand.

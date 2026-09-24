@@ -1,3 +1,9 @@
+---
+title: Vanilla Request 文档中心 - JEALER
+keywords: vanilla-request, docs, JEALER
+description: vanilla-request 是一个零依赖的轻量级 HTTP 请求工具。同时，它配合 vanilla-signal-query 提供了 query function 的能力，补足 `fetch` 在全局配置、请求拦截、响应解包、错误归一化、授权头注入等方面的日常请求能力。
+---
+
 # Vanilla Request
 
 `vanilla-request` 是轻量级 HTTP 请求工具。

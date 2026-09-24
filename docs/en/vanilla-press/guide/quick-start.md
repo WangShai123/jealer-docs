@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Quick Start - JEALER
+keywords: vanilla-press, quick-start, docs, JEALER
+description: Introduce in detail the Quick Start of vanilla-press.
+---
+
 # Quick Start
 
 `vanilla-press` is a lightweight, flexible, and highly customizable static documentation generator.

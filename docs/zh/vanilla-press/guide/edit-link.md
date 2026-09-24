@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 编辑链接 - JEALER
+keywords: vanilla-press, edit link, docs, JEALER
+description: 详细介绍 vanilla-press 的编辑链接功能。
+---
+
 # 编辑链接
 
 编辑链接，用于在文档页面中输出“编辑”入口，方便作者直接跳转到文档源文件。
@@ -13,7 +19,7 @@ export default {
   server: {
     editLink: true,
   },
-}
+};
 ```
 
 - `false` 表示关闭编辑链接功能。
@@ -28,7 +34,7 @@ export default {
       text: 'editor.editLink',
     },
   },
-}
+};
 ```
 
 ### pattern
@@ -58,7 +64,7 @@ export default {
       pattern: 'https://github.com/your-name/your-repo/edit/main/docs/:path',
     },
   },
-}
+};
 ```
 
 ### text
@@ -74,7 +80,7 @@ export default {
       text: 'editor.editLink',
     },
   },
-}
+};
 ```
 
 默认多语言配置：
@@ -91,7 +97,7 @@ export default {
       editLink: 'Edit this page on GitHub',
     },
   },
-}
+};
 ```
 
 ## 输出

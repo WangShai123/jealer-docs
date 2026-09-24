@@ -1,3 +1,9 @@
+---
+title: Vanilla Press LLMs - JEALER
+keywords: vanilla-press, llms, docs, JEALER
+description: 详细介绍 vanilla-press 的LLMs 输出功能。
+---
+
 # LLMs
 
 生成 `llms.txt`，并为每个页面生成对应的 Markdown 路由文件，方便 LLM 直接读取文档源内容。
@@ -16,7 +22,7 @@ export default {
       claude: true, // 是否启用工具栏：在 Claude 中打开
     },
   },
-}
+};
 ```
 
 - `link`、`copy`、`chatgpt`、`claude` 其中任意一项启用时，页面正文标题的下方就会输出 LLMS 工具栏。
@@ -48,7 +54,7 @@ export default {
       },
     },
   },
-}
+};
 ```
 
 ## 输出

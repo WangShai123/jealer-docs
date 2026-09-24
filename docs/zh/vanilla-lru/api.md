@@ -1,3 +1,9 @@
+---
+title: Vanilla Lru API 文档 - JEALER
+keywords: vanilla-lru, api, docs, JEALER
+description: 详细介绍 vanilla-lru 的相关 API。
+---
+
 # Vanilla Lru API 文档
 
 `vanilla-lru` 是一个零依赖的 JavaScript LRU 缓存。导出的 `Lru` 类继承自原生 `Map`，因此保留了熟悉的 `Map` 接口，同时添加了有界容量、LRU 提升、可选过期和驱逐钩子功能。如果偏好函数入口，也可以使用命名导出的 `createLru()` 工厂函数，它返回同样的 `Lru` 实例类型。

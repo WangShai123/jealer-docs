@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Drop - JEALER
+keywords: vanilla-jui, drop, docs, JEALER
+description: Introduce the usage of the Drop component of vanilla-jui.
 client:
   entry:
     - drop

@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Highlight - JEALER
+keywords: vanilla-press, highlight, docs, JEALER
+description: Introduce in detail the Highlight module of vanilla-press.
+---
+
 # Highlight
 
 Highlight is powered by `Shiki` and prerendered to static HTML during build.
@@ -51,7 +57,7 @@ export default {
       dark: 'github-dark-default',
     },
   },
-}
+};
 ```
 
 If `light` or `dark` is missing, does not exist, or fails to load, the default theme is used.
@@ -70,11 +76,11 @@ Add `{lines}` after the code block language to highlight specific lines. Single 
 @tab Example
 
 ```ts {2,4-6}
-const name = 'VanillaPress'
-const version = '1.5'
+const name = 'VanillaPress';
+const version = '1.5';
 
 export function info() {
-  return `${name}@${version}`
+  return `${name}@${version}`;
 }
 ```
 
@@ -82,11 +88,11 @@ export function info() {
 
 ````markdown
 ```ts {2,4-6}
-const name = 'VanillaPress'
-const version = '1.5'
+const name = 'VanillaPress';
+const version = '1.5';
 
 export function info() {
-  return `${name}@${version}`
+  return `${name}@${version}`;
 }
 ```
 ````
@@ -99,12 +105,12 @@ You can also use `[!code highlight]`. When it is placed at the end of a code lin
 @tab Example
 
 ```ts
-const name = 'VanillaPress'
-const version = '1.5' // [!code highlight]
+const name = 'VanillaPress';
+const version = '1.5'; // [!code highlight]
 
 export function info() {
   // [!code highlight:3]
-  return `${name}@${version}`
+  return `${name}@${version}`;
 }
 ```
 
@@ -112,12 +118,12 @@ export function info() {
 
 ````markdown
 ```ts
-const name = 'VanillaPress'
-const version = '1.5' // [!code highlight]
+const name = 'VanillaPress';
+const version = '1.5'; // [!code highlight]
 
 export function info() {
   // [!code highlight:3]
-  return `${name}@${version}`
+  return `${name}@${version}`;
 }
 ```
 ````
@@ -134,11 +140,11 @@ Use `[!code focus]` to emphasize key lines and dim the rest of the same code blo
 @tab Example
 
 ```ts
-const name = 'VanillaPress'
-const version = '1.5' // [!code focus]
+const name = 'VanillaPress';
+const version = '1.5'; // [!code focus]
 
 export function info() {
-  return `${name}@${version}` // [!code focus]
+  return `${name}@${version}`; // [!code focus]
 }
 ```
 
@@ -146,11 +152,11 @@ export function info() {
 
 ````markdown
 ```ts
-const name = 'VanillaPress'
-const version = '1.5' // [!code focus]
+const name = 'VanillaPress';
+const version = '1.5'; // [!code focus]
 
 export function info() {
-  return `${name}@${version}` // [!code focus]
+  return `${name}@${version}`; // [!code focus]
 }
 ```
 ````
@@ -165,8 +171,8 @@ Continuous ranges are supported too:
 ```ts
 export function createApp() {
   // [!code focus:3]
-  const app = {}
-  return app
+  const app = {};
+  return app;
 }
 ```
 
@@ -176,8 +182,8 @@ export function createApp() {
 ```ts
 export function createApp() {
   // [!code focus:3]
-  const app = {}
-  return app
+  const app = {};
+  return app;
 }
 ```
 ````
@@ -192,18 +198,18 @@ Use `[!code ++]` and `[!code --]` to mark added and removed lines. This is usefu
 @tab Example
 
 ```ts
-const theme = 'github-light-default'
-const darkTheme = 'github-dark-default' // [!code --]
-const darkTheme = 'github-dark-high-contrast' // [!code ++]
+const theme = 'github-light-default';
+const darkTheme = 'github-dark-default'; // [!code --]
+const darkTheme = 'github-dark-high-contrast'; // [!code ++]
 ```
 
 @tab Syntax
 
 ````markdown
 ```ts
-const theme = 'github-light-default'
-const darkTheme = 'github-dark-default' // [!code --]
-const darkTheme = 'github-dark-high-contrast' // [!code ++]
+const theme = 'github-light-default';
+const darkTheme = 'github-dark-default'; // [!code --]
+const darkTheme = 'github-dark-high-contrast'; // [!code ++]
 ```
 ````
 
@@ -218,10 +224,10 @@ Use `[!code warning]` and `[!code error]` to mark warning or error lines.
 
 ```ts
 function loadTheme(theme?: string) {
-  if (!theme) return 'github-light-default' // [!code warning]
-  if (theme === 'unknown') throw new Error('Invalid theme') // [!code error]
+  if (!theme) return 'github-light-default'; // [!code warning]
+  if (theme === 'unknown') throw new Error('Invalid theme'); // [!code error]
 
-  return theme
+  return theme;
 }
 ```
 
@@ -230,10 +236,10 @@ function loadTheme(theme?: string) {
 ````markdown
 ```ts
 function loadTheme(theme?: string) {
-  if (!theme) return 'github-light-default' // [!code warning]
-  if (theme === 'unknown') throw new Error('Invalid theme') // [!code error]
+  if (!theme) return 'github-light-default'; // [!code warning]
+  if (theme === 'unknown') throw new Error('Invalid theme'); // [!code error]
 
-  return theme
+  return theme;
 }
 ```
 ````
@@ -248,16 +254,16 @@ Add `line-numbers` after the code block language to show line numbers.
 @tab Example
 
 ```ts line-numbers
-export const siteName = 'VanillaPress'
-export const version = '1.5'
+export const siteName = 'VanillaPress';
+export const version = '1.5';
 ```
 
 @tab Syntax
 
 ````markdown
 ```ts line-numbers
-export const siteName = 'VanillaPress'
-export const version = '1.5'
+export const siteName = 'VanillaPress';
+export const version = '1.5';
 ```
 ````
 
@@ -270,7 +276,7 @@ You can also set the starting line number:
 
 ```ts line-numbers=10
 export function mount() {
-  return true
+  return true;
 }
 ```
 
@@ -279,7 +285,7 @@ export function mount() {
 ````markdown
 ```ts line-numbers=10
 export function mount() {
-  return true
+  return true;
 }
 ```
 ````

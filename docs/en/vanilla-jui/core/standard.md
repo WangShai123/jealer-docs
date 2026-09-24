@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Component Design Standard - JEALER
+keywords: vanilla-jui, standard, docs, JEALER
+description: Introduce the component design standard of the vanilla-jui.
+---
+
 # Component Design Standard
 
 The goal of a JUI component is simple: users give data, state, and behavior to the component, and the component is responsible for presenting them in the DOM in a stable way.
@@ -48,14 +54,14 @@ These patterns make components hard to reason about during data updates, layout 
 
 A component usually contains these parts:
 
-| Part      | Responsibility |
-| --------- | -------------- |
-| `props`   | Creation options, such as className, callbacks, default behavior, and slot content |
-| `state`   | Runtime data that changes and needs to drive the UI |
-| `memo`    | Results derived from state, such as visible list, current item, and disabled state |
-| `refs`    | Required DOM references for measurement, focus, scroll, and animation |
-| `actions` | Public methods such as `show()`, `hide()`, and `activate()` |
-| `view`    | Creates a stable root node and establishes reactive bindings |
+| Part      | Responsibility                                                                            |
+| --------- | ----------------------------------------------------------------------------------------- |
+| `props`   | Creation options, such as className, callbacks, default behavior, and slot content        |
+| `state`   | Runtime data that changes and needs to drive the UI                                       |
+| `memo`    | Results derived from state, such as visible list, current item, and disabled state        |
+| `refs`    | Required DOM references for measurement, focus, scroll, and animation                     |
+| `actions` | Public methods such as `show()`, `hide()`, and `activate()`                               |
+| `view`    | Creates a stable root node and establishes reactive bindings                              |
 | `effects` | Side effects related to browser capabilities, such as ResizeObserver and event delegation |
 
 These parts can live in the closure of the same factory function. Class inheritance is not required to share state. Keep private data in the closure and expose only the public methods the component truly needs.
@@ -140,24 +146,24 @@ const view = () =>
 
 DOM updates that can be expressed declaratively should be handled by `vanilla-signal` bindings:
 
-| Scenario                 | Recommended way |
-| ------------------------ | --------------- |
-| Element structure        | `jsx` |
-| Text, attributes, class, style | accessor bindings |
-| Conditional content      | dynamic children / `Show` |
-| Lists                    | keyed `For` |
-| Events                   | JSX events or event delegation on a stable root node |
-| Mount and destroy        | `build()`, `mount()`, `unmount()`, `destroy()` |
+| Scenario                       | Recommended way                                      |
+| ------------------------------ | ---------------------------------------------------- |
+| Element structure              | `jsx`                                                |
+| Text, attributes, class, style | accessor bindings                                    |
+| Conditional content            | dynamic children / `Show`                            |
+| Lists                          | keyed `For`                                          |
+| Events                         | JSX events or event delegation on a stable root node |
+| Mount and destroy              | `build()`, `mount()`, `unmount()`, `destroy()`       |
 
 When direct DOM operations are necessary, keep them in separate methods or effects and provide cleanup:
 
-| Scenario         | Handling |
-| ---------------- | -------- |
+| Scenario                      | Handling                                                     |
+| ----------------------------- | ------------------------------------------------------------ |
 | Size and position measurement | Handle in layout effects, ResizeObserver, or scheduled tasks |
-| Focus and scroll | Handle in explicit actions |
-| pointer capture  | Handle at input event boundaries and release when finished |
-| Enter and leave  | Use the animation controller |
-| Portal nodes     | Record on creation and remove on destroy |
+| Focus and scroll              | Handle in explicit actions                                   |
+| pointer capture               | Handle at input event boundaries and release when finished   |
+| Enter and leave               | Use the animation controller                                 |
+| Portal nodes                  | Record on creation and remove on destroy                     |
 
 ## Content Safety Boundary
 

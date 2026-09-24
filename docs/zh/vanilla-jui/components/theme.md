@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 主题 - JEALER
+keywords: vanilla-jui, theme, docs, JEALER
+description: 介绍 vanilla-jui 的主题组件的使用方法。
+---
+
 # 主题
 
 Theme 是主题配置和主题面板控制器，用于管理应用的主题样式。

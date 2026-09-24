@@ -1,6 +1,12 @@
-# vanilla-storage API
+---
+title: Vanilla Create Storage API Docs - JEALER
+keywords: vanilla-create-storage, api, docs, JEALER
+description: About Vanilla Create Storage API details.
+---
 
-`vanilla-storage` is an async unified API for browser storage.
+# Vanilla Create Storage API
+
+`vanilla-create-storage` is an async unified API for browser storage.
 
 It wraps `localStorage`, `sessionStorage`, `IndexedDB`, `cookie`, and in-memory
 storage behind a consistent read/write model, with built-in namespace, TTL,

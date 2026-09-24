@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 外部链接 - JEALER
+keywords: vanilla-press, external link, docs, JEALER
+description: 详细介绍 vanilla-press 的外部链接功能。
+---
+
 # 外部链接
 
 向用户指示站外链接。
@@ -15,7 +21,7 @@ export default {
   server: {
     externalLink: true,
   },
-}
+};
 ```
 
 ## 说明

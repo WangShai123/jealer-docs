@@ -1,3 +1,9 @@
+---
+title: Vanilla Request API 文档 - JEALER
+keywords: vanilla-request, api, docs, JEALER
+description: 详细介绍 vanilla-request 的相关 API。
+---
+
 # Vanilla Request API 文档
 
 ## 创建请求实例

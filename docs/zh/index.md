@@ -1,7 +1,7 @@
 ---
 layout: docs-index
-title: 文档中心
-keywords: W3Lib, G3, JavaScript, PHP, 文档
+title: 文档中心 - JEALER
+keywords: 文档中心, JEALER, vanilla-signal, vanilla-signal-query, vanilla-signal-i18n, vanilla-request, vanilla-create-storage, vanilla-lru, vanilla-jui, vanilla-press, vanilla-sse
 description: JEALER 文档中心，集中浏览 W3Lib 与 G3 相关项目文档。
 layouts:
   docs-index:

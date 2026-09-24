@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI 弹窗 - JEALER
+keywords: vanilla-jui, popup, docs, JEALER
+description: 介绍 vanilla-jui 的弹窗组件的使用方法。
+---
+
 # 弹窗
 
 Popup 是一个轻量 DOM 工厂，只负责生产通用弹窗节点，提供给其他组件使用。

@@ -1,4 +1,7 @@
 ---
+title: Vanilla Signal Todo List Demo - JEALER
+keywords: vanilla-signal, demo, to-do-list, docs, JEALER
+description: vanilla-signal todo list demo.
 client:
   entry: vanilla-signal-demo-to-do-list
 ---

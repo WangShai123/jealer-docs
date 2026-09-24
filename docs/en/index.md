@@ -1,7 +1,7 @@
 ---
 layout: docs-index
-title: Docs Center
-keywords: W3Lib, G3, JavaScript, PHP, documentation
+title: Docs Center - JEALER
+keywords: docs, JEALER, vanilla-signal, vanilla-signal-query, vanilla-signal-i18n, vanilla-request, vanilla-create-storage, vanilla-lru, vanilla-jui, vanilla-press, vanilla-sse
 description: JEALER Docs Center for browsing W3Lib and G3 project documentation.
 layouts:
   docs-index:

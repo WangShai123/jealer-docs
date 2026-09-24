@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI 图标 - JEALER
+keywords: vanilla-jui, icons, docs, JEALER
+description: 介绍 vanilla-jui 的图标组件的使用方法。
 client:
   entry:
     - icons

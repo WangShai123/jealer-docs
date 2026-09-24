@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 组件列表 - JEALER
+keywords: vanilla-press, component list, docs, JEALER
+description: 详细介绍 vanilla-press 的组件列表，包括tabs, accordion, offcanvas, tip, tree, details, group, badge, icon 等。
+---
+
 # 组件
 
 `vanilla-press` 内置组件是基于 `vanilla-jui` 的一套 Markdown 容器组件，主要用于文档页面排版与交互增强。
@@ -15,10 +21,10 @@
 @tab JavaScript
 
 ```javascript
-const pages = ['index.md', 'guide/components.md']
+const pages = ['index.md', 'guide/components.md'];
 
 export function toHtml(file) {
-  return file.replace(/\.md$/, '.html')
+  return file.replace(/\.md$/, '.html');
 }
 ```
 
@@ -107,10 +113,10 @@ export function toHtml(file) {
 
 ```javascript
 // javascript
-const pages = ['index.md', 'guide/components.md']
+const pages = ['index.md', 'guide/components.md'];
 
 export function toHtml(file) {
-  return file.replace(/\.md$/, '.html')
+  return file.replace(/\.md$/, '.html');
 }
 ```
 
@@ -129,10 +135,10 @@ export function toHtml(file) {
 
 ```javascript
 // javascript
-const pages = ['index.md', 'guide/components.md']
+const pages = ['index.md', 'guide/components.md'];
 
 export function toHtml(file) {
-  return file.replace(/\.md$/, '.html')
+  return file.replace(/\.md$/, '.html');
 }
 ```
 
@@ -268,7 +274,7 @@ export default {
   'align-right':
     '<path d="M3 4H21V6H3V4ZM7 19H21V21H7V19ZM3 14H21V16H3V14ZM7 9H21V11H7V9Z"></path>',
   copy: '<path d="M20 8v12H8V8zm0-2H8a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2"></path><path d="M4 16H2V4a2 2 0 0 1 2-2h12v2H4Z"></path>',
-}
+};
 ```
 
 ### Details

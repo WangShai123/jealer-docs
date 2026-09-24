@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Vanilla Press
-keywords: vanilla-press, markdown-it, 静态文档生成器
+title: Vanilla Press 文档中心 - JEALER
+keywords: vanilla-press, markdown-it, 静态文档生成器, JEALER
 description: vanilla-press 是一款轻量、优雅、自由、高可定制的静态文档生成器。
 layouts:
   home:

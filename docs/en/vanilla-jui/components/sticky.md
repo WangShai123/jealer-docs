@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Sticky - JEALER
+keywords: vanilla-jui, sticky, docs, JEALER
+description: Introduce the usage of the Sticky component of vanilla-jui.
 client:
   entry:
     - sticky

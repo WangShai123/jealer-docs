@@ -1,3 +1,9 @@
+---
+title: Vanilla Press SEO - JEALER
+keywords: vanilla-press, seo, docs, JEALER
+description: 详细介绍 vanilla-press 的 SEO 功能。
+---
+
 # SEO
 
 让文档站点在搜索引擎中更容易被发现。

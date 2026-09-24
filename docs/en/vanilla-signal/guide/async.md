@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal Async - JEALER
+keywords: vanilla-signal, async, docs, JEALER
+description: vanilla-signal's Async module manages async data state and lightweight suspense reads. It depends on Core and Store, and does not operate on the DOM directly.
+---
+
 # Async
 
 The Async module manages async data state and lightweight suspense reads. It depends on Core and Store, and does not operate on the DOM directly.

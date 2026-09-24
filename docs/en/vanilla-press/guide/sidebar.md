@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Sidebar - JEALER
+keywords: vanilla-press, sidebar, docs, JEALER
+description: Introduce in detail the Sidebar module of vanilla-press.
+---
+
 # Sidebar
 
 The sidebar navigation displayed along the side of the page.
@@ -24,7 +30,7 @@ export default [
       { label: 'sidebar.sidebar', path: 'guide/sidebar' },
     ],
   },
-]
+];
 ```
 
 ## Directory Sidebar
@@ -34,12 +40,12 @@ Since `1.5.0`, a subdirectory under `docs/` can add its own `sidebar.ts` or `sid
 For example, `docs/components/sidebar.ts` applies to pages under `docs/components/**`, and uses the same format as `vp/config/sidebar.ts`:
 
 ```ts
-import type { SidebarConfig } from 'vanilla-press'
+import type { SidebarConfig } from 'vanilla-press';
 
 export default [
   { label: 'components.overview', path: 'components/index' },
   { label: 'components.button', path: 'components/button' },
-] satisfies SidebarConfig
+] satisfies SidebarConfig;
 ```
 
 When multiple directory sidebars match the current page, the nearest directory wins. Once a directory sidebar matches, the global sidebar is not rendered for that page.

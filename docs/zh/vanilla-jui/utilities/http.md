@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI HTTP 工具函数 - JEALER
+keywords: vanilla-jui, http, docs, JEALER
+description: vanilla-jui 提供了 HTTP 相关的系列工具函数。
+---
+
 # HTTP
 
 ## 导入

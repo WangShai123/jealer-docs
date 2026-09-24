@@ -1,6 +1,12 @@
-# I18n
+---
+title: Vanilla Signal I18n Docs - JEALER
+keywords: vanilla-signal-i18n, docs, JEALER
+description: vanilla-signal-i18n is a reactive internationalization manager based on vanilla-signal.
+---
 
-I18n is a reactive internationalization manager based on `vanilla-signal`.
+# Vanilla Signal I18n
+
+vanilla-signal-i18n is a reactive internationalization manager based on `vanilla-signal`.
 
 ## Installation
 

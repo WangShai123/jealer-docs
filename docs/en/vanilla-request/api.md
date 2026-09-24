@@ -1,4 +1,10 @@
-# API
+---
+title: Vanilla Request API Docs - JEALER
+keywords: vanilla-request, api, docs, JEALER
+description: About vanilla-request API details.
+---
+
+# Vanilla Request API
 
 ## Creating a Request Instance
 

@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI Offcanvas - JEALER
+keywords: vanilla-jui, offcanvas, docs, JEALER
+description: Introduce the usage of the Offcanvas component of vanilla-jui.
 client:
   entry:
     - offcanvas

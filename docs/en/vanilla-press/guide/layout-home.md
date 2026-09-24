@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Home Layout - JEALER
+keywords: vanilla-press, home-layout, docs, JEALER
+description: Introduce in detail the Home Layout module of vanilla-press.
+---
+
 # Home Layout
 
 `home` is the homepage layout example provided by VanillaPress. It shows how to drive a freer page structure from frontmatter. It reuses the shared responsive site header through `{{{ slots.header }}}` inside `.vp-header`. The built-in template and styles are shipped by the installed `vanilla-press` package.

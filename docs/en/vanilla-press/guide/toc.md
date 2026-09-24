@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Toc - JEALER
+keywords: vanilla-press, toc, docs, JEALER
+description: Introduce in detail the Toc module of vanilla-press.
+---
+
 # Table of Contents
 
 Automatically generate a table of contents from the page content. By default it supports `h2` and `h3`, and visibility can be controlled through the `client.toc` option.
@@ -11,7 +17,7 @@ export default {
   client: {
     toc: true,
   },
-}
+};
 ```
 
 ## Configuration
@@ -27,7 +33,7 @@ export default {
       offset: 100,
     },
   },
-}
+};
 ```
 
 - `client.toc.enabled`: Whether the table of contents is enabled, default is `true`.

@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Object Utilities - JEALER
+keywords: vanilla-jui, object, docs, JEALER
+description: Introduce the object utilities methods of vanilla-jui.
+---
+
 # Object
 
 ## Import

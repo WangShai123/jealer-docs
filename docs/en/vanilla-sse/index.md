@@ -1,4 +1,10 @@
-# vanilla-sse
+---
+title: Vanilla SSE Docs - JEALER
+keywords: vanilla-sse, docs, JEALER
+description: vanilla-sse is a lightweight SSE client for subscribing to server-side events.
+---
+
+# Vanilla SSE
 
 `vanilla-sse` is a small SSE client. It reads `text/event-stream` with `fetch`, so it works well for notification, customer service, web terminal, crawler progress, and AI assistant streaming scenarios that need headers, authorization, request bodies, and explicit lifecycle control.
 

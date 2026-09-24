@@ -1,3 +1,9 @@
+---
+title: Vanilla Press 布局 API - JEALER
+keywords: vanilla-press, layout api, docs, JEALER
+description: 详细介绍 vanilla-press 的布局 API功能。
+---
+
 # 布局 API
 
 布局用于控制一个 Markdown 页面最终输出的 HTML 外壳。
@@ -67,8 +73,8 @@ export default function initLandingLayout(root: Document, config: unknown) {
   root
     .querySelectorAll('.landing-layout:not([data-layout-ready="true"])')
     .forEach((node) => {
-      node.setAttribute('data-layout-ready', 'true')
-    })
+      node.setAttribute('data-layout-ready', 'true');
+    });
 }
 ```
 

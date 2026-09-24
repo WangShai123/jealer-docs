@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Prev-Next - JEALER
+keywords: vanilla-press, prev-next, docs, JEALER
+description: Introduce in detail the Prev-Next module of vanilla-press.
+---
+
 # Pagination
 
 Pagination helps users move through documentation pages more efficiently.
@@ -11,7 +17,7 @@ export default {
   server: {
     prevNext: true,
   },
-}
+};
 ```
 
 ## Slots

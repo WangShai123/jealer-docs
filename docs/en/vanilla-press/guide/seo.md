@@ -1,3 +1,9 @@
+---
+title: Vanilla Press SEO - JEALER
+keywords: vanilla-press, seo, docs, JEALER
+description: Introduce in detail the SEO module of vanilla-press.
+---
+
 # SEO
 
 Make the documentation site easier to discover in search engines.

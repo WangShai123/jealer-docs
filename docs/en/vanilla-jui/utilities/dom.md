@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI DOM Utilities - JEALER
+keywords: vanilla-jui, dom, docs, JEALER
+description: Introduce the dom utilities methods of vanilla-jui.
 client:
   entry:
     - dom

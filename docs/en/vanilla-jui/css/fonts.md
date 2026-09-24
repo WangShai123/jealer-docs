@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Fonts - JEALER
+keywords: vanilla-jui, fonts, docs, JEALER
+description: Introduce the fonts CSS classes of vanilla-jui.
+---
+
 # Fonts
 
 > CSS tools such as `tailwindcss` and `unocss` are recommended. They make UI customization easier and help build smaller CSS files on demand.

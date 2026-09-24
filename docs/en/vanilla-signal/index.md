@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal Docs - JEALER
+keywords: vanilla-signal, docs, JEALER
+description: vanilla-signal is a fine-grained reactive runtime that brings Signal-based reactive design to framework-free, dependency-free, build-free vanilla JavaScript.
+---
+
 # Vanilla Signal
 
 > A SolidJS-style reactive core without the framework compiler or full UI layer, making it lighter and easier to embed in any JavaScript project.

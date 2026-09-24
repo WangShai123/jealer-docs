@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI 表单 - JEALER
+keywords: vanilla-jui, form, docs, JEALER
+description: 介绍 vanilla-jui 的表单组件的使用方法。
 client:
   entry:
     - form

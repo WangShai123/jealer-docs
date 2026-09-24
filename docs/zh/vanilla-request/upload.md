@@ -1,3 +1,9 @@
+---
+title: Vanilla Request 上传进度 - JEALER
+keywords: vanilla-request, 上传进度, docs, JEALER
+description: vanilla-request 上传进度控制。
+---
+
 # 上传进度
 
 `vanilla-request` 默认使用 `fetch` 发送请求。浏览器 `fetch` 不提供上传进度事件，所以需要进度控制时，请在请求选项中传入 `onUploadProgress`。当前请求会自动切换到 `XMLHttpRequest`。

@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI HTTP Utilities - JEALER
+keywords: vanilla-jui, http, docs, JEALER
+description: Introduce the http utilities methods of vanilla-jui.
+---
+
 # HTTP
 
 ## Import

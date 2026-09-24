@@ -1,9 +1,15 @@
+---
+title: Vanilla Press Runtime Config - JEALER
+keywords: vanilla-press, runtime, docs, JEALER
+description: Introduce in detail the Runtime Config module of vanilla-press.
+---
+
 # Runtime Config
 
 `vp/config/runtime.ts` describes site data, build-stage data, and browser runtime data.
 
 ```ts
-import type { RuntimeConfig } from 'vanilla-press'
+import type { RuntimeConfig } from 'vanilla-press';
 
 export default {
   siteName: 'VanillaPress',
@@ -60,7 +66,7 @@ export default {
       },
     },
   },
-} satisfies RuntimeConfig
+} satisfies RuntimeConfig;
 ```
 
 ## Top-Level Options
@@ -76,21 +82,21 @@ export default {
 
 `server` stores user-defined data needed at build time. Build-time features are mostly convention-driven instead of being modeled as toggle-heavy configuration.
 
-| Option                 | Type                 | Description                                                   |
-| ---------------------- | -------------------- | ------------------------------------------------------------- |
+| Option                 | Type                 | Description                                                          |
+| ---------------------- | -------------------- | -------------------------------------------------------------------- |
 | server.social          | object               | Header and footer social links. Keys are icon names and values URLs. |
-| server.footerScript    | "script" \| "module" | Script type for `vp/config/footerScript.ts` output            |
-| server.highlight.light | string               | Light Shiki theme. Defaults to `github-light-default`         |
-| server.highlight.dark  | string               | Dark Shiki theme. Defaults to `github-dark-default`           |
-| server.externalLink    | boolean              | Build-time external link enhancement. Enabled by default.     |
-| server.prevNext        | boolean \| object    | Build-time previous/next page navigation                      |
-| server.i18n            | object               | Build-time internationalization metadata                      |
-| server.client.entries  | object               | Custom client entry script or stylesheet entries              |
-| server.client.shared   | array \| object      | Shared npm dependencies for layout scripts and client entries |
-| server.llms            | object               | LLMs output and page Markdown action data                     |
-| server.editLink        | object               | Edit link data                                                |
-| server.lastEdit        | object               | Last updated display data                                     |
-| icp                    | string               | ICP number. Omitted means no ICP text is rendered.            |
+| server.footerScript    | "script" \| "module" | Script type for `vp/config/footerScript.ts` output                   |
+| server.highlight.light | string               | Light Shiki theme. Defaults to `github-light-default`                |
+| server.highlight.dark  | string               | Dark Shiki theme. Defaults to `github-dark-default`                  |
+| server.externalLink    | boolean              | Build-time external link enhancement. Enabled by default.            |
+| server.prevNext        | boolean \| object    | Build-time previous/next page navigation                             |
+| server.i18n            | object               | Build-time internationalization metadata                             |
+| server.client.entries  | object               | Custom client entry script or stylesheet entries                     |
+| server.client.shared   | array \| object      | Shared npm dependencies for layout scripts and client entries        |
+| server.llms            | object               | LLMs output and page Markdown action data                            |
+| server.editLink        | object               | Edit link data                                                       |
+| server.lastEdit        | object               | Last updated display data                                            |
+| icp                    | string               | ICP number. Omitted means no ICP text is rendered.                   |
 
 ## client
 

@@ -1,3 +1,9 @@
+---
+title: 配合 vanilla-signal-query - JEALER
+keywords: vanilla-request, vanilla-signal-query, query function, docs, JEALER
+description: 详细介绍 vanilla-request 如何配合 vanilla-signal-query 使用。
+---
+
 # 配合 vanilla-signal-query
 
 `vanilla-signal-query` 是 `vanilla-request` 的可选集成目标。需要 query 状态、缓存、去重、重试、超时、中断和失效管理时，可以把请求实例的 `queryFn()` 交给 `createQuery`。

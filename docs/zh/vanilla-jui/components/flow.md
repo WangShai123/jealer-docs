@@ -1,4 +1,7 @@
 ---
+title: Vanilla JUI 流程 - JEALER
+keywords: vanilla-jui, flow, docs, JEALER
+description: 介绍 vanilla-jui 的流程组件的使用方法。
 client:
   entry:
     - flow

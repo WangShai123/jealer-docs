@@ -1,3 +1,9 @@
+---
+title: Vanilla Signal JSX 模块 - JEALER
+keywords: vanilla-signal, jsx, docs, JEALER
+description: vanilla-signal 的 JSX 模块，提供 hyperscript、JSX runtime 和无构建 tagged template。它复用 DOM 模块的插入和属性处理能力。
+---
+
 # JSX
 
 JSX 模块提供 hyperscript、JSX runtime 和无构建 tagged template。它复用 DOM 模块的插入和属性处理能力。

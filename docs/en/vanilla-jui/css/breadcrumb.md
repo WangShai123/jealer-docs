@@ -1,3 +1,9 @@
+---
+title: Vanilla JUI Breadcrumb - JEALER
+keywords: vanilla-jui, breadcrumb, docs, JEALER
+description: Introduce the breadcrumb CSS classes of vanilla-jui.
+---
+
 # Breadcrumb
 
 > CSS tools such as `tailwindcss` and `unocss` are recommended. They make UI customization easier and help build smaller CSS files on demand.

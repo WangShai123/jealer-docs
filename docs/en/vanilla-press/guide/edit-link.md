@@ -1,3 +1,9 @@
+---
+title: Vanilla Press Edit Link - JEALER
+keywords: vanilla-press, edit-link, docs, JEALER
+description: Introduce in detail the Edit Link module of vanilla-press.
+---
+
 # Edit Link
 
 The edit link shows an “Edit” entry on documentation pages so authors can jump directly to the source file.
@@ -13,7 +19,7 @@ export default {
   server: {
     editLink: true,
   },
-}
+};
 ```
 
 - `false` disables the edit link.
@@ -28,7 +34,7 @@ export default {
       text: 'editor.editLink',
     },
   },
-}
+};
 ```
 
 ### pattern
@@ -58,7 +64,7 @@ export default {
       pattern: 'https://github.com/your-name/your-repo/edit/main/docs/:path',
     },
   },
-}
+};
 ```
 
 ### text
@@ -74,7 +80,7 @@ export default {
       text: 'editor.editLink',
     },
   },
-}
+};
 ```
 
 Default multilingual config:
@@ -91,7 +97,7 @@ export default {
       editLink: 'Edit this page on GitHub',
     },
   },
-}
+};
 ```
 
 ## Output
