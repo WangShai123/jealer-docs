@@ -90,11 +90,10 @@
 
 <figure>
     <video
-    controls=""
     width="100%"
     poster="https://placehold.co/600x300/lightgray/gray?text=Loading..."
     >
-    <source src="../../public/sample.mp4" type="video/mp4" />
+    <source src="../../../public/sample.mp4" type="video/mp4" />
     您的浏览器不支持 video 标签。
     </video>
     <figcaption>图2：视频嵌入示例</figcaption>
@@ -102,7 +101,7 @@
 
 <figure>
     <audio controls="">
-    <source src="../../public/new_order.mp3" type="audio/mpeg" />
+    <source src="../../../public/new_order.mp3" type="audio/mpeg" />
     您的浏览器不支持 audio 标签。
     </audio>
     <figcaption>音频播放控件</figcaption>
