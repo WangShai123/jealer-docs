@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 按钮 - JEALER
+title: 按钮 VanillaJUI - JEALER
 keywords: vanilla-jui, button, docs, JEALER
 description: 介绍 vanilla-jui 的按钮 CSS 类。
 ---

@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 固定 - JEALER
+title: 固定 VanillaJUI - JEALER
 keywords: vanilla-jui, sticky, docs, JEALER
 description: 介绍 vanilla-jui 的固定组件的使用方法。
 client:

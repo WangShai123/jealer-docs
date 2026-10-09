@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 徽章 - JEALER
+title: 徽章 VanillaJUI - JEALER
 keywords: vanilla-jui, badge, docs, JEALER
 description: 介绍 vanilla-jui 的徽章 CSS 类。
 ---

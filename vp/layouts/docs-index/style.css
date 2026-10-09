@@ -50,6 +50,7 @@ body.vp-layout-docs-index {
   width: min(1120px, calc(100% - 40px));
   margin: 48px auto 0;
   padding: 26px 0 28px;
+  user-select: none;
 }
 
 .docs-index-hero {

@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 图标 - JEALER
+title: 图标 VanillaJUI - JEALER
 keywords: vanilla-jui, icons, docs, JEALER
 description: 介绍 vanilla-jui 的图标 CSS 类。
 ---

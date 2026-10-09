@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 事件 工具函数 - JEALER
+title: 事件 工具函数 VanillaJUI - JEALER
 keywords: vanilla-jui, event, docs, JEALER
 description: vanilla-jui 提供了事件 相关的系列工具函数。
 ---

@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press Robots - JEALER
+title: Robots Vanilla Press - JEALER
 keywords: vanilla-press, robots, docs, JEALER
 description: 详细介绍 vanilla-press 的 Robots 输出功能。
 ---

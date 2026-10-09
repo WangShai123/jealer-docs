@@ -1,5 +1,5 @@
 ---
-title: Vanilla Signal Query 设计原理 - JEALER
+title: 设计原理 Vanilla Signal Query - JEALER
 keywords: vanilla-signal-query, design, docs, JEALER
 description: 介绍 vanilla-signal-query 的设计原理：专注于 server state 管理。它处理 query 状态、缓存、失效和请求生命周期，不绑定 DOM 渲染，也不规定 UI 组织方式。
 ---

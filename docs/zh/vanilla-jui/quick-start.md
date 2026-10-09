@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 快速开始 - JEALER
+title: 快速开始 VanillaJUI - JEALER
 keywords: vanilla-jui, quick-start, docs, JEALER
 description: 介绍 vanilla-jui 的设计原则、功能特性、安装、用法、依赖、源码架构等。
 ---

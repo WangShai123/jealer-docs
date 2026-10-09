@@ -1,5 +1,5 @@
 ---
-title: Vanilla Request 拦截器与错误 - JEALER
+title: 拦截器与错误 Vanilla Request - JEALER
 keywords: vanilla-request, interceptors, errors, docs, JEALER
 description: 详细介绍 vanilla-request 的请求拦截器使用和错误处理机制。
 ---

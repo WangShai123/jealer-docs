@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 主题 - JEALER
+title: 主题 VanillaJUI - JEALER
 keywords: vanilla-jui, theme, docs, JEALER
 description: 介绍 vanilla-jui 的主题组件的使用方法。
 ---

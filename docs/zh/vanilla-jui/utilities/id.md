@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI ID 工具函数 - JEALER
+title: ID 工具函数 VanillaJUI - JEALER
 keywords: vanilla-jui, id, docs, JEALER
 description: vanilla-jui 提供了 ID 相关的系列工具函数，包含 uuid, randomId, hashQueryParams。
 ---

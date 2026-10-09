@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 搜索 - JEALER
+title: 搜索 Vanilla Press - JEALER
 keywords: vanilla-press, search, docs, JEALER
 description: 详细介绍 vanilla-press 的搜索功能。
 ---

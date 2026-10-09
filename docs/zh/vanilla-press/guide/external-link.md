@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 外部链接 - JEALER
+title: 外部链接 Vanilla Press - JEALER
 keywords: vanilla-press, external link, docs, JEALER
 description: 详细介绍 vanilla-press 的外部链接功能。
 ---

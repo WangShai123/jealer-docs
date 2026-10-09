@@ -1,5 +1,5 @@
 ---
-title: Vanilla Request 上传进度 - JEALER
+title: 上传进度 Vanilla Request - JEALER
 keywords: vanilla-request, 上传进度, docs, JEALER
 description: vanilla-request 上传进度控制。
 ---

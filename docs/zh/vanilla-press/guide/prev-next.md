@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 分页导航 - JEALER
+title: 分页导航 Vanilla Press - JEALER
 keywords: vanilla-press, prev next, docs, JEALER
 description: 详细介绍 vanilla-press 的分页导航功能。
 ---

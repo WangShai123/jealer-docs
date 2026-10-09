@@ -100,7 +100,7 @@ CSS editor preview classes in the default stylesheet.
     width="100%"
     poster="https://placehold.co/600x300/lightgray/gray?text=Loading..."
     >
-    <source src="../../../public/sample.mp4" type="video/mp4" />
+    <source src="sample.mp4" type="video/mp4" />
     Your browser does not support the video tag.
     </video>
     <figcaption>Figure 2: Embedded video example</figcaption>
@@ -108,7 +108,7 @@ CSS editor preview classes in the default stylesheet.
 
 <figure>
     <audio controls="">
-    <source src="../../../public/new_order.mp3" type="audio/mpeg" />
+    <source src="new_order.mp3" type="audio/mpeg" />
     Your browser does not support the audio tag.
     </audio>
     <figcaption>Audio playback control</figcaption>

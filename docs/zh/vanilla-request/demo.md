@@ -1,5 +1,5 @@
 ---
-title: Vanilla Request 示例 - JEALER
+title: 示例 Vanilla Request - JEALER
 keywords: vanilla-request, demo, docs, JEALER
 description: 详细介绍 vanilla-request 的相关示例。
 ---

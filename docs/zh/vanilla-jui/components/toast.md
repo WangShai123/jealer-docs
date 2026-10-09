@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 通知 - JEALER
+title: 通知 VanillaJUI - JEALER
 keywords: vanilla-jui, toast, docs, JEALER
 description: 介绍 vanilla-jui 的通知组件的使用方法。
 client:

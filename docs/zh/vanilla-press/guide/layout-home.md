@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 首页布局 - JEALER
+title: 首页布局 Vanilla Press - JEALER
 keywords: vanilla-press, home layout, docs, JEALER
 description: 详细介绍 vanilla-press 的首页布局功能。
 ---

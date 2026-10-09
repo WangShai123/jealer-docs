@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 元素引用 工具函数 - JEALER
+title: 元素引用 工具函数 VanillaJUI - JEALER
 keywords: vanilla-jui, refs, docs, JEALER
 description: vanilla-jui 提供了元素引用 相关的系列工具函数。
 ---

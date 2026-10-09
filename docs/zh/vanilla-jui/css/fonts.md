@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 字体 - JEALER
+title: 字体 VanillaJUI - JEALER
 keywords: vanilla-jui, fonts, docs, JEALER
 description: 介绍 vanilla-jui 的字体 CSS 类。
 ---

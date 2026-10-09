@@ -1,10 +1,10 @@
 ---
-title: Vanilla Signal 异步模块 - JEALER
+title: 异步模块 Vanilla Signal - JEALER
 keywords: vanilla-signal, async, docs, JEALER
 description: vanilla-signal 的异步模块，负责异步数据状态和简单 suspense 读取。它依赖 Core 和 Store，不直接操作 DOM。
 ---
 
-# Async
+# 异步模块
 
 Async 模块负责异步数据状态和简单 suspense 读取。它依赖 Core 和 Store，不直接操作 DOM。
 

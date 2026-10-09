@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 布局 - JEALER
+title: 布局 VanillaJUI - JEALER
 keywords: vanilla-jui, layout, docs, JEALER
 description: 介绍 vanilla-jui 的布局 CSS 类。
 client:

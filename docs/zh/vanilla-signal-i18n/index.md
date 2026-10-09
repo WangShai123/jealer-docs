@@ -1,5 +1,5 @@
 ---
-title: Vanilla Signal I18n 文档中心 - JEALER
+title: Vanilla Signal I18n 文档 - JEALER
 keywords: vanilla-signal-i18n, docs, JEALER
 description: vanilla-signal-i18n 是一个基于 vanilla-signal 的响应式国际化管理器。
 ---

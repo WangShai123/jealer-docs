@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 弹窗 - JEALER
+title: 弹窗 VanillaJUI - JEALER
 keywords: vanilla-jui, popup, docs, JEALER
 description: 介绍 vanilla-jui 的弹窗组件的使用方法。
 ---

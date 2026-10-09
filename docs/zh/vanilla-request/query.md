@@ -1,5 +1,5 @@
 ---
-title: 配合 vanilla-signal-query - JEALER
+title: 配合 vanilla-signal-query Vanilla Request - JEALER
 keywords: vanilla-request, vanilla-signal-query, query function, docs, JEALER
 description: 详细介绍 vanilla-request 如何配合 vanilla-signal-query 使用。
 ---

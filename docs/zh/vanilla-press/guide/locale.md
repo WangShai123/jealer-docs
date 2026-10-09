@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 国际化 - JEALER
+title: 国际化 Vanilla Press - JEALER
 keywords: vanilla-press, locale, docs, JEALER
 description: 详细介绍 vanilla-press 的国际化功能。
 ---

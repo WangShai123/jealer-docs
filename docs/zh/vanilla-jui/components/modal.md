@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 模态框 - JEALER
+title: 模态框 VanillaJUI - JEALER
 keywords: vanilla-jui, modal, docs, JEALER
 description: 介绍 vanilla-jui 的模态框组件的使用方法。
 client:

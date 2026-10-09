@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 定时器 工具函数 - JEALER
+title: 定时器 工具函数 VanillaJUI - JEALER
 keywords: vanilla-jui, timer, docs, JEALER
 description: vanilla-jui 提供了定时器 相关的系列工具函数。
 ---

@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 侧边栏 - JEALER
+title: 侧边栏 Vanilla Press - JEALER
 keywords: vanilla-press, sidebar, docs, JEALER
 description: 详细介绍 vanilla-press 的侧边栏功能。
 ---

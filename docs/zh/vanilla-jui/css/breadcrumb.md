@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 面包屑 - JEALER
+title: 面包屑 VanillaJUI - JEALER
 keywords: vanilla-jui, breadcrumb, docs, JEALER
 description: 介绍 vanilla-jui 的面包屑 CSS 类。
 ---

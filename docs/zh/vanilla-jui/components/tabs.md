@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 选项卡 - JEALER
+title: 选项卡 VanillaJUI - JEALER
 keywords: vanilla-jui, tabs, docs, JEALER
 description: 介绍 vanilla-jui 的选项卡组件的使用方法。
 client:

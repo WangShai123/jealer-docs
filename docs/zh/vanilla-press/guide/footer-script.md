@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 页脚脚本 - JEALER
+title: 页脚脚本 Vanilla Press - JEALER
 keywords: vanilla-press, footer script, docs, JEALER
 description: 详细介绍 vanilla-press 的页脚脚本功能。
 ---

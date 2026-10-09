@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 色彩令牌 - JEALER
+title: 色彩令牌 VanillaJUI - JEALER
 keywords: vanilla-jui, color-tokens, docs, JEALER
 description: 介绍 vanilla-jui 的色彩令牌功能。
 client:

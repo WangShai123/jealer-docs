@@ -1,5 +1,5 @@
 ---
-title: Vanilla Lru API 文档 - JEALER
+title: API 文档 Vanilla Lru - JEALER
 keywords: vanilla-lru, api, docs, JEALER
 description: 详细介绍 vanilla-lru 的相关 API。
 ---

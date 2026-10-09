@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press Client 管理 - JEALER
+title: Client 管理 Vanilla Press - JEALER
 keywords: vanilla-press, client, docs, JEALER
 description: vanilla-press 的 Client 管理模块，用来管理项目自定义的浏览器端 JavaScript ESM 代码。
 ---

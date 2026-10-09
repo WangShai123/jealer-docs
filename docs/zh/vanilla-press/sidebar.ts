@@ -25,6 +25,7 @@ export default [
     children: [
       { label: 'sidebar.runtime', path: 'vanilla-press/guide/runtime' },
       { label: 'sidebar.highlight', path: 'vanilla-press/guide/highlight' },
+      { label: 'sidebar.sourceUrl', path: 'vanilla-press/guide/source-url' },
       { label: 'sidebar.math', path: 'vanilla-press/guide/math' },
       { label: 'sidebar.locale', path: 'vanilla-press/guide/locale' },
       { label: 'sidebar.menu', path: 'vanilla-press/guide/menu' },

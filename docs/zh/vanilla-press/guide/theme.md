@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 主题 - JEALER
+title: 主题 Vanilla Press - JEALER
 keywords: vanilla-press, theme, docs, JEALER
 description: 详细介绍 vanilla-press 的主题功能。
 ---

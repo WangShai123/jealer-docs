@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 菜单 - JEALER
+title: 菜单 VanillaJUI - JEALER
 keywords: vanilla-jui, menu, docs, JEALER
 description: 介绍 vanilla-jui 的菜单组件的使用方法。
 client:

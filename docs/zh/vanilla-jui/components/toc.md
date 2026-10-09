@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 目录 - JEALER
+title: 目录 VanillaJUI - JEALER
 keywords: vanilla-jui, toc, docs, JEALER
 description: 介绍 vanilla-jui 的目录组件的使用方法。
 ---

@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 配置 工具函数 - JEALER
+title: 配置 工具函数 VanillaJUI - JEALER
 keywords: vanilla-jui, config, docs, JEALER
 description: vanilla-jui 提供了配置 相关的系列工具函数。
 ---

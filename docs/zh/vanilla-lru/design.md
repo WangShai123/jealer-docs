@@ -1,5 +1,5 @@
 ---
-title: Vanilla Lru 设计原理 - JEALER
+title: 设计原理 Vanilla Lru - JEALER
 keywords: vanilla-lru, design, docs, JEALER
 description: 介绍 vanilla-lru 的设计原理：为什么继承自 `Map`、为什么使用两个 `Map`、过期模型等。
 ---

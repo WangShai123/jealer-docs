@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 调度器 - JEALER
+title: 调度器 VanillaJUI - JEALER
 keywords: vanilla-jui, scheduler, docs, JEALER
 description: 介绍 vanilla-jui 的调度器功能。
 ---

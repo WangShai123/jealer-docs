@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 最后更新时间 - JEALER
+title: 最后更新时间 Vanilla Press - JEALER
 keywords: vanilla-press, last edit, docs, JEALER
 description: 详细介绍 vanilla-press 的最后更新时间功能。
 ---

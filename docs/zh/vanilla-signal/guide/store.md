@@ -1,10 +1,10 @@
 ---
-title: Vanilla Signal 存储模块 - JEALER
+title: 存储模块 Vanilla Signal - JEALER
 keywords: vanilla-signal, store, docs, JEALER
 description: vanilla-signal 的存储模块，负责对象和数组的响应式代理。它依赖 Core 的 signal 和 batch 能力，但不依赖 DOM、JSX 或 Async。
 ---
 
-# Store
+# 存储模块
 
 Store 模块负责对象和数组的响应式代理。它依赖 Core 的 signal 和 batch 能力，但不依赖 DOM、JSX 或 Async。
 

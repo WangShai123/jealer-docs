@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press SEO - JEALER
+title: SEO Vanilla Press - JEALER
 keywords: vanilla-press, seo, docs, JEALER
 description: 详细介绍 vanilla-press 的 SEO 功能。
 ---

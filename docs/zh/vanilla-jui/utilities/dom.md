@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI DOM 工具函数 - JEALER
+title: DOM 工具函数 VanillaJUI - JEALER
 keywords: vanilla-jui, dom, docs, JEALER
 description: vanilla-jui 提供了 DOM 相关的系列工具函数。
 client:

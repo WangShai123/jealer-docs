@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 目录 - JEALER
+title: 目录 Vanilla Press - JEALER
 keywords: vanilla-press, toc, docs, JEALER
 description: 详细介绍 vanilla-press 的目录功能。
 ---

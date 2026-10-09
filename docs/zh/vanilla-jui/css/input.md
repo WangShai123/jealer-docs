@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 输入框 - JEALER
+title: 输入框 VanillaJUI - JEALER
 keywords: vanilla-jui, input, docs, JEALER
 description: 介绍 vanilla-jui 的输入框 CSS 类。
 ---

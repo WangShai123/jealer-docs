@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 折叠面板 - JEALER
+title: 折叠面板 VanillaJUI - JEALER
 keywords: vanilla-jui, accordion, docs, JEALER
 description: 介绍 vanilla-jui 的折叠面板组件的使用方法。
 client:

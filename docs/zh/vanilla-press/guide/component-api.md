@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 组件 API - JEALER
+title: 组件 API Vanilla Press - JEALER
 keywords: vanilla-press, component api, docs, JEALER
 description: 详细介绍 vanilla-press 的组件 API，包括组件目录约定、组件约定、组件模块导出等。
 ---

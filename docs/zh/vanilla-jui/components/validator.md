@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 验证器 - JEALER
+title: 验证器 VanillaJUI - JEALER
 keywords: vanilla-jui, validator, docs, JEALER
 description: 介绍 vanilla-jui 的验证组件的使用方法。
 client:

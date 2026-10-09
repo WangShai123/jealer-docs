@@ -1,10 +1,10 @@
 ---
-title: Vanilla Signal 类型模块 - JEALER
+title: 类型模块 Vanilla Signal - JEALER
 keywords: vanilla-signal, types, docs, JEALER
 description: vanilla-signal 的类型模块，分为 public 类型和 internal 类型。
 ---
 
-# Types
+# 类型模块
 
 Types 模块分为 public 类型和 internal 类型。
 

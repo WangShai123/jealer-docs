@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 站点地图 - JEALER
+title: 站点地图 Vanilla Press - JEALER
 keywords: vanilla-press, sitemap, docs, JEALER
 description: 详细介绍 vanilla-press 的站点地图功能。
 ---

@@ -1,5 +1,5 @@
 ---
-title: Vanilla Signal Query API 文档 - JEALER
+title: API 文档 Vanilla Signal Query - JEALER
 keywords: vanilla-signal-query, api, docs, JEALER
 description: 详细介绍 vanilla-signal-query 的相关 API。
 ---

@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 快速开始 - JEALER
+title: 快速开始 Vanilla Press - JEALER
 keywords: vanilla-press, quick-start, docs, JEALER
 description: 介绍 vanilla-press 的功能特点、安装方法、构建流程、项目架构等。
 ---

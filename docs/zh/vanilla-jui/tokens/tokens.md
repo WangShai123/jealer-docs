@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI CSS 架构 - JEALER
+title: CSS 架构 VanillaJUI - JEALER
 keywords: vanilla-jui, tokens, docs, JEALER
 description: 介绍 vanilla-jui 的 CSS 架构。
 ---

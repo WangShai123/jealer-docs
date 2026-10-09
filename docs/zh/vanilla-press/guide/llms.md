@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press LLMs - JEALER
+title: LLMs Vanilla Press - JEALER
 keywords: vanilla-press, llms, docs, JEALER
 description: 详细介绍 vanilla-press 的LLMs 输出功能。
 ---

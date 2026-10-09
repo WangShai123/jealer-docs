@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 对象 工具函数 - JEALER
+title: 对象 工具函数 VanillaJUI - JEALER
 keywords: vanilla-jui, object, docs, JEALER
 description: vanilla-jui 提供了对象 相关的系列工具函数。
 ---

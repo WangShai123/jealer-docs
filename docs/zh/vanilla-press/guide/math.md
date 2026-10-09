@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 数学公式 - JEALER
+title: 数学公式 Vanilla Press - JEALER
 keywords: vanilla-press, math, docs, JEALER
 description: 详细介绍 vanilla-press 的数学公式功能。
 ---

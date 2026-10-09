@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 组件列表 - JEALER
+title: 组件列表 Vanilla Press - JEALER
 keywords: vanilla-press, component list, docs, JEALER
 description: 详细介绍 vanilla-press 的组件列表，包括tabs, accordion, offcanvas, tip, tree, details, group, badge, icon 等。
 ---

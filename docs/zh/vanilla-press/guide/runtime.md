@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 运行时配置 - JEALER
+title: 运行时配置 Vanilla Press - JEALER
 keywords: vanilla-press, runtime, docs, JEALER
 description: 详细介绍 vanilla-press 的运行时配置。
 ---

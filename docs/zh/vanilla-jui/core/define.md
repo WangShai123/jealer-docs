@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 定义组件 - JEALER
+title: 定义组件 VanillaJUI - JEALER
 keywords: vanilla-jui, define, docs, JEALER
 description: 介绍 vanilla-jui 的 defineComponent 函数。
 ---

@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 菜单 - JEALER
+title: 菜单 Vanilla Press - JEALER
 keywords: vanilla-press, menu, docs, JEALER
 description: 详细介绍 vanilla-press 的菜单功能。
 ---

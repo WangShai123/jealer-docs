@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 提示 - JEALER
+title: 提示 VanillaJUI - JEALER
 keywords: vanilla-jui, tip, docs, JEALER
 description: 介绍 vanilla-jui 的提示 CSS 类。
 client:

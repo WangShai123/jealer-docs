@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 编辑链接 - JEALER
+title: 编辑链接 Vanilla Press - JEALER
 keywords: vanilla-press, edit link, docs, JEALER
 description: 详细介绍 vanilla-press 的编辑链接功能。
 ---

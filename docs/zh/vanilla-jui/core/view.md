@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 视图层 - JEALER
+title: 视图层 VanillaJUI - JEALER
 keywords: vanilla-jui, view, docs, JEALER
 description: 介绍 vanilla-jui 的视图层功能。
 ---

@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 相关库 - JEALER
+title: 相关库 VanillaJUI - JEALER
 keywords: vanilla-jui, related-libraries, docs, JEALER
 description: 介绍 vanilla-jui 的相关库。
 ---

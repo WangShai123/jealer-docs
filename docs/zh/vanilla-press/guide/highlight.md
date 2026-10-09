@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 代码高亮 - JEALER
+title: 代码高亮 Vanilla Press - JEALER
 keywords: vanilla-press, highlight, docs, JEALER
 description: 详细介绍 vanilla-press 的代码高亮功能。
 ---

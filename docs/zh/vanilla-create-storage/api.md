@@ -1,5 +1,5 @@
 ---
-title: Vanilla Create Storage API 文档 - JEALER
+title: API 文档 Vanilla Create Storage - JEALER
 keywords: vanilla-create-storage, api, docs, JEALER
 description: 详细介绍 Vanilla Create Storage 的相关 API。
 ---

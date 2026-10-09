@@ -1,5 +1,5 @@
 ---
-title: Vanilla Press 布局 API - JEALER
+title: 布局 API Vanilla Press - JEALER
 keywords: vanilla-press, layout api, docs, JEALER
 description: 详细介绍 vanilla-press 的布局 API功能。
 ---

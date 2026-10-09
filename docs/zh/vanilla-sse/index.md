@@ -1,5 +1,5 @@
 ---
-title: Vanilla SSE 文档中心 - JEALER
+title: Vanilla SSE 文档 - JEALER
 keywords: vanilla-sse, docs, JEALER
 description: vanilla-sse 是一个轻量 SSE 客户端，用于订阅服务器发送事件。
 ---

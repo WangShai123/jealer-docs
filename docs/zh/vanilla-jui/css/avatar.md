@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 头像 - JEALER
+title: 头像 VanillaJUI - JEALER
 keywords: vanilla-jui, avatar, docs, JEALER
 description: 介绍 vanilla-jui 的头像 CSS 类。
 ---
@@ -30,13 +30,13 @@ description: 介绍 vanilla-jui 的头像 CSS 类。
 @tab 示例
 <Group>
 <span class="j-avatar is-sm">
-<img src="../../../public/avatar.png" alt="avatar" />
+<img src="avatar.png" alt="avatar" />
 </span>
 <span class="j-avatar is-md">
-<img src="../../../public/avatar.png" alt="avatar" />
+<img src="avatar.png" alt="avatar" />
 </span>
 <span class="j-avatar is-lg">
-<img src="../../../public/avatar.png" alt="avatar" />
+<img src="avatar.png" alt="avatar" />
 </span>
 </Group>
 @tab 代码
@@ -61,13 +61,13 @@ description: 介绍 vanilla-jui 的头像 CSS 类。
 @tab 示例
 <Group>
 <span class="j-avatar">
-<img src="../../../public/avatar.png" alt="avatar" />
+<img src="avatar.png" alt="avatar" />
 </span>
 <span class="j-avatar is-circle">
-<img src="../../../public/avatar.png" alt="avatar" />
+<img src="avatar.png" alt="avatar" />
 </span>
 <span class="j-avatar is-round">
-<img src="../../../public/avatar.png" alt="avatar" />
+<img src="avatar.png" alt="avatar" />
 </span>
 </Group>
 
@@ -121,13 +121,13 @@ description: 介绍 vanilla-jui 的头像 CSS 类。
 @tab 示例
 <div class="j-avatar-group">
 <span class="j-avatar is-circle">
-<img src="../../../public/avatar.png" alt="avatar">
+<img src="avatar.png" alt="avatar">
 </span>
 <span class="j-avatar is-circle">
-<img src="../../../public/avatar.png" alt="avatar">
+<img src="avatar.png" alt="avatar">
 </span>
 <span class="j-avatar is-circle">
-<img src="../../../public/avatar.png" alt="avatar">
+<img src="avatar.png" alt="avatar">
 </span>
 <span class="j-avatar is-circle is-text">
 <span>99+</span>
@@ -138,13 +138,13 @@ description: 介绍 vanilla-jui 的头像 CSS 类。
 ```html
 <div class="j-avatar-group">
   <span class="j-avatar is-circle">
-    <img src="/avatar.png" alt="avatar" />
+    <img src="{imageLink}" alt="avatar" />
   </span>
   <span class="j-avatar is-circle">
-    <img src="/avatar.png" alt="avatar" />
+    <img src="{imageLink}" alt="avatar" />
   </span>
   <span class="j-avatar is-circle">
-    <img src="/avatar.png" alt="avatar" />
+    <img src="{imageLink}" alt="avatar" />
   </span>
   <span class="j-avatar is-circle is-text">
     <span>99+</span>

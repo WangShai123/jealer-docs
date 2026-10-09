@@ -1,5 +1,5 @@
 ---
-title: Vanilla Lru 文档中心 - JEALER
+title: Vanilla Lru 文档 - JEALER
 keywords: vanilla-lru, docs, JEALER
 description: vanilla-lru 是一个零依赖的 JavaScript LRU 缓存。它保留了熟悉的 `Map` 接口，同时添加了有界容量、LRU 提升、可选过期和驱逐钩子功能。
 ---

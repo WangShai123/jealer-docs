@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 容器 - JEALER
+title: 容器 VanillaJUI - JEALER
 keywords: vanilla-jui, container, docs, JEALER
 description: 介绍 vanilla-jui 的容器 CSS 类。
 client:

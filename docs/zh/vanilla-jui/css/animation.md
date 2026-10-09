@@ -1,5 +1,5 @@
 ---
-title: Vanilla JUI 动画 - JEALER
+title: 动画 VanillaJUI - JEALER
 keywords: vanilla-jui, animation, docs, JEALER
 description: 介绍 vanilla-jui 的动画 CSS 类。
 client:
